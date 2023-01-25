@@ -1,36 +1,53 @@
 $background: #1D2639;
-
+$brcolor: #e0e1dd85;
+$color: #E0E1DD;
+@font-face {
+	font-family: 'SFText'; 
+    font-style: normal;
+	font-weight: normal;
+	src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf); 
+}
+@font-face {
+	font-family: 'SFText'; 
+    font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/sfprotext/SF-Pro-Display-Heavy.otf); 
+}
+@font-face {
+	font-family: 'SFTextR'; 
+    font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf); 
+}
 *{
+    color: $color;
     margin: 0;
     background-color: $background;
+    font-family: 'SFText';
 }
 
 .header {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 0 10%;
+    border-bottom: 0.5px $brcolor solid;
+    padding: 0% 10%;
 }
 .headerItem {
     border-left: 0px solid;
-    border: 0.5px #E0E1DD solid;
+    border-right: 0.5px $brcolor solid;
     display: grid;
     align-items: center;
     text-align: center;
     color: #E0E1DD;
-}
-.header:first-child {
-    border: none;
-}
-.header:last-child{
-    border: none;
+    font-size: 1em;
 }
 
 .headerItemF{
     padding: 5%;
     padding-left: 50%;
     border: none;
-    border-right: 1px solid #E0E1DD;
+    border-right: 1px solid $brcolor;
 }
 .headerItemF>img{
     width: 60%;
@@ -40,5 +57,41 @@ $background: #1D2639;
     padding-right: 10%;
     grid-auto-flow: column;
     border: none;
-    border-left: 1px solid #E0E1DD;
+    border-left: 1px solid $brcolor;
+}
+.headerItemL>img{
+    width: 38%;
+}
+
+.main {
+    padding: 0% 15%;
+}
+.plBl {
+}
+.SmartTokenBL {
+    display: grid;
+    row-gap: 10%;
+}
+.headersSTBl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 28%;
+}
+.headerSTBl {
+    font-size: 4em;
+    font-family: 'SFTextR';
+}
+.headerSTBlMini {
+    display: grid;
+    align-items: center;
+    text-align: right;
+    font-size: 1.7em;
+    font-weight: 400;
+}
+.mainSmartTokenBL {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.mainSmartTokenBLTxt {
+    font-size: 1.31em;
 }

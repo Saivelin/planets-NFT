@@ -46,7 +46,7 @@
                     20 000 000 $SMART</h3>
             </div>
             <div class="mainSmartTokenBL">
-                <div>
+                <div class="mainSmartTokenBLWrapper">
                     <p class="mainSmartTokenBLTxt">Универсальный токен для использования во всех сервисах команды Smart
                         Team
                         на блокчейне TON.
@@ -59,11 +59,73 @@
                         и партнерские проекты как способ оплаты.
                     </p>
                     <div class="smttBack">
-                        <h6 class="smttBackH">SMART on TON Chain</h6>
+                        <div class="smttBackTitleWrapper">
+                            <h6 class="smttBackH">SMART on TON Chain</h6><img src="/img/copy.svg" alt="">
+                        </div>
                         <p class="smttBackt">EQB8OK7t8M...70GEULQ6zM</p>
                     </div>
                 </div>
                 <img src="/img/st.svg" alt="">
+            </div>
+            <div class="SmartTokenBLAdds">
+                <div class="SmartTokenBLAddsRow">
+                    <div class="SmartTokenBLAddsRowItem">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Общее предложение</h6>
+                        <p class="SmartTokenBLAddsRowItemText">20 000 000 SMART</p>
+                    </div>
+                    <div class="SmartTokenBLAddsRowItem">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Сжигание</h6>
+                        <p class="SmartTokenBLAddsRowItemText">Возможно</p>
+                    </div>
+                </div>
+                <div class="SmartTokenBLAddsRow">
+                    <div class="SmartTokenBLAddsRowItem">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Тикерный символ</h6>
+                        <p class="SmartTokenBLAddsRowItemText">SMART</p>
+                    </div>
+                    <div class="SmartTokenBLAddsRowItem">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Модель</h6>
+                        <p class="SmartTokenBLAddsRowItemText">Дефляционная</p>
+                    </div>
+                </div>
+                <div class="SmartTokenBLAddsRow">
+                    <div class="SmartTokenBLAddsRowItem SmartTokenBLAddsRowItemOnesed">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Как купить SMART</h6>
+                        <p class="SmartTokenBLAddsRowItemText">1.ICO токена при первичной покупки NFT только с помощью -
+                            https://t.me/SmartTigersBot с расчетом 1 NFT=1000 SMART.*Количество ограниченно и это
+                            временное предложение действующее с 01.02.2023.<br>
+                            2.Скоро</p>
+                    </div>
+                </div>
+                <div class="SmartTokenBLAddsRow">
+                    <div class="SmartTokenBLAddsRowItem">
+                        <h6 class="SmartTokenBLAddsRowItemHeader">Листинг</h6>
+                        <p class="SmartTokenBLAddsRowItemText">Информация бует обновляться</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="smarttigers">
+            <div class="smarttigersWrapper">
+                <div class="smarttigersTexts">
+                    <h1 class="smarttigersHeader">SMARTTIGERS</h1>
+                    <div class="smarttigersText">
+                        <p>NFT-коллекция из 4999+ уникальных тигров, которые олицетворяют
+                            своё комьюнити, помогающее всё больше и больше прогрессировать
+                            проекту с каждым днём. Коллекцию можно прокачивать из 2D до 3D,
+                            а также добавлять свои надписи и лого. Этот проект нацелен
+                            на развитие и разработку новых технологий и утилит на блокчейне TON.
+                        </p>
+                        <div>
+                            <p class="smarttigersOrangeTxt">Цель SmartTigers</p>
+                            <p>сделать свой продукт инструментом, который сможет помочь людям
+                                в сфере их деятельности, а также привлечь аудиторию более
+                                1 миллиона пользователей в проекты Smart Team.</p>
+                        </div>
+                    </div>
+                    <button class="smarttigersBtn">Купить NFT</button>
+                </div>
+                <div class="smarttigersVideo"></div>
             </div>
         </div>
     </main>

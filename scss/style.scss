@@ -1,6 +1,8 @@
 $background: #1D2639;
+$barkcl: #101B29;
 $brcolor: #e0e1dd85;
 $color: #E0E1DD;
+$headerFontSize: 4em;
 @font-face {
 	font-family: 'SFText'; 
     font-style: normal;
@@ -70,15 +72,15 @@ $color: #E0E1DD;
 }
 .SmartTokenBL {
     display: grid;
-    row-gap: 10%;
 }
 .headersSTBl {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 28%;
+    margin-bottom: 7%;
 }
 .headerSTBl {
-    font-size: 4em;
+    font-size: $headerFontSize;
     font-family: 'SFTextR';
 }
 .headerSTBlMini {
@@ -94,4 +96,97 @@ $color: #E0E1DD;
 }
 .mainSmartTokenBLTxt {
     font-size: 1.31em;
+    margin-bottom: 10vh;
+}
+
+.smttBack {
+    padding: 2% 4%;
+    background-color: $barkcl;
+    border-radius: 10px;
+    opacity: 0.7;
+    display: grid;
+    row-gap: 1.7vh;
+    width: 68%;
+    box-shadow: #161d2c 0px 8px 10px ;
+}
+.smttBackTitleWrapper {
+    background-color: $barkcl;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.smttBackH {
+    background-color: $barkcl;
+    font-size: 1.2em;
+}
+.smttBackt {
+    background-color: $barkcl;
+    font-size: .9em;
+}
+.mainSmartTokenBLWrapper{
+}
+.SmartTokenBLAdds {
+    display: grid;
+    row-gap: 2vh;
+}
+.SmartTokenBLAddsRow {
+    display: flex;
+    column-gap: 1.2vw;
+}
+.SmartTokenBLAddsRowItem {
+    padding: 1.2% 2%;
+    background-color: $barkcl;
+    border-radius: 10px;
+    opacity: 0.7;
+    display: grid;
+    box-shadow: #161d2c 0px 8px 10px ;
+}
+.SmartTokenBLAddsRowItemHeader {
+    font-size: 1.2em;
+    background-color: $barkcl;
+
+}
+.SmartTokenBLAddsRowItemText {
+    font-size: .9em;
+    background-color: $barkcl;
+}
+.SmartTokenBLAddsRowItemOnesed{
+    line-height: 3vh;
+    font-size: 1em;
+    max-width: 70%;
+}
+.smarttigers {
+}
+.smarttigersWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.smarttigersTexts {
+    display: grid;
+}
+.smarttigersHeader {
+    font-size: $headerFontSize;
+    font-weight: 100;
+    font-family: "SFTextR";
+    margin-bottom: 5vh;
+}
+.smarttigersText {
+    font-size: 0.9em;
+    display: grid;
+    grid-template-rows: 1fr 0.7fr;
+    row-gap: 4vh;
+    line-height: 3vh;
+    margin-bottom: 15%;
+}
+.smarttigersOrangeTxt {
+    color: #FF6F04;
+    font-weight: 600;
+}
+.smarttigersBtn {
+    font-size: 1em;
+    width: 22%;
+    padding: 2% 4%;
+    background-color: #FF6F04;
+    border-radius: 7.5px;
+}
+.smarttigersVideo {
 }

@@ -126,6 +126,51 @@
                     <button class="smarttigersBtn">Купить NFT</button>
                 </div>
                 <div class="smarttigersVideo"></div>
+                <div class="smarttigersOsnUtils">
+                    <div class="smarttigersOsnUtilsHead">
+                        <h3 class="smarttigersOsnUtilsHeader">Основные утилиты</h3>
+                        <div class="smarttigersOsnUtilsHeaderSwipe">
+                            <img src="/img/arrowleft.svg" alt="">
+                            <p>swiper</p>
+                            <img src="/img/arrowright.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiperTest">
+                        <div class="swiperMyItem">
+                            <h6 class="swiperMyItemHeader">Smart Working</h6>
+                            <p class="swiperMyItemTxt">Платформа, которая даст возможность продвигать
+                                свои услуги, находить коллег, инвесторов и многое другое.
+                                SmartWorking поможет найти первые заказы
+                                для развивающихся фрилансеров, а для специалистов
+                                увеличить свою клиентуру, и для стартаперов найти
+                                своих подрядчиков. Доступ на платформу будет через
+                                верификацию по NFT.</p>
+                        </div>
+                    </div>
+                    <div class="smarttigersOsnUtilsTgsWrapper">
+                        <div class="smarttigersOsnUtilsTgs">
+                            <div class="smarttigersOsnUtilsTgsItem">
+                                <img src="/img/tg.svg" alt="">
+                                <p class="smarttigersOsnUtilsTgsItemTxt">Первичный минт с ограниченным саплаем
+                                    в 1500 NFT по 10 Toncoin</p>
+                            </div>
+                            <div class="smarttigersOsnUtilsTgsItem">
+                                <img src="/img/tg.svg" alt="">
+                                <p class="smarttigersOsnUtilsTgsItemTxt">Web App</p>
+                            </div>
+                        </div>
+                        <div class="smarttigersOsnUtilsTgs">
+                            <div class="smarttigersOsnUtilsTgsItem">
+                                <img src="/img/tg.svg" alt="">
+                                <p class="smarttigersOsnUtilsTgsItemTxt">Верификация в чат Холдеров</p>
+                            </div>
+                            <div class="smarttigersOsnUtilsTgsItem">
+                                <img src="/img/tg.svg" alt="">
+                                <p class="smarttigersOsnUtilsTgsItemTxt">Основной канал</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

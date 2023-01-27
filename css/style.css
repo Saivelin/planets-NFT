@@ -16,6 +16,18 @@
   font-weight: 700;
   src: url(../fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 * {
   color: #E0E1DD;
   margin: 0;
@@ -45,20 +57,24 @@ body {
 .headerItem {
   border-left: 0px solid;
   border-right: 0.5px rgba(224, 225, 221, 0.5215686275) solid;
-  display: -ms-grid;
-  display: grid;
+  display: -ms-grid !important;
+  display: grid !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
   color: #E0E1DD;
   font-size: 1em;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 100%;
 }
 
 .headerItemF {
   padding: 5%;
   padding-left: 50%;
   border: none;
+  height: 73%;
   border-right: 1px solid rgba(224, 225, 221, 0.5215686275);
 }
 
@@ -268,6 +284,7 @@ body {
   padding: 2% 4%;
   background-color: #FF6F04;
   border-radius: 7.5px;
+  cursor: pointer;
 }
 
 .smarttigersVideo > video {
@@ -1959,4 +1976,8 @@ body {
 
 .FooterLogoWrapperTagsItems:hover {
   background-color: rgba(16, 27, 41, 0.8078431373);
+}
+
+.headerItem:hover {
+  background-color: #27334d;
 }

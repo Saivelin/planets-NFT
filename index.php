@@ -15,24 +15,36 @@
         <div class="headerItem headerItemF">
             <img src="/img/logo.svg" alt="">
         </div>
-        <div class="headerItem">
-            <p> SMARTTOKEN</p>
-        </div>
-        <div class="headerItem">
-            <p> NFT</p>
-        </div>
-        <div class="headerItem">
-            <p> ROAD MAP</p>
-        </div>
-        <div class="headerItem">
-            <p> TEAM</p>
-        </div>
-        <div class="headerItem">
-            <p> WHITE PAPER</p>
-        </div>
-        <div class="headerItem">
-            <p> LINKS</p>
-        </div>
+        <a href="#SMARTTOKENYak" class="headerItem">
+            <div>
+                <p> SMARTTOKEN</p>
+            </div>
+        </a>
+        <a href="#SmartTigersYak" class="headerItem">
+            <div>
+                <p> NFT</p>
+            </div>
+        </a>
+        <a href="#RoadMapYak" class="headerItem">
+            <div>
+                <p> ROAD MAP</p>
+            </div>
+        </a>
+        <a href="#TeamYak" class="headerItem">
+            <div>
+                <p> TEAM</p>
+            </div>
+        </a>
+        <a href="#WhitePaperYak" class="headerItem">
+            <div>
+                <p> WHITE PAPER</p>
+            </div>
+        </a>
+        <a href="#LinksYak" class="headerItem">
+            <div>
+                <p> LINKS</p>
+            </div>
+        </a>
         <div class="headerItem headerItemL">
             <img src="/img/globe.svg" alt="">
             <img src="/img/sunny.svg" alt="">
@@ -58,7 +70,7 @@
         <div class="smartTokenBlBackPlanet">
             <img src="/img/backplanetsmarttoken.svg" alt="">
         </div>
-        <div class="SmartTokenBL">
+        <div class="SmartTokenBL" id="SMARTTOKENYak">
             <div class="headersSTBl">
                 <h1 class="headerSTBl">SMARTTOKEN</h1>
                 <h3 class="headerSTBlMini">TOKENOMICS <br>
@@ -127,7 +139,7 @@
                 </div>
             </div>
         </div>
-        <hr class="hrS-R">
+        <hr class="hrS-R" id="SmartTigersYak">
         <div class="smartTigerBigPlanetBack">
             <img src="/img/backsmarttiger.svg" alt="">
         </div>
@@ -204,7 +216,7 @@
                 </div>
             </div>
         </div>
-        <hr class="hrS-R">
+        <hr class="hrS-R" id="RoadMapYak">
         <div class="roadMap">
             <div class="roadMapWrapper">
                 <div class="smarttigersOsnUtilsHead">
@@ -226,7 +238,7 @@
                 </div>
             </div>
         </div>
-        <hr class="hrS-R">
+        <hr class="hrS-R" id="TeamYak">
         <div class="teamBlBack">
             <img src="/img/backteam.svg" alt="">
         </div>
@@ -272,7 +284,7 @@
                 </div>
             </div>
         </div>
-        <hr class="hrS-R">
+        <hr class="hrS-R" id="WhitePaperYak">
         <div class="whiteBookBack">
             <img src="/img/whitebook.svg" alt="">
         </div>
@@ -299,7 +311,7 @@
         </div>
 
     </main>
-    <footer class="footer">
+    <footer class="footer" id="LinksYak">
         <div class="footerHeader">
             <div class="FooterLogoWrapper">
                 <img src="/img/logo.svg" alt="">

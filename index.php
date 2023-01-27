@@ -38,6 +38,9 @@
             <img src="/img/sunny.svg" alt="">
         </div>
     </header>
+    <div class="upperBackground">
+        <img src="/img/backplanets.svg" alt="">
+    </div>
     <main class="main">
         <div class="plBl">
             <div class="plBlKrug">
@@ -46,7 +49,14 @@
                 <img src="/img/planets/moon.svg" alt="" class="plBlMoon">
                 <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
                 <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
+                <img src="/img/planets/yelpurp.svg" alt="" class="plBlYelpurp">
+                <img src="/img/planets/red.svg" alt="" class="plBlRed">
+                <img src="/img/planets/yellow.svg" alt="" class="plBlYellow">
+                <img src="/img/planets/pink.svg" alt="" class="plBlPink">
             </div>
+        </div>
+        <div class="smartTokenBlBackPlanet">
+            <img src="/img/backplanetsmarttoken.svg" alt="">
         </div>
         <div class="SmartTokenBL">
             <div class="headersSTBl">
@@ -136,7 +146,9 @@
                     </div>
                     <button class="smarttigersBtn">Купить NFT</button>
                 </div>
-                <div class="smarttigersVideo"></div>
+                <div class="smarttigersVideo">
+                    <video src="/video/smarttiger.mp4" preload="auto" no-controls autoplay loop muted></video>
+                </div>
                 <div class="smarttigersOsnUtils">
                     <div class="smarttigersOsnUtilsHead">
                         <h3 class="smarttigersOsnUtilsHeader">Основные утилиты</h3>

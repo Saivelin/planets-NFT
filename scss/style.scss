@@ -104,6 +104,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+.mainSmartTokenBL>img{
+    width: 100%;
+}
 .mainSmartTokenBLTxt {
     font-size: 1.31em;
     margin-bottom: 10vh;
@@ -111,6 +114,7 @@ body{
 
 .smttBack {
     padding: 2% 4%;
+    margin-bottom: 6vh;
     background-color: $barkcl;
     border-radius: 10px;
     opacity: 0.7;
@@ -151,12 +155,12 @@ body{
     box-shadow: #161d2c 0px 8px 10px ;
 }
 .SmartTokenBLAddsRowItemHeader {
-    font-size: 1.2em;
+    font-size: 1em;
     background-color: $barkcl;
 
 }
 .SmartTokenBLAddsRowItemText {
-    font-size: .9em;
+    font-size: .8em;
     background-color: $barkcl;
 }
 .SmartTokenBLAddsRowItemOnesed{
@@ -197,12 +201,14 @@ body{
 }
 .smarttigersBtn {
     font-size: 1em;
-    width: 22%;
+    width: 27%;
     padding: 2% 4%;
     background-color: #FF6F04;
     border-radius: 7.5px;
 }
-.smarttigersVideo {
+.smarttigersVideo >video{
+    width: 90%;
+    margin-left: 10vw;
 }
 .smarttigersOsnUtils{
     margin-top: 20vh;
@@ -330,7 +336,7 @@ body{
 }
 .teamWrapperMainItemAboutText{
     color:$color;
-    font-size: 1.2em;
+    font-size: 1em;
    
     font-weight: 100;
     padding: 4% 12%;
@@ -421,7 +427,7 @@ body{
     align-items: center;
     padding: 1% 4%;
     border-radius: 7.5px;
-    font-size: 1.3em;
+    font-size: 1em;
     background-color: #101b2985;
     transition: .1s;
     cursor: pointer;
@@ -460,6 +466,17 @@ body{
 .plBl{
     height: 114vh;
 }
+.upperBackground>img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.smartTokenBlBackPlanet>img{
+    position: absolute;
+    top: 210vh;
+    left: -.4vw;
+}
 .plBlCenter{
     // position: relative;
     // top: -10%;
@@ -477,10 +494,10 @@ body{
     grid-row-end: 4;
 }
 .plBlMoon{
-    grid-column-start: 12;
-    grid-row-start: 4;
-    grid-column-end: 15;
-    grid-row-end: 7;
+    grid-column-start: 10;
+    grid-row-start: 1;
+    grid-column-end: 13;
+    grid-row-end: 4;
     width: 60% !important;
 }
 .plBlPurple{
@@ -497,6 +514,37 @@ body{
     grid-column-end: 8;
     width: 50% !important;
     grid-row-end: 11;
+}
+.plBlYelpurp{
+    display: grid;
+    grid-column-start: 10;
+    grid-row-start: 7;
+    grid-column-end: 14;
+    width: 50% !important;
+    grid-row-end: 11;
+}
+.plBlRed{
+    display: grid;
+    grid-column-start: 12;
+    grid-row-start: 10;
+    grid-column-end: 15;
+    grid-row-end: 13;
+}
+.plBlYellow{
+    display: grid;
+    grid-column-start: 6;
+    grid-row-start: 11;
+    grid-column-end: 10;
+    grid-row-end: 13;
+    width: 50% !important;
+}
+.plBlPink{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 11;
+    grid-column-end: 6;
+    grid-row-end: 13;
+    width: 50% !important;
 }
 .plBlKrug>img{
     width: 70%;

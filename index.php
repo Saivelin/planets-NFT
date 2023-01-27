@@ -240,7 +240,59 @@
                 </div>
             </div>
         </div>
+        <hr class="hrS-R">
+        <div class="whiteBook">
+            <div class="whiteBookWrapper">
+                <div class="whiteBookTxt">
+                    <h1 class="whiteBookHeader">
+                        БЕЛАЯ КНИГА
+                    </h1>
+                    <p class="whiteBookTxtTxt">
+                        Документ, в котором содержится вся информация
+                        о проекте и его стратегии. Здесь раскрывается идея
+                        и назначение продукта, указываются этапы его
+                        технической реализации и вывода на рынок,
+                        раскрывается экономика проекта, описываются
+                        преимущества инвестирования в него.
+                    </p>
+                    <button class="whiteBookBtn">Открыть Белую Книгу</button>
+                </div>
+                <div class="whiteBookImg">
+                    <img src="/img/whitebookimg.svg" alt="">
+                </div>
+            </div>
+        </div>
+
     </main>
+    <footer class="footer">
+        <div class="footerHeader">
+            <div class="FooterLogoWrapper">
+                <img src="/img/logo.svg" alt="">
+                <h2 class="footerHeaderHeader">Продукты Smart Team</h2>
+            </div>
+            <div class="FooterLogoWrapperTags">
+                <div class="FooterLogoWrapperTagsItemsWrapper">
+                    <div class="FooterLogoWrapperTagsItems">SmartTigers <input type="text" class="dsn"
+                            value="SmartTigers"></div>
+                    <div class="FooterLogoWrapperTagsItems">TheSmartToken <input type="text" class="dsn"
+                            value="TheSmartToken"></div>
+                    <div class="FooterLogoWrapperTagsItems">SmartTigersHoldBot <input type="text" class="dsn"
+                            value="SmartTigersHoldBot"></div>
+                </div>
+                <div class="FooterLogoWrapperTagsItemsWrapper">
+                    <div class="FooterLogoWrapperTagsItems">ResaleMarketBot <input type="text" class="dsn"
+                            value="ResaleMarketBot"></div>
+                    <div class="FooterLogoWrapperTagsItems">ResaleNFTBot <input type="text" class="dsn"
+                            value="ResaleNFTBot"></div>
+                    <div class="FooterLogoWrapperTagsItems">CenterTONa <input type="text" class="dsn"
+                            value="CenterTONa"></div>
+                    <div class="FooterLogoWrapperTagsItems">TheTONChat <input type="text" class="dsn"
+                            value="TheTONChat"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

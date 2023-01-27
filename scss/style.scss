@@ -335,3 +335,90 @@ body{
     padding: 0;
     align-items: center;
 }
+
+.whiteBook {
+}
+.whiteBookWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    column-gap: 8vw;
+}
+.whiteBookTxt {
+}
+.whiteBookHeader {
+    font-size: $headerFontSize;
+    font-family: "SFTextR";
+    margin-bottom: 10vh;
+}
+.whiteBookTxtTxt {
+    line-height: 3vh;
+    margin-bottom: 14vh;
+}
+.whiteBookImg {
+    justify-content: center;
+    display: grid;
+}
+.whiteBookImg>img{
+    position: relative;
+    bottom: 14vh;
+}
+.whiteBookBtn {
+    cursor: pointer;
+    font-size: 1em;
+    padding: 3.5% 9%;
+    background-color: #FF6F04;
+    border-radius: 7.5px;
+}
+.dsn{
+    position: absolute;
+    opacity: 0;
+    left: -10000px;
+}
+.footer {
+    display: grid;
+    grid-auto-flow: row;
+    padding: 0 21%;
+    // grid-template-columns: 1fr 4fr;
+}
+.footerHeader {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 2vw;
+}
+.FooterLogoWrapper {
+    align-items: center;
+    display: grid;
+    column-gap: 3vw;
+    grid-auto-flow: column;
+}
+.FooterLogoWrapper>img{
+    width: 135%;
+}
+.footerHeaderHeader {
+    display: grid;
+    grid-auto-flow: column;
+    font-family: "SFTextR";
+}
+.FooterLogoWrapperTags {
+    display: grid;
+    row-gap: 2vh;
+}
+.FooterLogoWrapperTagsItemsWrapper {
+    display: flex;
+    column-gap: 2vw;
+}
+.FooterLogoWrapperTagsItems {
+    display: grid;
+    align-items: center;
+    padding: 1% 4%;
+    border-radius: 7.5px;
+    font-size: 1.3em;
+    background-color: #101b2985;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.FooterLogoWrapperTagsItems:hover{
+    background-color: #101b29ce;
+}

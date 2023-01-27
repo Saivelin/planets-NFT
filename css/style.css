@@ -420,3 +420,126 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.whiteBookWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 8vw 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  -webkit-column-gap: 8vw;
+     -moz-column-gap: 8vw;
+          column-gap: 8vw;
+}
+
+.whiteBookHeader {
+  font-size: 4em;
+  font-family: "SFTextR";
+  margin-bottom: 10vh;
+}
+
+.whiteBookTxtTxt {
+  line-height: 3vh;
+  margin-bottom: 14vh;
+}
+
+.whiteBookImg {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.whiteBookImg > img {
+  position: relative;
+  bottom: 14vh;
+}
+
+.whiteBookBtn {
+  cursor: pointer;
+  font-size: 1em;
+  padding: 3.5% 9%;
+  background-color: #FF6F04;
+  border-radius: 7.5px;
+}
+
+.dsn {
+  position: absolute;
+  opacity: 0;
+  left: -10000px;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  padding: 0 21%;
+}
+
+.footerHeader {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2vw 2.5fr;
+  grid-template-columns: 1fr 2.5fr;
+  -webkit-column-gap: 2vw;
+     -moz-column-gap: 2vw;
+          column-gap: 2vw;
+}
+
+.FooterLogoWrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 3vw;
+     -moz-column-gap: 3vw;
+          column-gap: 3vw;
+  grid-auto-flow: column;
+}
+
+.FooterLogoWrapper > img {
+  width: 135%;
+}
+
+.footerHeaderHeader {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  font-family: "SFTextR";
+}
+
+.FooterLogoWrapperTags {
+  display: -ms-grid;
+  display: grid;
+  row-gap: 2vh;
+}
+
+.FooterLogoWrapperTagsItemsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 2vw;
+     -moz-column-gap: 2vw;
+          column-gap: 2vw;
+}
+
+.FooterLogoWrapperTagsItems {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1% 4%;
+  border-radius: 7.5px;
+  font-size: 1.3em;
+  background-color: rgba(16, 27, 41, 0.5215686275);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.FooterLogoWrapperTagsItems:hover {
+  background-color: rgba(16, 27, 41, 0.8078431373);
+}

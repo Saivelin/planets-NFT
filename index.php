@@ -39,7 +39,15 @@
         </div>
     </header>
     <main class="main">
-        <div class="plBl"></div>
+        <div class="plBl">
+            <div class="plBlKrug">
+                <img src="/img/planets/center.svg" alt="" class="plBlCenter">
+                <img src="/img/planets/blue.svg" alt="" class="plBlBlue">
+                <img src="/img/planets/moon.svg" alt="" class="plBlMoon">
+                <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
+                <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
+            </div>
+        </div>
         <div class="SmartTokenBL">
             <div class="headersSTBl">
                 <h1 class="headerSTBl">SMARTTOKEN</h1>

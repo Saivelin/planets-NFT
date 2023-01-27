@@ -503,6 +503,14 @@ body{
     top: 474vh;
     left: 0;
 }
+.whiteBookBack>img{
+    z-index: -1;
+    position: absolute;
+    filter: blur(1.3px);
+    width: 44%;
+    top: 620vh;
+    left: 55.5vw;
+}
 .plBlCenter{
     // position: relative;
     // top: -10%;

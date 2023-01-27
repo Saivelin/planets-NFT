@@ -270,6 +270,9 @@
             </div>
         </div>
         <hr class="hrS-R">
+        <div class="whiteBookBack">
+            <img src="/img/whitebook.svg" alt="">
+        </div>
         <div class="whiteBook">
             <div class="whiteBookWrapper">
                 <div class="whiteBookTxt">

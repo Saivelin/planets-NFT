@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Token</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header ">
         <div class="headerItem headerItemF">
             <img src="/img/logo.svg" alt="">
         </div>
@@ -289,6 +290,19 @@
                     <div class="FooterLogoWrapperTagsItems">TheTONChat <input type="text" class="dsn"
                             value="TheTONChat"></div>
                 </div>
+            </div>
+        </div>
+        <div class="footerSocity">
+            <img src="/img/tgelegram.svg" alt="">
+            <img src="/img/vk.svg" alt="">
+            <img src="/img/twitter.svg" alt="">
+        </div>
+        <div class="footerAdedWrapper">
+            <div class="footerAded">
+                <p class="footerAdedTxt">Listing/Contact: info@smartteam.pro<br>
+                    Telegram: @ceoprod</p>
+                <p class="footerAdedTxt">© SMARTTEAM 2023. Все права защищены.</p>
+                <p class="footerAdedTxt footerAdedTxtR">Based on TON.</p>
             </div>
         </div>
     </footer>

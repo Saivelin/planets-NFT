@@ -468,6 +468,7 @@ body {
 }
 
 .whiteBookImg > img {
+  width: 118%;
   position: relative;
   bottom: 14vh;
 }
@@ -611,12 +612,44 @@ body {
   top: 0;
   width: 100%;
   z-index: -1;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 
 .smartTokenBlBackPlanet > img {
   position: absolute;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
   top: 210vh;
   left: -0.4vw;
+}
+
+.smartTigerBigPlanetBack > img {
+  z-index: -1;
+  height: 87vh;
+  position: absolute;
+  top: 275vh;
+  left: 73%;
+}
+
+.smartTigerMoonBack > img {
+  z-index: -1;
+  position: absolute;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  width: 20%;
+  top: 389vh;
+  left: 33.6vw;
+}
+
+.teamBlBack > img {
+  z-index: -1;
+  position: absolute;
+  -webkit-filter: blur(1.3px);
+          filter: blur(1.3px);
+  width: 100%;
+  top: 474vh;
+  left: 0;
 }
 
 .plBlCenter {

@@ -125,7 +125,12 @@
             </div>
         </div>
         <hr class="hrS-R">
-
+        <div class="smartTigerBigPlanetBack">
+            <img src="/img/backsmarttiger.svg" alt="">
+        </div>
+        <div class="smartTigerMoonBack">
+            <img src="/img/backsmarttigermoon.svg" alt="">
+        </div>
         <div class="smarttigers">
             <div class="smarttigersWrapper">
                 <div class="smarttigersTexts">
@@ -219,6 +224,9 @@
             </div>
         </div>
         <hr class="hrS-R">
+        <div class="teamBlBack">
+            <img src="/img/backteam.svg" alt="">
+        </div>
         <div class="teamBl">
             <div class="teamWrapper">
                 <h1 class="teamWrapperHeader">КОМАНДА</h1>

@@ -1981,3 +1981,62 @@ body {
 .headerItem:hover {
   background-color: #27334d;
 }
+
+.textCopied {
+  z-index: 10;
+  background-color: rgba(39, 51, 77, 0.9019607843);
+  position: fixed;
+  top: 93%;
+  left: 46%;
+  padding: 0.4% 5%;
+  border-radius: 7.5px;
+}
+
+.up {
+  -webkit-animation: up;
+          animation: up;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes up {
+  0% {
+    top: 106%;
+  }
+  100% {
+    top: 93%;
+  }
+}
+
+@keyframes up {
+  0% {
+    top: 106%;
+  }
+  100% {
+    top: 93%;
+  }
+}
+.down {
+  -webkit-animation: down;
+          animation: down;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes down {
+  0% {
+    top: 93%;
+  }
+  100% {
+    top: 106%;
+  }
+}
+
+@keyframes down {
+  0% {
+    top: 93%;
+  }
+  100% {
+    top: 106%;
+  }
+}

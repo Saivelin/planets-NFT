@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Token</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -47,7 +48,7 @@
         </a>
         <div class="headerItem headerItemL">
             <img src="/img/globe.svg" alt="">
-            <img src="/img/sunny.svg" alt="">
+            <img src="/img/sunny.svg" alt="" id="themeToggle">
         </div>
     </header>
     <div class="upperBackground">
@@ -229,6 +230,24 @@
                 </div>
                 <div class="roadMapMain">
                     //! SLIDER
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
                 </div>
                 <div class="roadMapFooter">
                     <p class="roadMapFooterTxt">В процессе реализации Road Map планируем продолжать разрабатывать новые
@@ -352,6 +371,10 @@
             </div>
         </div>
     </footer>
+    <div class="textCopied  " style="display: none; top: 106%;">
+        <p>Text copied</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
 

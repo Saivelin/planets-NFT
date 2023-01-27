@@ -79,8 +79,10 @@
                     </p>
                     <div class="smttBack">
                         <div class="smttBackTitleWrapper">
-                            <h6 class="smttBackH">SMART on TON Chain</h6><img src="/img/copy.svg" alt=""
-                                id="SMARTonTONChain">
+                            <h6 class="smttBackH">SMART on TON Chain</h6>
+                            <div id="SMARTonTONChain"><img style="cursor: pointer;" src="/img/copy.svg"
+                                    alt=""></img><input type="text" class="dsn" value="EQB8OK7t8M...70GEULQ6zM"></div>
+
                         </div>
                         <p class="smttBackt">EQB8OK7t8M...70GEULQ6zM</p>
                     </div>

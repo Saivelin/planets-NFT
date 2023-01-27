@@ -5,5 +5,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             document.execCommand("copy");
         })
     })
-
+    document.querySelector("#SMARTonTONChain").addEventListener('click', (ev) => {
+        console.log(ev.target.parentElement)
+        ev.target.parentElement.querySelector("input").select()
+        document.execCommand("copy");
+    })
 })

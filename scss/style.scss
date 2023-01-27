@@ -33,6 +33,11 @@ body{
 }
 
 .header {
+    z-index:2 ;
+    background-color: $background;
+    top: 0;
+    z-index: 2s;
+    position: sticky;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

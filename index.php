@@ -105,6 +105,8 @@
                 </div>
             </div>
         </div>
+        <hr class="hrS-R">
+
         <div class="smarttigers">
             <div class="smarttigersWrapper">
                 <div class="smarttigersTexts">
@@ -169,6 +171,71 @@
                                 <p class="smarttigersOsnUtilsTgsItemTxt">Основной канал</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="hrS-R">
+        <div class="roadMap">
+            <div class="roadMapWrapper">
+                <div class="smarttigersOsnUtilsHead">
+                    <h3 class="smarttigersOsnUtilsHeader roadMapWrapperHeader">ДОРОЖНАЯ КАРТА ПРОЕКТА</h3>
+                    <div class="smarttigersOsnUtilsHeaderSwipe">
+                        <img src="/img/arrowleft.svg" alt="">
+                        <p>swiper</p>
+                        <img src="/img/arrowright.svg" alt="">
+                    </div>
+                </div>
+                <div class="roadMapMain">
+                    //! SLIDER
+                </div>
+                <div class="roadMapFooter">
+                    <p class="roadMapFooterTxt">В процессе реализации Road Map планируем продолжать разрабатывать новые
+                        проекты и активности,
+                        не входящие в карту, но иметь отношение к команде, которые помогут нам достигать поставленных
+                        целей.</p>
+                </div>
+            </div>
+        </div>
+        <hr class="hrS-R">
+        <div class="teamBl">
+            <div class="teamWrapper">
+                <h1 class="teamWrapperHeader">КОМАНДА</h1>
+                <div class="teamWrapperMain">
+                    <div class="teamWrapperMainItem teamWrapperMainItemAb">
+                        <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText">Команда разработчиков,
+                            которые могут не только
+                            хорошо создавать Telegram
+                            ботов, сайты и привлекать
+                            трафик, но и строить
+                            качественный крипто-
+                            проект на TON,
+                            чем мы и занимаемся.</p>
+                    </div>
+                    <div class="teamWrapperMainItem ">
+                        <h5 class="teamWrapperMainItemHeader">Ceoaleksandr</h5>
+                        <p class="teamWrapperMainItemAbout">Founder / Artist / Dev</p>
+                        <img class="teamWrapperMainItemImg" src="/img/ceoa.png" alt="">
+                    </div>
+                    <div class="teamWrapperMainItem">
+                        <h5 class="teamWrapperMainItemHeader">Grigory V.</h5>
+                        <p class="teamWrapperMainItemAbout">Dev</p>
+                        <img class="teamWrapperMainItemImg" src="/img/grig.png" alt="">
+                    </div>
+                    <div class="teamWrapperMainItem">
+                        <h5 class="teamWrapperMainItemHeader">Matthew P.</h5>
+                        <p class="teamWrapperMainItemAbout">Dev</p>
+                        <img class="teamWrapperMainItemImg" src="/img/mat.png" alt="">
+                    </div>
+                    <div class="teamWrapperMainItem">
+                        <h5 class="teamWrapperMainItemHeader">Timofey C.</h5>
+                        <p class="teamWrapperMainItemAbout">Community manager</p>
+                        <img class="teamWrapperMainItemImg" src="/img/tim.png" alt="">
+                    </div>
+                    <div class="teamWrapperMainItem">
+                        <h5 class="teamWrapperMainItemHeader">Konstantin D.</h5>
+                        <p class="teamWrapperMainItemAbout">Designer</p>
+                        <img class="teamWrapperMainItemImg" src="/img/cos.png" alt="">
                     </div>
                 </div>
             </div>

@@ -19,8 +19,11 @@
 * {
   color: #E0E1DD;
   margin: 0;
-  background-color: #1D2639;
   font-family: "SFText";
+}
+
+body {
+  background-color: #1D2639;
 }
 
 .header {
@@ -76,6 +79,7 @@
 .SmartTokenBL {
   display: -ms-grid;
   display: grid;
+  margin-bottom: 10vh;
 }
 
 .headersSTBl {
@@ -188,6 +192,14 @@
   line-height: 3vh;
   font-size: 1em;
   max-width: 70%;
+}
+
+.smarttigers {
+  margin-bottom: 10vh;
+}
+
+.hrS-R {
+  margin-bottom: 10vh;
 }
 
 .smarttigersWrapper {
@@ -315,4 +327,96 @@
 .smarttigersOsnUtilsTgsItemTxt {
   background-color: #101B29;
   font-size: 1.1em;
+}
+
+.roadMapWrapperHeader {
+  font-family: "SFTextR";
+  font-size: 4em;
+}
+
+.roadMap {
+  margin-bottom: 10vh;
+}
+
+.roadMapFooter {
+  width: 60%;
+  line-height: 3vh;
+  font-weight: 100;
+  color: #E0E1DD;
+}
+
+.teamBl {
+  margin-bottom: 10vh;
+}
+
+.teamWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 0vh 12fr;
+  grid-template-rows: 1fr 12fr;
+  row-gap: 0vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.teamWrapperHeader {
+  font-size: 4em;
+  font-family: "SFTextR";
+}
+
+.teamWrapperMain {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4vw 1fr 4vw 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 4vw;
+     -moz-column-gap: 4vw;
+          column-gap: 4vw;
+  row-gap: 4vh;
+}
+
+.teamWrapperMainItem {
+  background-color: rgba(70, 89, 116, 0.3647058824);
+  border-radius: 12px;
+  margin: 0;
+  max-width: 17vw;
+  padding: 2% 0% 0 0;
+}
+
+.teamWrapperMainItemHeader {
+  font-size: 1.6em;
+  font-family: "SFTextR";
+  margin-bottom: 2vh;
+  margin-top: 4vh;
+}
+
+.teamWrapperMainItemAbout {
+  color: #101B29;
+}
+
+.teamWrapperMainItemImg {
+  position: relative;
+  top: 1%;
+}
+
+.teamWrapperMainItemAboutText {
+  color: #E0E1DD;
+  font-size: 1.2em;
+  font-weight: 100;
+  padding: 4% 12%;
+  line-height: 4vh;
+}
+
+.teamWrapperMainItemAb {
+  display: -ms-grid;
+  display: grid;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  z-index: 2;
+  z-index: 5;
   background-color: #1D2639;
   top: 0;
   z-index: 2s;
@@ -141,8 +141,15 @@ body {
   display: grid;
   row-gap: 1.7vh;
   width: 68%;
+  z-index: 5;
   -webkit-box-shadow: #161d2c 0px 8px 10px;
           box-shadow: #161d2c 0px 8px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.smttBack:hover {
+  opacity: 1;
 }
 
 .smttBackTitleWrapper {
@@ -179,6 +186,7 @@ body {
 }
 
 .SmartTokenBLAddsRowItem {
+  z-index: 4;
   padding: 1.2% 2%;
   background-color: #101B29;
   border-radius: 10px;
@@ -187,6 +195,12 @@ body {
   display: grid;
   -webkit-box-shadow: #161d2c 0px 8px 10px;
           box-shadow: #161d2c 0px 8px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.SmartTokenBLAddsRowItem:hover {
+  opacity: 1;
 }
 
 .SmartTokenBLAddsRowItemHeader {
@@ -334,6 +348,12 @@ body {
   display: grid;
   -webkit-box-shadow: #161d2c 0px 8px 10px;
   box-shadow: #161d2c 0px 8px 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.smarttigersOsnUtilsTgsItem:hover {
+  opacity: 1;
 }
 
 .smarttigersOsnUtilsTgsItem > * {
@@ -402,6 +422,12 @@ body {
   margin: 0;
   max-width: 17vw;
   padding: 2% 0% 0 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.teamWrapperMainItem:hover {
+  opacity: 1;
 }
 
 .teamWrapperMainItemHeader {
@@ -617,6 +643,7 @@ body {
 }
 
 .smartTokenBlBackPlanet > img {
+  z-index: -1;
   position: absolute;
   -webkit-filter: blur(3px);
           filter: blur(3px);

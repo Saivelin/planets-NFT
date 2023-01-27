@@ -79,7 +79,8 @@
                     </p>
                     <div class="smttBack">
                         <div class="smttBackTitleWrapper">
-                            <h6 class="smttBackH">SMART on TON Chain</h6><img src="/img/copy.svg" alt="">
+                            <h6 class="smttBackH">SMART on TON Chain</h6><img src="/img/copy.svg" alt=""
+                                id="SMARTonTONChain">
                         </div>
                         <p class="smttBackt">EQB8OK7t8M...70GEULQ6zM</p>
                     </div>

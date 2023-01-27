@@ -3,6 +3,7 @@ $barkcl: #101B29;
 $brcolor: #e0e1dd85;
 $color: #E0E1DD;
 $headerFontSize: 4em;
+$transSt: .4s;
 @font-face {
 	font-family: 'SFText'; 
     font-style: normal;
@@ -33,7 +34,7 @@ body{
 }
 
 .header {
-    z-index:2 ;
+    z-index:5 ;
     background-color: $background;
     top: 0;
     z-index: 2s;
@@ -121,7 +122,12 @@ body{
     display: grid;
     row-gap: 1.7vh;
     width: 68%;
-    box-shadow: #161d2c 0px 8px 10px ;
+    z-index: 5;
+    box-shadow: #161d2c 0px 8px 10px;
+    transition: $transSt;
+}
+.smttBack:hover{
+    opacity: 1;
 }
 .smttBackTitleWrapper {
     background-color: $barkcl;
@@ -147,12 +153,17 @@ body{
     column-gap: 1.2vw;
 }
 .SmartTokenBLAddsRowItem {
+    z-index: 4;
     padding: 1.2% 2%;
     background-color: $barkcl;
     border-radius: 10px;
     opacity: 0.7;
     display: grid;
-    box-shadow: #161d2c 0px 8px 10px ;
+    box-shadow: #161d2c 0px 8px 10px;
+    transition: $transSt;
+}
+.SmartTokenBLAddsRowItem:hover{
+    opacity: 1;
 }
 .SmartTokenBLAddsRowItemHeader {
     font-size: 1em;
@@ -268,6 +279,10 @@ body{
     display: grid;
     -webkit-box-shadow: #161d2c 0px 8px 10px;
     box-shadow: #161d2c 0px 8px 10px;
+    transition: $transSt;
+}
+.smarttigersOsnUtilsTgsItem:hover{
+    opacity: 1;
 }
 .smarttigersOsnUtilsTgsItem>*{
     background-color: #101B29;
@@ -318,6 +333,10 @@ body{
     margin: 0;
     max-width: 17vw;
     padding: 2% 0% 0 0 ;
+    transition: $transSt;
+}
+.teamWrapperMainItem:hover{
+    opacity: 1;
 }
 .teamWrapperMainItemHeader {
     font-size: 1.6em;
@@ -475,6 +494,7 @@ body{
     filter: blur(3px);
 }
 .smartTokenBlBackPlanet>img{
+    z-index: -1;
     position: absolute;
     filter: blur(3px);
     top: 210vh;

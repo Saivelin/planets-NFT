@@ -184,41 +184,61 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide swiperSlideSmartTiger">
-                                <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
-                                <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
-                                    свои услуги, находить коллег, инвесторов и многое другое.
-                                    SmartWorking поможет найти первые заказы
-                                    для развивающихся фрилансеров, а для специалистов
-                                    увеличить свою клиентуру, и для стартаперов найти
-                                    своих подрядчиков. Доступ на платформу будет через
-                                    верификацию по NFT.</p>
+                                <div class="swiperSlideSmartTigerWrapper">
+                                    <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
+                                    <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
+                                        свои услуги, находить коллег, инвесторов и многое другое.
+                                        SmartWorking поможет найти первые заказы
+                                        для развивающихся фрилансеров, а для специалистов
+                                        увеличить свою клиентуру, и для стартаперов найти
+                                        своих подрядчиков. Доступ на платформу будет через
+                                        верификацию по NFT.</p>
+                                </div>
                             </div>
                             <div class="swiper-slide swiperSlideSmartTiger">
-                                <h6 class="swiperSlideSmartTigerHeader">Web App</h6>
-                                <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого Холдеры
-                                    получат роялти в Toncoin со стекинга NFT из: <br><br>
+                                <div class="swiperSlideSmartTigerWrapper">
 
-                                    ✅ процента монетизации от канала CENTER TONA <br>
-                                    ✅ процента от продаж NFT на вторичном рынке<br>
-                                    ✅ подарки от команды
-                                </p>
+                                    <h6 class="swiperSlideSmartTigerHeader">Web App</h6>
+                                    <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого Холдеры
+                                        получат роялти в Toncoin со стекинга NFT из: <br><br>
+
+                                        ✅ процента монетизации от канала CENTER TONA <br>
+                                        ✅ процента от продаж NFT на вторичном рынке<br>
+                                        ✅ подарки от команды
+                                    </p>
+                                </div>
                             </div>
                             <div class="swiper-slide swiperSlideSmartTiger">
-                                <h6 class="swiperSlideSmartTigerHeader">Smart TON</h6>
-                                <p class="swiperSlideSmartTigerTxt">Закрытый чат Комьюнити SMARTTON. Первоисточник
-                                    новостей наших проектов, прямое общение с командой. Обсуждаем The Open Network,
-                                    делимся полезной информацией. Попасть в чат могут только холдеры NFT Smart Tigers.
-                                </p>
+                                <div class="swiperSlideSmartTigerWrapper">
+
+                                    <h6 class="swiperSlideSmartTigerHeader">Smart TON</h6>
+                                    <p class="swiperSlideSmartTigerTxt">Закрытый чат Комьюнити SMARTTON.
+                                        Первоисточник
+                                        новостей наших проектов, прямое общение с командой. Обсуждаем The Open
+                                        Network,
+                                        делимся полезной информацией. Попасть в чат могут только холдеры NFT Smart
+                                        Tigers.
+                                    </p>
+                                </div>
                             </div>
                             <div class="swiper-slide swiperSlideSmartTiger">
-                                <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
-                                <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
-                                    свои услуги, находить коллег, инвесторов и многое другое.
-                                    SmartWorking поможет найти первые заказы
-                                    для развивающихся фрилансеров, а для специалистов
-                                    увеличить свою клиентуру, и для стартаперов найти
-                                    своих подрядчиков. Доступ на платформу будет через
-                                    верификацию по NFT.</p>
+                                <div class="swiperSlideSmartTigerWrapper">
+
+                                    <h6 class="swiperSlideSmartTigerHeader">Разработка проектов</h6>
+                                    <p class="swiperSlideSmartTigerTxt">Мы всегда в процессе поиска новых ниш
+                                        для
+                                        продвижения нашей экосистемы и поэтому разрабатываем проекты которые
+                                        могут
+                                        заинтересовать большое количество людей, во всех таких проектах у
+                                        Холдеров будут
+                                        привилегии, например как в Resale Market где с помощью NFT публикация
+                                        объявлений без
+                                        оплаты комиссии. Количество утилит со временем будет увеличиватьсяс
+                                        помощью новых
+                                        проектов.
+
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <!-- If we need pagination -->
@@ -244,7 +264,8 @@
                         <div class="smarttigersOsnUtilsTgs">
                             <div class="smarttigersOsnUtilsTgsItem">
                                 <img src="/img/tg.svg" alt="">
-                                <p class="smarttigersOsnUtilsTgsItemTxt">Первичный минт с ограниченным саплаем
+                                <p class="smarttigersOsnUtilsTgsItemTxt">Первичный минт с ограниченным
+                                    саплаем
                                     в 1500 NFT по 10 Toncoin</p>
                             </div>
                             <div class="smarttigersOsnUtilsTgsItem">
@@ -309,9 +330,11 @@
                     </div>
                 </div>
                 <div class="roadMapFooter">
-                    <p class="roadMapFooterTxt">В процессе реализации Road Map планируем продолжать разрабатывать новые
+                    <p class="roadMapFooterTxt">В процессе реализации Road Map планируем продолжать
+                        разрабатывать новые
                         проекты и активности,
-                        не входящие в карту, но иметь отношение к команде, которые помогут нам достигать поставленных
+                        не входящие в карту, но иметь отношение к команде, которые помогут нам достигать
+                        поставленных
                         целей.</p>
                 </div>
             </div>
@@ -325,7 +348,8 @@
                 <h1 class="teamWrapperHeader">КОМАНДА</h1>
                 <div class="teamWrapperMain">
                     <div class="teamWrapperMainItem teamWrapperMainItemAb">
-                        <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText">Команда разработчиков,
+                        <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText">Команда
+                            разработчиков,
                             которые могут не только
                             хорошо создавать Telegram
                             ботов, сайты и привлекать

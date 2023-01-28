@@ -245,6 +245,10 @@
                                 <h3 class="swiperRoadMapSlideHeader">Цель 3: 2023</h3>
                                 <img src="/img/RoadMapSlider/ThreeSlide.svg" alt="" class="swiperRoadMapSlideImg">
                             </div>
+                            <div class="swiper-slide swiperRoadMapSlide">
+                                <h3 class="swiperRoadMapSlideHeader">Цель 4</h3>
+                                <img src="/img/RoadMapSlider/FourSlide.svg" alt="" class="swiperRoadMapSlideImg">
+                            </div>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>

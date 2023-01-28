@@ -651,9 +651,12 @@ body{
 .swiperRoadMapSlide>img{
     height: 100%;
 }
-
+.swiperRoadMapSlide{
+    margin-bottom: 2vh;
+}
 .swiperRoadMap{
     margin: 10% 0%;
+    width: 84vw;
 }
 
 .swiperRoadMapSlideHeader{

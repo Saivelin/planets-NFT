@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         speed: 400,
         spaceBetween: 100,
         slidesPerView: "auto",
-        slidesPerView: 1.9,
+        slidesPerView: 2.9,
     });
     document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())

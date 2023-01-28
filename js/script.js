@@ -1,11 +1,14 @@
 let blackTheme = true;
 
 document.addEventListener("DOMContentLoaded", (e) => {
-    const swiper = new Swiper('.swiper', {
+    const swiperRoadMap = new Swiper('.swiperRoadMap', {
         speed: 400,
         spaceBetween: 100,
+        slidesPerView: "auto",
+        slidesPerView: 1.9,
     });
-    swiper.slideNext();
+    document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
+    document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
     document.querySelectorAll(".FooterLogoWrapperTagsItems").forEach((el) => {
         el.addEventListener("click", (ev) => {
             el.querySelector("input").select()

@@ -223,27 +223,33 @@
                 <div class="smarttigersOsnUtilsHead">
                     <h3 class="smarttigersOsnUtilsHeader roadMapWrapperHeader">ДОРОЖНАЯ КАРТА ПРОЕКТА</h3>
                     <div class="smarttigersOsnUtilsHeaderSwipe">
-                        <img src="/img/arrowleft.svg" alt="">
+                        <img src="/img/arrowleft.svg" alt="" id="roadMapSliderPrev">
                         <p>swiper</p>
-                        <img src="/img/arrowright.svg" alt="">
+                        <img src="/img/arrowright.svg" alt="" id="roadMapSliderNext">
                     </div>
                 </div>
                 <div class="roadMapMain">
-                    //! SLIDER
-                    <div class="swiper">
+                    <div class="swiper swiperRoadMap">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide">Slide 1</div>
-                            <div class="swiper-slide">Slide 2</div>
-                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide swiperRoadMapSlide">
+                                <h3 class="swiperRoadMapSlideHeader">Цель 1: 2022 Q3</h3>
+                                <img src="/img/RoadMapSlider/Complited.svg" alt="" class="swiperRoadMapSlideImg">
+                            </div>
+                            <div class="swiper-slide swiperRoadMapSlide">
+                                <h3 class="swiperRoadMapSlideHeader">Цель 2: 2022-2023</h3>
+                                <img src="/img/RoadMapSlider/SecondSlideRoad.svg" alt="" class="swiperRoadMapSlideImg">
+                            </div>
+                            <div class="swiper-slide swiperRoadMapSlide">
+                                <h3 class="swiperRoadMapSlideHeader">Цель 3: 2023</h3>
+                                <img src="/img/RoadMapSlider/ThreeSlide.svg" alt="" class="swiperRoadMapSlideImg">
+                            </div>
                         </div>
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
 
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
 
                         <!-- If we need scrollbar -->
                         <div class="swiper-scrollbar"></div>

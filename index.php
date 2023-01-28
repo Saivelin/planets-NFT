@@ -174,12 +174,61 @@
                     <div class="smarttigersOsnUtilsHead">
                         <h3 class="smarttigersOsnUtilsHeader">Основные утилиты</h3>
                         <div class="smarttigersOsnUtilsHeaderSwipe">
-                            <img src="/img/arrowleft.svg" alt="">
+                            <img src="/img/arrowleft.svg" alt="" id="smarttigerSliderPrev">
                             <p>swiper</p>
-                            <img src="/img/arrowright.svg" alt="">
+                            <img src="/img/arrowright.svg" alt="" id="smarttigerSliderNext">
                         </div>
                     </div>
-                    <div class="swiperTest">
+                    <div class="swiper swiperSmartTiger">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide swiperSlideSmartTiger">
+                                <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
+                                <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
+                                    свои услуги, находить коллег, инвесторов и многое другое.
+                                    SmartWorking поможет найти первые заказы
+                                    для развивающихся фрилансеров, а для специалистов
+                                    увеличить свою клиентуру, и для стартаперов найти
+                                    своих подрядчиков. Доступ на платформу будет через
+                                    верификацию по NFT.</p>
+                            </div>
+                            <div class="swiper-slide swiperSlideSmartTiger">
+                                <h6 class="swiperSlideSmartTigerHeader">Web App</h6>
+                                <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого Холдеры
+                                    получат роялти в Toncoin со стекинга NFT из: <br><br>
+
+                                    ✅ процента монетизации от канала CENTER TONA <br>
+                                    ✅ процента от продаж NFT на вторичном рынке<br>
+                                    ✅ подарки от команды
+                                </p>
+                            </div>
+                            <div class="swiper-slide swiperSlideSmartTiger">
+                                <h6 class="swiperSlideSmartTigerHeader">Smart TON</h6>
+                                <p class="swiperSlideSmartTigerTxt">Закрытый чат Комьюнити SMARTTON. Первоисточник
+                                    новостей наших проектов, прямое общение с командой. Обсуждаем The Open Network,
+                                    делимся полезной информацией. Попасть в чат могут только холдеры NFT Smart Tigers.
+                                </p>
+                            </div>
+                            <div class="swiper-slide swiperSlideSmartTiger">
+                                <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
+                                <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
+                                    свои услуги, находить коллег, инвесторов и многое другое.
+                                    SmartWorking поможет найти первые заказы
+                                    для развивающихся фрилансеров, а для специалистов
+                                    увеличить свою клиентуру, и для стартаперов найти
+                                    своих подрядчиков. Доступ на платформу будет через
+                                    верификацию по NFT.</p>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+
+                        <!-- If we need scrollbar -->
+                    </div>
+                    <!-- <div class="swiperTest">
                         <div class="swiperMyItem">
                             <h6 class="swiperMyItemHeader">Smart Working</h6>
                             <p class="swiperMyItemTxt">Платформа, которая даст возможность продвигать
@@ -190,7 +239,7 @@
                                 своих подрядчиков. Доступ на платформу будет через
                                 верификацию по NFT.</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="smarttigersOsnUtilsTgsWrapper">
                         <div class="smarttigersOsnUtilsTgs">
                             <div class="smarttigersOsnUtilsTgsItem">

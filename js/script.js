@@ -5,10 +5,18 @@ document.addEventListener("DOMContentLoaded", (e) => {
         speed: 400,
         spaceBetween: 100,
         slidesPerView: "auto",
-        slidesPerView: 2.9,
+        slidesPerView: 2.4,
     });
     document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
+    const swiperSmartTiger = new Swiper('.swiperSmartTiger', {
+        speed: 400,
+        spaceBetween: 100,
+        slidesPerView: "auto",
+        slidesPerView: 2.9,
+    });
+    document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
+    document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
     document.querySelectorAll(".FooterLogoWrapperTagsItems").forEach((el) => {
         el.addEventListener("click", (ev) => {
             el.querySelector("input").select()

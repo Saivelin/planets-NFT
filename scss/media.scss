@@ -78,6 +78,34 @@ body{
     .headerSTBl{
         font-size: 3em;
     }
+    .teamWrapperMain{
+        width: 100%;
+    }
+    .teamWrapper{
+        text-align: center;
+        justify-content: unset;
+        align-items: center;
+    }
+    .teamWrapperMainItem{
+        width: 100%;
+        max-width: 28vw;
+    }
+    .teamWrapperMainItemAboutText{
+        font-size: 1.1em;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footerAded{
+        padding: 0 .1%;
+    }
+    .FooterLogoWrapperTagsItemsWrapper{
+        flex-wrap: wrap;
+        row-gap: 11px;
+    }
+    .footerHeader{
+        padding: 0 2%;
+    }
 }
 
 @media only screen and (max-width: 768px){

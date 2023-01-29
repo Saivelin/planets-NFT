@@ -87,6 +87,39 @@ body {
   .headerSTBl {
     font-size: 3em;
   }
+  .teamWrapperMain {
+    width: 100%;
+  }
+  .teamWrapper {
+    text-align: center;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .teamWrapperMainItem {
+    width: 100%;
+    max-width: 28vw;
+  }
+  .teamWrapperMainItemAboutText {
+    font-size: 1.1em;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footerAded {
+    padding: 0 0.1%;
+  }
+  .FooterLogoWrapperTagsItemsWrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    row-gap: 11px;
+  }
+  .footerHeader {
+    padding: 0 2%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .header {

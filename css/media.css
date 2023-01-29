@@ -3,6 +3,61 @@ body {
   width: 100%;
 }
 
+.navigationMobile {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: -100vw;
+}
+
+.toright {
+  -webkit-animation: Toleft;
+          animation: Toleft;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+@-webkit-keyframes Toleft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+
+@keyframes Toleft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100vw;
+  }
+}
+.toright {
+  -webkit-animation: Toright;
+          animation: Toright;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+@-webkit-keyframes Toright {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes Toright {
+  0% {
+    left: -100vw;
+  }
+  100% {
+    left: 0;
+  }
+}
 @media only screen and (max-width: 1200px) {
   body {
     overflow-x: hidden;
@@ -121,10 +176,105 @@ body {
     padding: 0 2%;
   }
 }
+@media only screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 98%;
+  }
+  .smartTigerBigPlanetBack > img {
+    left: 22%;
+  }
+  .headerItemL > img {
+    width: 94%;
+  }
+  .mainSmartTokenBL {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+  .headerSTBl {
+    font-size: 2em;
+  }
+  .headerSTBlMini {
+    font-size: 0.9em;
+  }
+  .smarttigersWrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    display: -ms-grid;
+    display: grid;
+  }
+  .smarttigersVideo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+  }
+  .smarttigersOsnUtils {
+    -ms-grid-row: auto;
+        grid-row-start: auto;
+  }
+  .smarttigersVideo > video {
+    margin-left: auto;
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .smarttigersOsnUtilsTgsWrapper {
+    margin-bottom: 10%;
+    row-gap: 5%;
+  }
+  .teamWrapperMain {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .teamWrapperMainItem {
+    max-width: 51vw;
+  }
+  .whiteBookWrapper {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+  .whiteBookImg > img {
+    position: unset;
+    width: 100%;
+  }
+  .footerHeader {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+  }
+  .FooterLogoWrapper {
+    padding: 15%;
+  }
+  .FooterLogoWrapperTags {
+    margin-bottom: 10%;
+  }
+  .teamWrapperMain {
+    margin-bottom: 20%;
+  }
+}
 @media only screen and (max-width: 480px) {
+  .headerItemF > img {
+    width: 99%;
+  }
+  .header > .mobileBurgerWrapper > * {
+    margin-left: 30vw;
+  }
   .header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10%;
     background-color: transparent;
     border: none;
+    -ms-grid-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .headerItemF {
+    padding: 12%;
   }
   .header > * {
     border: none;
@@ -137,5 +287,69 @@ body {
   }
   .mobileBurgerWrapper {
     display: block;
+  }
+  .plBl {
+    display: none;
+  }
+  .smarttigersOsnUtilsHead {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #smarttigerSliderNext {
+    float: right;
+  }
+  .smarttigersOsnUtilsHeaderSwipe {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .headerSTBlMini {
+    font-size: 1.1em;
+    text-align: left;
+  }
+  .mainSmartTokenBL {
+    width: 97vw;
+  }
+  .smartTokenBlBackPlanet > img {
+    left: -7.4vw;
+  }
+  .smartTigerBigPlanetBack > img {
+    left: 17%;
+  }
+  .smarttigersOsnUtilsTgs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-flow: unset;
+    row-gap: 5%;
+  }
+  .smarttigersOsnUtilsTgsItem {
+    display: -ms-grid;
+    display: grid;
+    max-width: unset;
+    width: 95%;
+  }
+  .headersSTBl {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .swiperSmartTiger {
+    width: 93%;
+  }
+  .smartTigerBigPlanetBack > img {
+    left: 7%;
+  }
+  .main {
+    width: 100%;
+  }
+  .roadMapWrapperHeader {
+    font-size: 2em;
   }
 }

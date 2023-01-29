@@ -1,33 +1,53 @@
 let blackTheme = true;
-
+let swiperRoadMap;
+let swiperSmartTiger;
 document.addEventListener("DOMContentLoaded", (e) => {
     Planetsdiv = document.createElement("div")
-    if (window.innerWidth > 992) {
-        const swiperRoadMap = new Swiper('.swiperRoadMap', {
-            speed: 400,
-            spaceBetween: 100,
-            slidesPerView: "auto",
-            slidesPerView: 2.9,
-        });
-    }
-    else {
-        const swiperRoadMap = new Swiper('.swiperRoadMap', {
-            speed: 400,
-            spaceBetween: 100,
-            slidesPerView: "auto",
-            slidesPerView: 1.7,
-        });
-    }
-    document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
+    swiperRoadMap = new Swiper('.swiperRoadMap', {
+        speed: 400,
+        spaceBetween: 100,
+        slidesPerView: "auto",
+        slidesPerView: 2.9,
+        breakpoints: {// настройки для разных разрешений
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 1,
+            },
+            991: {
+                slidesPerView: 1.7,
+            },
+            1192: {
+                slidesPerView: 3,
+            }
+        }
+    });
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
-    const swiperSmartTiger = new Swiper('.swiperSmartTiger', {
+    document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
+
+    swiperSmartTiger = new Swiper('.swiperSmartTiger', {
         speed: 400,
         spaceBetween: 30,
         slidesPerView: "auto",
         slidesPerView: 3,
+        breakpoints: {// настройки для разных разрешений
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+        }
     });
     document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
     document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
+    console.log(window.innerWidth)
+    if (window.innerWidth <= 480) {
+        console.log('res')
+        document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
+    }
+
     let corsLang = getOffsetSum(document.querySelector("#langToggle"))
     corsLang.top -= 120
     document.querySelector(".languageToggle").style.cssText = `top:${corsLang.top}px;left:${corsLang.left}px`

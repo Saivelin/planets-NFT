@@ -13,6 +13,38 @@
 </head>
 
 <body>
+    <nav class="navigationMobile">
+        <a href="#SMARTTOKENYak" class="headerItem">
+            <div>
+                <p> SMARTTOKEN</p>
+            </div>
+        </a>
+        <a href="#SmartTigersYak" class="headerItem">
+            <div>
+                <p> NFT</p>
+            </div>
+        </a>
+        <a href="#RoadMapYak" class="headerItem">
+            <div>
+                <p> ROAD MAP</p>
+            </div>
+        </a>
+        <a href="#TeamYak" class="headerItem">
+            <div>
+                <p> TEAM</p>
+            </div>
+        </a>
+        <a href="#WhitePaperYak" class="headerItem">
+            <div>
+                <p> WHITE PAPER</p>
+            </div>
+        </a>
+        <a href="#LinksYak" class="headerItem">
+            <div>
+                <p> LINKS</p>
+            </div>
+        </a>
+    </nav>
     <header class="header">
         <div class="headerItem headerItemF">
             <img src="/img/logo.svg" alt="">

@@ -13,33 +13,36 @@
 </head>
 
 <body>
-    <nav class="navigationMobile">
-        <a href="#SMARTTOKENYak" class="headerItem">
+    <nav class="navigationMobile toleft" style="display: none;">
+        <div class="closeMNWrap">
+            <img src="/img/close.svg" alt="f" class="closeMN">
+        </div>
+        <a href="#SMARTTOKENYak" class="headerItem headerItemM">
             <div>
                 <p> SMARTTOKEN</p>
             </div>
         </a>
-        <a href="#SmartTigersYak" class="headerItem">
+        <a href="#SmartTigersYak" class="headerItem headerItemM">
             <div>
                 <p> NFT</p>
             </div>
         </a>
-        <a href="#RoadMapYak" class="headerItem">
+        <a href="#RoadMapYak" class="headerItem headerItemM">
             <div>
                 <p> ROAD MAP</p>
             </div>
         </a>
-        <a href="#TeamYak" class="headerItem">
+        <a href="#TeamYak" class="headerItem headerItemM">
             <div>
                 <p> TEAM</p>
             </div>
         </a>
-        <a href="#WhitePaperYak" class="headerItem">
+        <a href="#WhitePaperYak" class="headerItem headerItemM">
             <div>
                 <p> WHITE PAPER</p>
             </div>
         </a>
-        <a href="#LinksYak" class="headerItem">
+        <a href="#LinksYak" class="headerItem headerItemM">
             <div>
                 <p> LINKS</p>
             </div>

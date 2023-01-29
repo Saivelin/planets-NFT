@@ -1,16 +1,41 @@
+$background: #1D2639;
+$brcolor: #e0e1dd85;
 body{
     overflow-x: hidden;
     width: 100%;
 }
 .navigationMobile{
+    z-index: 20;
     width: 100%;
     position: fixed;
     top: 0;
-    left: -100vw;
+    background-color: $background;
+    height: 130vh;
+    display: grid;
+    font-size: 3em;
+    grid-template-rows: .1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.toright{
+.headerItemM{
+    border-bottom: $brcolor 1px solid !important;
+}
+.closeMN{
+    height: 213%;
+    padding: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.navigationMobile>*{
+    border: none;
+}
+.toleft{
     animation: Toleft;
     animation-duration: .4s;
+    left: -130vw;
+}
+.closeMNWrap{
+    display: grid;
+    justify-content: right;
 }
 @keyframes Toleft{
     0%{
@@ -23,6 +48,7 @@ body{
 .toright{
     animation: Toright;
     animation-duration: .4s;
+    left: 0vw;
 }
 @keyframes Toright{
     0%{

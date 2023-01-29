@@ -43,10 +43,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
     document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
     console.log(window.innerWidth)
-    if (window.innerWidth <= 480) {
-        console.log('res')
-        document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
-    }
+
 
     let corsLang = getOffsetSum(document.querySelector("#langToggle"))
     corsLang.top -= 120
@@ -253,6 +250,39 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 
     //ADAPT
+    document.querySelector('.mobileBurgerWrapper').querySelector("img").addEventListener("click", (e) => {
+        console.log('cl')
+        document.querySelector('.navigationMobile').classList.toggle("toleft")
+        document.querySelector('.navigationMobile').classList.toggle('toright')
+        document.querySelector('.navigationMobile').style.cssText = ''
+    })
+    if (window.innerWidth <= 480) {
+        console.log('res')
+        document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
+    }
+    else {
+        document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"
+    }
+    document.addEventListener("resize", (ev) => {
+        console.log("FDF")
+        if (window.innerWidth <= 480) {
+            console.log('res')
+            document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
+        }
+        else {
+            document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"
+        }
+    })
+    document.querySelectorAll(".headerItemM").forEach((el) => {
+        el.addEventListener("click", (ev) => {
+            document.querySelector('.navigationMobile').classList.toggle("toleft")
+            document.querySelector('.navigationMobile').classList.toggle('toright')
+        })
+    })
+    document.querySelector(".closeMN").addEventListener("click", (ev) => {
+        document.querySelector('.navigationMobile').classList.toggle("toleft")
+        document.querySelector('.navigationMobile').classList.toggle('toright')
+    })
 })
 
 function themeToggle() {

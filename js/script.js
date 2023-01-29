@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlCenter'))
         console.log(document.querySelector('#planetCenterItem').style.cssText)
-        coors.top -= 120
+        coors.top -= 140
         css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
         document.querySelector('#planetCenterItem').classList.toggle("oprev")
         document.querySelector('#planetCenterItem').style.cssText = css
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlBlue'))
         console.log(document.querySelector('#plBlBlueItem').style.cssText)
-        coors.top += 140
+        coors.top += 160
         css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
         document.querySelector('#plBlBlueItem').classList.toggle("oprev")
         document.querySelector('#plBlBlueItem').style.cssText = css
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlMoon'))
         console.log(document.querySelector('#plBlMoonItem').style.cssText)
-        coors.top += 140
+        coors.top += 160
         css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
         document.querySelector('#plBlMoonItem').classList.toggle("oprev")
         document.querySelector('#plBlMoonItem').style.cssText = css
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlPurple'))
         console.log(document.querySelector('#plBlPurpleItem').style.cssText)
-        coors.top -= 130
+        coors.top -= 150
         css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
         document.querySelector('#plBlPurpleItem').classList.toggle("oprev")
         document.querySelector('#plBlPurpleItem').style.cssText = css
@@ -123,6 +123,96 @@ document.addEventListener("DOMContentLoaded", (e) => {
             document.querySelector('#plBlPurpleItem').classList.toggle("displayNone")
         }
         document.querySelector('#plBlPurpleItem').classList.toggle("op")
+    })
+    document.querySelector(".plBlOrange").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlOrange'))
+        console.log(document.querySelector('#plBlOrangeItem').style.cssText)
+        coors.top -= 165
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlOrangeItem').classList.toggle("oprev")
+        document.querySelector('#plBlOrangeItem').style.cssText = css
+        if (document.querySelector('#plBlOrangeItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlOrangeItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlOrangeItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlOrangeItem').classList.toggle("op")
+    })
+    document.querySelector(".plBlYelpurp").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlYelpurp'))
+        console.log(document.querySelector('#plBlYelpurpItem').style.cssText)
+        coors.top -= 165
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlYelpurpItem').classList.toggle("oprev")
+        document.querySelector('#plBlYelpurpItem').style.cssText = css
+        if (document.querySelector('#plBlYelpurpItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlYelpurpItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlYelpurpItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlYelpurpItem').classList.toggle("op")
+    })
+    document.querySelector(".plBlRed").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlRed'))
+        console.log(document.querySelector('#plBlRedItem').style.cssText)
+        coors.top -= 165
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlRedItem').classList.toggle("oprev")
+        document.querySelector('#plBlRedItem').style.cssText = css
+        if (document.querySelector('#plBlRedItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlRedItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlRedItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlRedItem').classList.toggle("op")
+    })
+    document.querySelector(".plBlYellow").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlYellow'))
+        console.log(document.querySelector('#plBlYellowItem').style.cssText)
+        coors.top -= 165
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlYellowItem').classList.toggle("oprev")
+        document.querySelector('#plBlYellowItem').style.cssText = css
+        if (document.querySelector('#plBlYellowItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlYellowItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlYellowItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlYellowItem').classList.toggle("op")
+    })
+    document.querySelector(".plBlPink").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlPink'))
+        console.log(document.querySelector('#plBlPinkItem').style.cssText)
+        coors.top -= 165
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlPinkItem').classList.toggle("oprev")
+        document.querySelector('#plBlPinkItem').style.cssText = css
+        if (document.querySelector('#plBlPinkItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlPinkItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlPinkItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlPinkItem').classList.toggle("op")
     })
 })
 

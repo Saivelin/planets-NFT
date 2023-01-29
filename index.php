@@ -101,10 +101,59 @@
                 </div>
                 <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
 
+                <div id="plBlOrangeItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
+
+                <div id="plBlYelpurpItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/yelpurp.svg" alt="" class="plBlYelpurp">
+
+                <div id="plBlRedItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/red.svg" alt="" class="plBlRed">
+
+                <div id="plBlYellowItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/yellow.svg" alt="" class="plBlYellow">
+
+                <div id="plBlPinkItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/pink.svg" alt="" class="plBlPink">
             </div>
         </div>

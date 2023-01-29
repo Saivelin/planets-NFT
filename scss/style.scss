@@ -38,6 +38,8 @@ a:hover{
     font-family: 'SFText';
 }
 body{
+    width: 100%;
+    overflow-x: hidden;
     margin-bottom: 7vh;
     background-color: $background;
 }
@@ -234,7 +236,7 @@ body{
 .smarttigersBtn {
     font-size: 1em;
     width: 27%;
-    padding: 2% 4%;
+    padding: 0% 4%;
     background-color: #FF6F04;
     border-radius: 7.5px;
     cursor: pointer;
@@ -529,7 +531,7 @@ body{
     z-index: -1;
     height: 87vh;
     position: absolute;
-    top: 275vh;
+    top: 259vh;
     left: 73%;
 }
 .smartTigerMoonBack>img{
@@ -537,7 +539,7 @@ body{
     position: absolute;
     filter: blur(3px);
     width: 20%;
-    top: 419vh;
+    top: 393vh;
     left: 33.6vw;
 }
 .teamBlBack>img{
@@ -545,7 +547,7 @@ body{
     position: absolute;
     filter: blur(1.3px);
     width: 100%;
-    top: 595vh;
+    top: 533vh;
     left: 0;
 }
 .whiteBookBack>img{
@@ -553,7 +555,7 @@ body{
     position: absolute;
     filter: blur(1.3px);
     width: 44%;
-    top: 762vh;
+    top: 675vh;
     left: 55.5vw;
 }
 .plBlCenter{
@@ -568,6 +570,7 @@ body{
 }
 .plBlBlue{
     cursor: pointer;
+    cursor: pointer;
     display: grid;
     grid-column-start: 5;
     grid-row-start: 1;
@@ -577,18 +580,21 @@ body{
 .plBlMoon{
     grid-column-start: 10;
     grid-row-start: 1;
+    cursor: pointer;
     grid-column-end: 13;
     grid-row-end: 4;
     width: 60% !important;
 }
 .plBlPurple{
     display: grid;
+    cursor: pointer;
     grid-column-start: 1;
     grid-row-start: 5;
     grid-column-end: 5;
     grid-row-end: 9;
 }
 .plBlOrange{
+    cursor: pointer;
     display: grid;
     grid-column-start: 5;
     grid-row-start: 6;
@@ -599,6 +605,7 @@ body{
 .plBlYelpurp{
     display: grid;
     grid-column-start: 10;
+    cursor: pointer;
     grid-row-start: 7;
     grid-column-end: 14;
     width: 50% !important;
@@ -606,6 +613,7 @@ body{
 }
 .plBlRed{
     display: grid;
+    cursor: pointer;
     grid-column-start: 12;
     grid-row-start: 10;
     grid-column-end: 15;
@@ -613,6 +621,7 @@ body{
 }
 .plBlYellow{
     display: grid;
+    cursor: pointer;
     grid-column-start: 6;
     grid-row-start: 11;
     grid-column-end: 10;
@@ -623,6 +632,7 @@ body{
     display: grid;
     grid-column-start: 1;
     grid-row-start: 11;
+    cursor: pointer;
     grid-column-end: 6;
     grid-row-end: 13;
     width: 50% !important;
@@ -714,11 +724,11 @@ body{
 }
 .planetsItemsHeader {
     margin-bottom: 1vh;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 400;
 }
 .planetsItemsTxt {
-    font-size: .7em;
+    font-size: .9em;
     margin-bottom: 1vh;
 }
 .planetCenterItemTgBl>img{

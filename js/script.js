@@ -69,6 +69,44 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('#planetCenterItem').classList.toggle("op")
 
     })
+    document.querySelector(".plBlBlue").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlBlue'))
+        console.log(document.querySelector('#plBlBlueItem').style.cssText)
+        coors.top += 140
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlBlueItem').classList.toggle("oprev")
+        document.querySelector('#plBlBlueItem').style.cssText = css
+        if (document.querySelector('#plBlBlueItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlBlueItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlBlueItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlBlueItem').classList.toggle("op")
+
+    })
+    document.querySelector(".plBlMoon").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlMoon'))
+        console.log(document.querySelector('#plBlMoonItem').style.cssText)
+        coors.top += 140
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlMoonItem').classList.toggle("oprev")
+        document.querySelector('#plBlMoonItem').style.cssText = css
+        if (document.querySelector('#plBlMoonItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlMoonItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlMoonItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlMoonItem').classList.toggle("op")
+
+    })
 })
 
 function themeToggle() {

@@ -67,8 +67,29 @@
                     </div>
                 </div>
                 <img src="/img/planets/center.svg" alt="" class="plBlCenter">
+
+                <div id="plBlBlueItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/blue.svg" alt="" class="plBlBlue">
+
+                <div id="plBlMoonItem" class="planetsItems displayNone oprev">
+                    <h4 class="planetsItemsHeader">Cen</h4>
+                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <div class="planetCenterItemTgBl">
+                        <img src="/img/tgelegram.svg" alt="">
+                        <p>Lorem, ipsum dolor.</p>
+                    </div>
+                </div>
                 <img src="/img/planets/moon.svg" alt="" class="plBlMoon">
+
                 <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
                 <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
                 <img src="/img/planets/yelpurp.svg" alt="" class="plBlYelpurp">

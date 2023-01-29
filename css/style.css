@@ -736,6 +736,7 @@ body {
 }
 
 .plBlBlue {
+  cursor: pointer;
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 5;

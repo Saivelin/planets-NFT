@@ -105,7 +105,24 @@ document.addEventListener("DOMContentLoaded", (e) => {
             document.querySelector('#plBlMoonItem').classList.toggle("displayNone")
         }
         document.querySelector('#plBlMoonItem').classList.toggle("op")
-
+    })
+    document.querySelector(".plBlPurple").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlPurple'))
+        console.log(document.querySelector('#plBlPurpleItem').style.cssText)
+        coors.top -= 130
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#plBlPurpleItem').classList.toggle("oprev")
+        document.querySelector('#plBlPurpleItem').style.cssText = css
+        if (document.querySelector('#plBlPurpleItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#plBlPurpleItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#plBlPurpleItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#plBlPurpleItem').classList.toggle("op")
     })
 })
 

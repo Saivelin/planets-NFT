@@ -280,7 +280,7 @@ body{
 .smarttigersOsnUtilsTgs {
     display: flex;
     grid-auto-flow: column;
-    column-gap: 1vw;
+    column-gap: 1%;
 }
 .smarttigersOsnUtilsTgsWrapper{
     margin-top: 6%;
@@ -293,7 +293,7 @@ body{
     grid-auto-flow: column;
     display: grid;
     align-items: center;
-    column-gap: 1vw;
+    column-gap: 19px;
     max-width: 22.7vw;
     width: auto;
     padding: 1.2% 2%;
@@ -350,7 +350,7 @@ body{
 .teamWrapperMain {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 4vw;
+    column-gap: 4%;
     row-gap: 4%;
 }
 .teamWrapperMainItem{
@@ -399,7 +399,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 5%;
-    column-gap: 8vw;
+    column-gap: 8%;
 }
 .whiteBookTxt {
 }
@@ -444,13 +444,13 @@ body{
     display: grid;
     padding: 0 9%;
     grid-template-columns: 1fr 2.5fr;
-    column-gap: 2vw;
+    column-gap: 2%;
     margin-bottom: 5%;
 }
 .FooterLogoWrapper {
     align-items: center;
     display: grid;
-    column-gap: 3vw;
+    column-gap: 16%;
     grid-auto-flow: column;
 }
 .FooterLogoWrapper>img{
@@ -467,7 +467,7 @@ body{
 }
 .FooterLogoWrapperTagsItemsWrapper {
     display: flex;
-    column-gap: 2vw;
+    column-gap: 2%;
 }
 .FooterLogoWrapperTagsItems {
     display: grid;
@@ -484,7 +484,7 @@ body{
     width: 25%;
     display: grid;
     grid-auto-flow: column;
-    column-gap: 1vw;
+    column-gap: 4%;
     margin-bottom: 4%;
     padding: 0 9%;
     justify-content: center;

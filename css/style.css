@@ -349,9 +349,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   grid-auto-flow: column;
-  -webkit-column-gap: 1vw;
-     -moz-column-gap: 1vw;
-          column-gap: 1vw;
+  -webkit-column-gap: 1%;
+     -moz-column-gap: 1%;
+          column-gap: 1%;
 }
 
 .smarttigersOsnUtilsTgsWrapper {
@@ -367,9 +367,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 1vw;
-     -moz-column-gap: 1vw;
-          column-gap: 1vw;
+  -webkit-column-gap: 19px;
+     -moz-column-gap: 19px;
+          column-gap: 19px;
   max-width: 22.7vw;
   width: auto;
   padding: 1.2% 2%;
@@ -441,11 +441,11 @@ body {
 .teamWrapperMain {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 4vw 1fr 4vw 1fr;
+  -ms-grid-columns: 1fr 4% 1fr 4% 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -webkit-column-gap: 4vw;
-     -moz-column-gap: 4vw;
-          column-gap: 4vw;
+  -webkit-column-gap: 4%;
+     -moz-column-gap: 4%;
+          column-gap: 4%;
   row-gap: 4%;
 }
 
@@ -499,12 +499,12 @@ body {
 .whiteBookWrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 8vw 1fr;
+  -ms-grid-columns: 1fr 8% 1fr;
   grid-template-columns: 1fr 1fr;
   padding: 5%;
-  -webkit-column-gap: 8vw;
-     -moz-column-gap: 8vw;
-          column-gap: 8vw;
+  -webkit-column-gap: 8%;
+     -moz-column-gap: 8%;
+          column-gap: 8%;
 }
 
 .whiteBookHeader {
@@ -558,11 +558,11 @@ body {
   display: -ms-grid;
   display: grid;
   padding: 0 9%;
-  -ms-grid-columns: 1fr 2vw 2.5fr;
+  -ms-grid-columns: 1fr 2% 2.5fr;
   grid-template-columns: 1fr 2.5fr;
-  -webkit-column-gap: 2vw;
-     -moz-column-gap: 2vw;
-          column-gap: 2vw;
+  -webkit-column-gap: 2%;
+     -moz-column-gap: 2%;
+          column-gap: 2%;
   margin-bottom: 5%;
 }
 
@@ -572,9 +572,9 @@ body {
           align-items: center;
   display: -ms-grid;
   display: grid;
-  -webkit-column-gap: 3vw;
-     -moz-column-gap: 3vw;
-          column-gap: 3vw;
+  -webkit-column-gap: 16%;
+     -moz-column-gap: 16%;
+          column-gap: 16%;
   grid-auto-flow: column;
 }
 
@@ -599,9 +599,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 2vw;
-     -moz-column-gap: 2vw;
-          column-gap: 2vw;
+  -webkit-column-gap: 2%;
+     -moz-column-gap: 2%;
+          column-gap: 2%;
 }
 
 .FooterLogoWrapperTagsItems {
@@ -624,9 +624,9 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  -webkit-column-gap: 1vw;
-     -moz-column-gap: 1vw;
-          column-gap: 1vw;
+  -webkit-column-gap: 4%;
+     -moz-column-gap: 4%;
+          column-gap: 4%;
   margin-bottom: 4%;
   padding: 0 9%;
   -webkit-box-pack: center;

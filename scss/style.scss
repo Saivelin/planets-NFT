@@ -741,6 +741,25 @@ body{
     grid-template-columns: 1fr 10fr;
 }
 
+.languageToggle {
+    display: none;
+    position:fixed;
+    max-width: 8%;
+    display: grid;
+}
+.languageToggleItem {
+    border-bottom: #E0E1DD 1px solid;
+    padding-bottom: .5vh;
+}
+.languageToggleItemImg {
+}
+.languageToggleItemTxt {
+}
+
+.languageToggleItemLast{
+    border: none;
+}
+
 .up{
     animation: up;
     animation-duration: 1s;

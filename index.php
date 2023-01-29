@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header ">
+    <header class="header">
         <div class="headerItem headerItemF">
             <img src="/img/logo.svg" alt="">
         </div>
@@ -47,10 +47,20 @@
             </div>
         </a>
         <div class="headerItem headerItemL">
-            <img src="/img/globe.svg" alt="">
+            <img src="/img/globe.svg" alt="" id="langToggle">
             <img src="/img/sunny.svg" alt="" id="themeToggle">
         </div>
     </header>
+    <div class="languageToggle displayNone">
+        <div class="languageToggleItem">
+            <img src="" alt="" class="languageToggleItemImg">
+            <p class="languageToggleItemTxt">🇷🇺 Русский</p>
+        </div>
+        <div class="languageToggleItem languageToggleItemLast">
+            <img src="" alt="" class="languageToggleItemImg">
+            <p class="languageToggleItemTxt">🇷🇺 Русский</p>
+        </div>
+    </div>
     <div class="upperBackground">
         <img src="/img/backplanets.svg" alt="">
     </div>

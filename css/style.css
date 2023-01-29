@@ -2103,6 +2103,23 @@ body {
   grid-template-columns: 1fr 10fr;
 }
 
+.languageToggle {
+  display: none;
+  position: fixed;
+  max-width: 8%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.languageToggleItem {
+  border-bottom: #E0E1DD 1px solid;
+  padding-bottom: 0.5vh;
+}
+
+.languageToggleItemLast {
+  border: none;
+}
+
 .up {
   -webkit-animation: up;
           animation: up;

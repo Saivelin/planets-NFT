@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     });
     document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
     document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
+    let corsLang = getOffsetSum(document.querySelector("#langToggle"))
+    corsLang.top -= 120
+    document.querySelector(".languageToggle").style.cssText = `top:${corsLang.top}px;left:${corsLang.left}px`
+    document.querySelector("#langToggle").addEventListener("click", (ev) => {
+        document.querySelector(".languageToggle").classList.toggle(".displayNone")
+    })
     document.querySelectorAll(".FooterLogoWrapperTagsItems").forEach((el) => {
         el.addEventListener("click", (ev) => {
             el.querySelector("input").select()

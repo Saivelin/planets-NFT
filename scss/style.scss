@@ -138,6 +138,12 @@ body{
     box-shadow: #161d2c 0px 8px 10px;
     transition: $transSt;
 }
+.smttBack>*{
+    color: #E0E1DD !important;
+}
+.smttBack>*>*{
+    color: #E0E1DD !important;
+}
 .smttBack:hover{
     opacity: 1;
 }
@@ -173,6 +179,9 @@ body{
     display: grid;
     box-shadow: #161d2c 0px 8px 10px;
     transition: $transSt;
+}
+.SmartTokenBLAddsRowItem>*{
+    color: #E0E1DD !important;
 }
 .SmartTokenBLAddsRowItem:hover{
     opacity: 1;
@@ -305,6 +314,7 @@ body{
 .smarttigersOsnUtilsTgsItemTxt{
     background-color: #101B29;
     font-size: 1.1em;
+    color: #E0E1DD !important;
 }
 .roadMapWrapperHeader{
     font-family: "SFTextR";
@@ -547,6 +557,7 @@ body{
     left: 55.5vw;
 }
 .plBlCenter{
+    cursor: pointer;
     // position: relative;
     // top: -10%;
     display: grid;
@@ -674,6 +685,9 @@ body{
 .swiperSlideSmartTigerWrapper{
     padding: 4% 8%;
 }
+.swiperSlideSmartTigerWrapper>*{
+    color: #E0E1DD !important;
+}
 
 .swiperSlideSmartTigerHeader {
     font-size: 1.4em;
@@ -682,6 +696,38 @@ body{
 .swiperSlideSmartTigerTxt {
     font-size: .9em;
     line-height: 3vh;
+}
+.displayNone{
+    display: none;
+}
+#planetCenterItem{
+    // top: 170px;
+    // left: 581px;
+}
+.planetsItems {
+    border-radius: 5px;
+    max-width: 18%;
+    position: absolute;
+    padding: 1% 2%;
+    background-color: #101B29;
+}
+.planetsItemsHeader {
+    margin-bottom: 1vh;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.planetsItemsTxt {
+    font-size: .7em;
+    margin-bottom: 1vh;
+}
+.planetCenterItemTgBl>img{
+    width: 100%;
+}
+.planetCenterItemTgBl {
+    padding: 2% 2%;
+    column-gap: 1vw;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
 }
 
 .up{
@@ -706,5 +752,29 @@ body{
     }
     100%{
         top: 106%;
+    }
+}
+.oprev{
+    animation: oprev;
+    animation-duration: .2s;
+}
+@keyframes oprev{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.op{
+    animation: op;
+    animation-duration: .2s;
+}
+@keyframes op{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }

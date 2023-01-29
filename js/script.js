@@ -1,6 +1,7 @@
 let blackTheme = true;
 
 document.addEventListener("DOMContentLoaded", (e) => {
+    Planetsdiv = document.createElement("div")
     const swiperRoadMap = new Swiper('.swiperRoadMap', {
         speed: 400,
         spaceBetween: 100,
@@ -49,11 +50,49 @@ document.addEventListener("DOMContentLoaded", (e) => {
         }, 3000)
     })
     document.querySelector('#themeToggle').addEventListener("click", themeToggle)
+    document.querySelector(".plBlCenter").addEventListener("click", (ev) => {
+        console.log("CL")
+        coors = getOffsetSum(document.querySelector('.plBlCenter'))
+        console.log(document.querySelector('#planetCenterItem').style.cssText)
+        coors.top -= 120
+        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+        document.querySelector('#planetCenterItem').classList.toggle("oprev")
+        document.querySelector('#planetCenterItem').style.cssText = css
+        if (document.querySelector('#planetCenterItem').classList.contains('op')) {
+            setTimeout((t) => {
+                document.querySelector('#planetCenterItem').classList.toggle("displayNone")
+            }, 100)
+        }
+        else {
+            document.querySelector('#planetCenterItem').classList.toggle("displayNone")
+        }
+        document.querySelector('#planetCenterItem').classList.toggle("op")
 
+    })
 })
 
 function themeToggle() {
     console.log("theme")
     document.querySelector("body").style.cssText = "background-color: #E0E1DD;"
+    document.querySelector(".header").style.cssText = "background-color: #E0E1DD;"
+    document.querySelector(".headerItemF").querySelector('img').style.cssText = "filter: invert(1);"
+    document.querySelectorAll("p").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h1").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h2").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h3").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h4").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h5").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("h6").forEach((el) => { el.style.cssText += "color: black;" })
+    document.querySelectorAll("div").forEach((el) => { el.style.cssText += "color: black;" })
     blackTheme = !blackTheme
+}
+console.log(getOffsetSum(document.querySelector(".planetsItems")))
+function getOffsetSum(elem) {
+    var top = 0, left = 0
+    while (elem) {
+        top = top + parseFloat(elem.offsetTop)
+        left = left + parseFloat(elem.offsetLeft)
+        elem = elem.offsetParent
+    }
+    return { top: Math.round(top), left: Math.round(left) }
 }

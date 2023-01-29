@@ -164,6 +164,14 @@ body {
   transition: 0.4s;
 }
 
+.smttBack > * {
+  color: #E0E1DD !important;
+}
+
+.smttBack > * > * {
+  color: #E0E1DD !important;
+}
+
 .smttBack:hover {
   opacity: 1;
 }
@@ -213,6 +221,10 @@ body {
           box-shadow: #161d2c 0px 8px 10px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.SmartTokenBLAddsRowItem > * {
+  color: #E0E1DD !important;
 }
 
 .SmartTokenBLAddsRowItem:hover {
@@ -381,6 +393,7 @@ body {
 .smarttigersOsnUtilsTgsItemTxt {
   background-color: #101B29;
   font-size: 1.1em;
+  color: #E0E1DD !important;
 }
 
 .roadMapWrapperHeader {
@@ -709,6 +722,7 @@ body {
 }
 
 .plBlCenter {
+  cursor: pointer;
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 6;
@@ -2026,6 +2040,10 @@ body {
   padding: 4% 8%;
 }
 
+.swiperSlideSmartTigerWrapper > * {
+  color: #E0E1DD !important;
+}
+
 .swiperSlideSmartTigerHeader {
   font-size: 1.4em;
   margin-bottom: 1vh;
@@ -2034,6 +2052,44 @@ body {
 .swiperSlideSmartTigerTxt {
   font-size: 0.9em;
   line-height: 3vh;
+}
+
+.displayNone {
+  display: none;
+}
+
+.planetsItems {
+  border-radius: 5px;
+  max-width: 18%;
+  position: absolute;
+  padding: 1% 2%;
+  background-color: #101B29;
+}
+
+.planetsItemsHeader {
+  margin-bottom: 1vh;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.planetsItemsTxt {
+  font-size: 0.7em;
+  margin-bottom: 1vh;
+}
+
+.planetCenterItemTgBl > img {
+  width: 100%;
+}
+
+.planetCenterItemTgBl {
+  padding: 2% 2%;
+  -webkit-column-gap: 1vw;
+     -moz-column-gap: 1vw;
+          column-gap: 1vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1vw 10fr;
+  grid-template-columns: 1fr 10fr;
 }
 
 .up {
@@ -2082,5 +2138,53 @@ body {
   }
   100% {
     top: 106%;
+  }
+}
+.oprev {
+  -webkit-animation: oprev;
+          animation: oprev;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+}
+
+@-webkit-keyframes oprev {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes oprev {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.op {
+  -webkit-animation: op;
+          animation: op;
+  -webkit-animation-duration: 0.2s;
+          animation-duration: 0.2s;
+}
+
+@-webkit-keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes op {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

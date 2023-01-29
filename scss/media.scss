@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+}
+
+@media only screen and (max-width: 480px){
+    .header{
+        background-color: transparent;
+        border: none;
+    }
+    .header>*{
+        border: none;
+    }
+    .header>a{
+        display: none !important;
+    }
+    .header>.headerItemL{
+        display: none !important;
+    }
+    .mobileBurgerWrapper{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    
+}

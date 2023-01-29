@@ -37,7 +37,7 @@ a:hover {
 body {
   width: 100%;
   overflow-x: hidden;
-  margin-bottom: 7vh;
+  margin-bottom: 5%;
   background-color: #1D2639;
 }
 
@@ -103,7 +103,7 @@ body {
 .SmartTokenBL {
   display: -ms-grid;
   display: grid;
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .headersSTBl {
@@ -146,18 +146,18 @@ body {
 
 .mainSmartTokenBLTxt {
   font-size: 1.31em;
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .smttBack {
   padding: 2% 4%;
-  margin-bottom: 6vh;
+  margin-bottom: 6%;
   background-color: #101B29;
   border-radius: 10px;
   opacity: 0.7;
   display: -ms-grid;
   display: grid;
-  row-gap: 1.7vh;
+  row-gap: 10px;
   width: 68%;
   z-index: 5;
   -webkit-box-shadow: #161d2c 0px 8px 10px;
@@ -199,16 +199,16 @@ body {
 .SmartTokenBLAdds {
   display: -ms-grid;
   display: grid;
-  row-gap: 2vh;
+  row-gap: 6%;
 }
 
 .SmartTokenBLAddsRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 1.2vw;
-     -moz-column-gap: 1.2vw;
-          column-gap: 1.2vw;
+  -webkit-column-gap: 1.2%;
+     -moz-column-gap: 1.2%;
+          column-gap: 1.2%;
 }
 
 .SmartTokenBLAddsRowItem {
@@ -244,17 +244,17 @@ body {
 }
 
 .SmartTokenBLAddsRowItemOnesed {
-  line-height: 3vh;
+  line-height: 24px;
   font-size: 1em;
   max-width: 70%;
 }
 
 .smarttigers {
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .hrS-R {
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .smarttigersWrapper {
@@ -273,17 +273,17 @@ body {
   font-size: 4em;
   font-weight: 100;
   font-family: "SFTextR";
-  margin-bottom: 5vh;
+  margin-bottom: 5%;
 }
 
 .smarttigersText {
   font-size: 0.9em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 4vh 0.7fr;
-  grid-template-rows: 1fr 0.7fr;
-  row-gap: 4vh;
-  line-height: 3vh;
+  -ms-grid-rows: 1fr 30% 1.7fr;
+  grid-template-rows: 1fr 1.7fr;
+  row-gap: 30%;
+  line-height: 24px;
   margin-bottom: 15%;
 }
 
@@ -304,11 +304,11 @@ body {
 
 .smarttigersVideo > video {
   width: 90%;
-  margin-left: 10vw;
+  margin-left: 25%;
 }
 
 .smarttigersOsnUtils {
-  margin-top: 20vh;
+  margin-top: 20%;
   -ms-grid-column: 1;
       grid-column-start: 1;
   -ms-grid-column-span: 2;
@@ -335,9 +335,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 0.6vw;
-     -moz-column-gap: 0.6vw;
-          column-gap: 0.6vw;
+  -webkit-column-gap: 5.6%;
+     -moz-column-gap: 5.6%;
+          column-gap: 5.6%;
 }
 
 .smarttigersOsnUtilsHeaderSwipe > img {
@@ -355,10 +355,10 @@ body {
 }
 
 .smarttigersOsnUtilsTgsWrapper {
-  margin-top: 6vh;
+  margin-top: 6%;
   display: -ms-grid;
   display: grid;
-  row-gap: 2vh;
+  row-gap: 16%;
 }
 
 .smarttigersOsnUtilsTgsItem {
@@ -404,26 +404,26 @@ body {
 }
 
 .roadMap {
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .roadMapFooter {
   width: 60%;
-  line-height: 3vh;
+  line-height: 24px;
   font-weight: 100;
   color: #E0E1DD;
 }
 
 .teamBl {
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .teamWrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 0vh 12fr;
+  -ms-grid-rows: 1fr 0 12fr;
   grid-template-rows: 1fr 12fr;
-  row-gap: 0vh;
+  row-gap: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -446,7 +446,7 @@ body {
   -webkit-column-gap: 4vw;
      -moz-column-gap: 4vw;
           column-gap: 4vw;
-  row-gap: 4vh;
+  row-gap: 4%;
 }
 
 .teamWrapperMainItem {
@@ -466,8 +466,8 @@ body {
 .teamWrapperMainItemHeader {
   font-size: 1.6em;
   font-family: "SFTextR";
-  margin-bottom: 2vh;
-  margin-top: 4vh;
+  margin-bottom: 2%;
+  margin-top: 4%;
 }
 
 .teamWrapperMainItemAbout {
@@ -484,7 +484,7 @@ body {
   font-size: 1em;
   font-weight: 100;
   padding: 4% 12%;
-  line-height: 4vh;
+  line-height: 36px;
 }
 
 .teamWrapperMainItemAb {
@@ -510,12 +510,12 @@ body {
 .whiteBookHeader {
   font-size: 4em;
   font-family: "SFTextR";
-  margin-bottom: 10vh;
+  margin-bottom: 8%;
 }
 
 .whiteBookTxtTxt {
-  line-height: 3vh;
-  margin-bottom: 14vh;
+  line-height: 24px;
+  margin-bottom: 18%;
 }
 
 .whiteBookImg {
@@ -529,7 +529,7 @@ body {
 .whiteBookImg > img {
   width: 118%;
   position: relative;
-  bottom: 14vh;
+  bottom: 14%;
 }
 
 .whiteBookBtn {
@@ -563,7 +563,7 @@ body {
   -webkit-column-gap: 2vw;
      -moz-column-gap: 2vw;
           column-gap: 2vw;
-  margin-bottom: 7vh;
+  margin-bottom: 5%;
 }
 
 .FooterLogoWrapper {
@@ -592,7 +592,7 @@ body {
 .FooterLogoWrapperTags {
   display: -ms-grid;
   display: grid;
-  row-gap: 2vh;
+  row-gap: 21%;
 }
 
 .FooterLogoWrapperTagsItemsWrapper {
@@ -627,7 +627,7 @@ body {
   -webkit-column-gap: 1vw;
      -moz-column-gap: 1vw;
           column-gap: 1vw;
-  margin-bottom: 7vh;
+  margin-bottom: 4%;
   padding: 0 9%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -2038,7 +2038,7 @@ body {
 
 .swiperSmartTiger {
   width: 84vw;
-  margin-top: 10vh;
+  margin-top: 8%;
 }
 
 .swiperSlideSmartTiger {
@@ -2062,7 +2062,7 @@ body {
 
 .swiperSlideSmartTigerTxt {
   font-size: 0.9em;
-  line-height: 3vh;
+  line-height: 24px;
 }
 
 .displayNone {
@@ -2118,6 +2118,10 @@ body {
 
 .languageToggleItemLast {
   border: none;
+}
+
+.mobileBurgerWrapper {
+  display: none;
 }
 
 .up {

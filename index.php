@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
 </head>
 
 <body>
@@ -49,6 +50,9 @@
         <div class="headerItem headerItemL">
             <img src="/img/globe.svg" alt="" id="langToggle">
             <img src="/img/sunny.svg" alt="" id="themeToggle">
+        </div>
+        <div class="mobileBurgerWrapper">
+            <img src="/img/mobileburger.svg" alt="">
         </div>
     </header>
     <div class="languageToggle displayNone">

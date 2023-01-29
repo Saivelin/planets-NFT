@@ -220,6 +220,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
         }
         document.querySelector('#plBlPinkItem').classList.toggle("op")
     })
+
+
+    //ADAPT
 })
 
 function themeToggle() {

@@ -40,7 +40,7 @@ a:hover{
 body{
     width: 100%;
     overflow-x: hidden;
-    margin-bottom: 7vh;
+    margin-bottom: 5%;
     background-color: $background;
 }
 
@@ -96,7 +96,7 @@ body{
 }
 .SmartTokenBL {
     display: grid;
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .headersSTBl {
     display: grid;
@@ -124,17 +124,17 @@ body{
 }
 .mainSmartTokenBLTxt {
     font-size: 1.31em;
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 
 .smttBack {
     padding: 2% 4%;
-    margin-bottom: 6vh;
+    margin-bottom: 6%;
     background-color: $barkcl;
     border-radius: 10px;
     opacity: 0.7;
     display: grid;
-    row-gap: 1.7vh;
+    row-gap: 10px;
     width: 68%;
     z-index: 5;
     box-shadow: #161d2c 0px 8px 10px;
@@ -166,11 +166,11 @@ body{
 }
 .SmartTokenBLAdds {
     display: grid;
-    row-gap: 2vh;
+    row-gap: 6%;
 }
 .SmartTokenBLAddsRow {
     display: flex;
-    column-gap: 1.2vw;
+    column-gap: 1.2%;
 }
 .SmartTokenBLAddsRowItem {
     z-index: 4;
@@ -198,15 +198,15 @@ body{
     background-color: $barkcl;
 }
 .SmartTokenBLAddsRowItemOnesed{
-    line-height: 3vh;
+    line-height: 24px;
     font-size: 1em;
     max-width: 70%;
 }
 .smarttigers {
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .hrS-R{
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .smarttigersWrapper {
     display: grid;
@@ -219,14 +219,14 @@ body{
     font-size: $headerFontSize;
     font-weight: 100;
     font-family: "SFTextR";
-    margin-bottom: 5vh;
+    margin-bottom: 5%;
 }
 .smarttigersText {
     font-size: 0.9em;
     display: grid;
-    grid-template-rows: 1fr 0.7fr;
-    row-gap: 4vh;
-    line-height: 3vh;
+    grid-template-rows: 1fr 1.7fr;
+    row-gap: 30%;
+    line-height: 24px;
     margin-bottom: 15%;
 }
 .smarttigersOrangeTxt {
@@ -244,10 +244,10 @@ body{
 }
 .smarttigersVideo >video{
     width: 90%;
-    margin-left: 10vw;
+    margin-left: 25%;
 }
 .smarttigersOsnUtils{
-    margin-top: 20vh;
+    margin-top: 20%;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -264,7 +264,7 @@ body{
     display: grid;
     grid-auto-flow: column;
     align-items: center;
-    column-gap: .6vw;
+    column-gap: 5.6%;
 }
 .smarttigersOsnUtilsHeaderSwipe>img{
     cursor: pointer;
@@ -283,9 +283,9 @@ body{
     column-gap: 1vw;
 }
 .smarttigersOsnUtilsTgsWrapper{
-    margin-top: 6vh;
+    margin-top: 6%;
     display: grid;
-    row-gap: 2vh;
+    row-gap: 16%;
 }
 
 .smarttigersOsnUtilsTgsItem {
@@ -323,22 +323,22 @@ body{
     font-size: $headerFontSize;
 }
 .roadMap{
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .roadMapFooter{
     width: 60%;
-    line-height: 3vh;
+    line-height: 24px;
     font-weight: 100;
     color: #E0E1DD;
 }
 
 .teamBl {
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .teamWrapper {
     display: grid;
     grid-template-rows: 1fr 12fr;
-    row-gap: 0vh;
+    row-gap: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -351,7 +351,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 4vw;
-    row-gap: 4vh;
+    row-gap: 4%;
 }
 .teamWrapperMainItem{
     background-color: #4659745d;
@@ -367,8 +367,8 @@ body{
 .teamWrapperMainItemHeader {
     font-size: 1.6em;
     font-family: "SFTextR";
-    margin-bottom: 2vh;
-    margin-top: 4vh;
+    margin-bottom: 2%;
+    margin-top: 4%;
 }
 .teamWrapperMainItemAbout {
     color: #101B29;
@@ -385,7 +385,7 @@ body{
    
     font-weight: 100;
     padding: 4% 12%;
-    line-height: 4vh;
+    line-height: 36px;
 }
 .teamWrapperMainItemAb{
     display: grid;
@@ -406,11 +406,11 @@ body{
 .whiteBookHeader {
     font-size: $headerFontSize;
     font-family: "SFTextR";
-    margin-bottom: 10vh;
+    margin-bottom: 8%;
 }
 .whiteBookTxtTxt {
-    line-height: 3vh;
-    margin-bottom: 14vh;
+    line-height: 24px;
+    margin-bottom: 18%;
 }
 .whiteBookImg {
     justify-content: center;
@@ -419,7 +419,7 @@ body{
 .whiteBookImg>img{
     width: 118%;
     position: relative;
-    bottom: 14vh;
+    bottom: 14%;
 }
 .whiteBookBtn {
     cursor: pointer;
@@ -445,7 +445,7 @@ body{
     padding: 0 9%;
     grid-template-columns: 1fr 2.5fr;
     column-gap: 2vw;
-    margin-bottom: 7vh;
+    margin-bottom: 5%;
 }
 .FooterLogoWrapper {
     align-items: center;
@@ -463,7 +463,7 @@ body{
 }
 .FooterLogoWrapperTags {
     display: grid;
-    row-gap: 2vh;
+    row-gap: 21%;
 }
 .FooterLogoWrapperTagsItemsWrapper {
     display: flex;
@@ -485,7 +485,7 @@ body{
     display: grid;
     grid-auto-flow: column;
     column-gap: 1vw;
-    margin-bottom: 7vh;
+    margin-bottom: 4%;
     padding: 0 9%;
     justify-content: center;
 }
@@ -686,7 +686,7 @@ body{
 }
 .swiperSmartTiger{
     width: 84vw;
-    margin-top: 10vh;
+    margin-top: 8%;
 }
 .swiperSlideSmartTiger{
     background: #161d2c8c;
@@ -706,7 +706,7 @@ body{
 }
 .swiperSlideSmartTigerTxt {
     font-size: .9em;
-    line-height: 3vh;
+    line-height: 24px;
 }
 .displayNone{
     display: none;
@@ -759,7 +759,9 @@ body{
 .languageToggleItemLast{
     border: none;
 }
-
+.mobileBurgerWrapper{
+    display: none;
+}
 .up{
     animation: up;
     animation-duration: 1s;

@@ -1,9 +1,83 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
 @media only screen and (max-width: 1200px){
-
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .smartTigerBigPlanetBack > img{
+        left: 65%;
+    }
+    .mainSmartTokenBLTxt{
+        font-size: 1em;
+    }
+    .mainSmartTokenBLTxt {
+        margin-bottom: 14%;
+    }
+    .smttBackH{
+        font-size: 1.1em;
+    }
+    .SmartTokenBLAdds{
+        grid-template-rows: 1fr 1fr 2fr 1fr;
+    }
+    .smarttigersTexts{
+        grid-template-rows: 1fr 4fr  0.1fr;
+    }
+    .smarttigersText{
+        grid-template-rows: 1fr 1fr;
+    }
+    .smarttigersBtn{
+        width: 35%;
+        padding: 3% 7%;
+    }
+    .teamWrapperMainItemAboutText{
+        line-height: 19px;
+        font-size: .8em;
+    }
+    .teamWrapper {
+        grid-template-rows: 1fr 10fr;
+    }
+    .teamWrapperMainItem {
+        justify-content: center;
+        display: grid;
+    }
+    .teamWrapperMainItemImg {
+        position: relative;
+        top: -1%;
+        left: -10%;
+        width: 130%;
+    }
 }
 
 @media only screen and (max-width: 992px){
-    
+    .smarttigersOsnUtilsTgs {
+        column-gap: 5%;
+    }
+    .smarttigersOsnUtilsTgsItem{
+        max-width: 46.7vw;
+    }
+    .swiperRoadMapSlideHeader{
+        font-size: 1em;
+    }
+    .smartTigerBigPlanetBack > img {
+        left: 52%;
+    }
+    .header{
+        padding: 0;
+        width: 103%;
+        top: 0;
+    }
+    .main {
+        padding: 0% 4%;
+    }
+    .headerSTBlMini{
+        font-size:1.3em;
+    }
+    .headerSTBl{
+        font-size: 3em;
+    }
 }
 
 @media only screen and (max-width: 768px){

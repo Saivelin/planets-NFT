@@ -2,12 +2,22 @@ let blackTheme = true;
 
 document.addEventListener("DOMContentLoaded", (e) => {
     Planetsdiv = document.createElement("div")
-    const swiperRoadMap = new Swiper('.swiperRoadMap', {
-        speed: 400,
-        spaceBetween: 100,
-        slidesPerView: "auto",
-        slidesPerView: 2.9,
-    });
+    if (window.innerWidth > 992) {
+        const swiperRoadMap = new Swiper('.swiperRoadMap', {
+            speed: 400,
+            spaceBetween: 100,
+            slidesPerView: "auto",
+            slidesPerView: 2.9,
+        });
+    }
+    else {
+        const swiperRoadMap = new Swiper('.swiperRoadMap', {
+            speed: 400,
+            spaceBetween: 100,
+            slidesPerView: "auto",
+            slidesPerView: 1.7,
+        });
+    }
     document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
     const swiperSmartTiger = new Swiper('.swiperSmartTiger', {

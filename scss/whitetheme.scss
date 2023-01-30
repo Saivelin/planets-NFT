@@ -1,7 +1,7 @@
-$background: #1D2639;
+$background: #E0E1DD;
 $barkcl: #101B29;
-$brcolor: #e0e1dd85;
-$color: #E0E1DD;
+$brcolor: #1D2639;
+$color: #1D2639;
 $headerFontSize: 4em;
 $transSt: .4s;
 @font-face {
@@ -241,6 +241,7 @@ body{
     border-radius: 7.5px;
     cursor: pointer;
     border: none;
+    color: $background;
 }
 .smarttigersVideo >video{
     width: 90%;
@@ -362,7 +363,7 @@ body{
     transition: $transSt;
 }
 .teamWrapperMainItem:hover{
-    background-color: #465974d0;
+    opacity: 1;
 }
 .teamWrapperMainItemHeader {
     font-size: 1.6em;
@@ -478,9 +479,11 @@ body{
     background-color: #101b2985;
     transition: .1s;
     cursor: pointer;
+    color: $background;
 }
 
 .footerSocity{
+    filter: invert(1);
     width: 25%;
     display: grid;
     grid-auto-flow: column;
@@ -500,6 +503,9 @@ body{
     grid-template-columns: 1fr 1fr 0.5fr;
     column-gap: 10vw;
     text-align: left;
+}
+.smarttigersOsnUtilsHeaderSwipe>img{
+    filter: invert(1);
 }
 .footerAdedWrapper{
     width: 100%;
@@ -655,11 +661,11 @@ body{
 }
 
 .FooterLogoWrapperTagsItems:hover{
-    background-color: #101b29ce;
+    background-color: #c9c9c9;
 }
 
 .headerItem:hover{
-    background-color: #27334d;
+    background-color: #c9c9c9;
 }
 
 .textCopied{
@@ -718,11 +724,18 @@ body{
     // left: 581px;
 }
 .planetsItems {
+    color: $background;
     border-radius: 5px;
     max-width: 18%;
     position: absolute;
     padding: 1% 2%;
     background-color: #101B29;
+}
+.planetsItems >*{
+    color: $background;
+}
+.planetsItems >*>*{
+    color: $background;
 }
 .planetsItemsHeader {
     margin-bottom: 1vh;
@@ -738,7 +751,6 @@ body{
 }
 .planetCenterItemTgBl {
     padding: 2% 2%;
-    align-items: center;
     column-gap: 1vw;
     display: grid;
     grid-template-columns: 1fr 10fr;

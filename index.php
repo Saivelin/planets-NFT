@@ -107,9 +107,13 @@
         <div class="plBl">
             <div class="plBlKrug">
                 <div id="planetCenterItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
+                    <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                    <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                        для начального взаимодействия между заказчиками
+                        и исполнителями, между инвесторами и стартапами.
+                        <br><br>
+                        Скоро.
+                    </p>
                     <div class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>Lorem, ipsum dolor.</p>
@@ -118,90 +122,96 @@
                 <img src="/img/planets/center.svg" alt="" class="plBlCenter">
 
                 <div id="plBlBlueItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                    <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                    <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                        для начального взаимодействия между заказчиками
+                        и исполнителями, между инвесторами и стартапами.
+                        <br><br>
+                        Скоро.
+                    </p>
                 </div>
                 <img src="/img/planets/blue.svg" alt="" class="plBlBlue">
 
                 <div id="plBlMoonItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
+                    <p class="planetsItemsTxt">Универсальный токен для использования
+                        во всех сервисах команды Smart Team
+                        на блокчейне The Open Network (TON)</p>
+                    <a class="planetCenterItemTgBl" href="#">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>thesmarttoken</p>
+                    </a>
                 </div>
                 <img src="/img/planets/moon.svg" alt="" class="plBlMoon">
 
                 <div id="plBlPurpleItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">RESALEMARKET </h4>
+                    <p class="planetsItemsTxt">Cервис для крипто-энтузиастов
+                        и IT предпринимателей,
+                        которые занимаются продвижением
+                        своих проектов, а также
+                        перепродажей своих активов.</p>
+                    <a class="planetCenterItemTgBl" href="#">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>ResaleMarketBot</p>
+                    </a>
                 </div>
                 <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
 
                 <div id="plBlOrangeItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
+                    <p class="planetsItemsTxt">NFT-коллекция из 4999+ уникальных тигров,
+                        которые олицетворяют своё комьюнити,
+                        помогающее всё больше и больше
+                        прогрессировать проекту с каждым днём.</p>
+                    <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>SmartTigers</p>
+                    </a>
                 </div>
                 <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
 
                 <div id="plBlYelpurpItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">RESALENFT</h4>
+                    <p class="planetsItemsTxt">Проект помогает пользователям
+                        безопасно совершать P2P сделки
+                        по покупке/продаже НФТ на блокчейне TON.</p>
+                    <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>resalenftbot</p>
+                    </a>
                 </div>
                 <img src="/img/planets/yelpurp.svg" alt="" class="plBlYelpurp">
 
                 <div id="plBlRedItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">SMARTTON</h4>
+                    <p class="planetsItemsTxt">Закрытый чат<br>
+                        Комьюнити Smart TON.</p>
+                    <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>SmartTigersHoldBot</p>
+                    </a>
                 </div>
                 <img src="/img/planets/red.svg" alt="" class="plBlRed">
 
                 <div id="plBlYellowItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                    <p class="planetsItemsTxt">Инфоканал. Ежедневный Крипто Дайджест,
+                        главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
+                    <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>CenterTONa</p>
+                    </a>
                 </div>
                 <img src="/img/planets/yellow.svg" alt="" class="plBlYellow">
 
                 <div id="plBlPinkItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">Cen</h4>
-                    <p class="planetsItemsTxt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-                        dolores molestiae ullam quam id dolore odit cupiditate voluptate ea!</p>
-                    <div class="planetCenterItemTgBl">
+                    <h4 class="planetsItemsHeader">THETONCHAT</h4>
+                    <p class="planetsItemsTxt">Общий чат Комьюнити TON.</p>
+                    <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
-                        <p>Lorem, ipsum dolor.</p>
-                    </div>
+                        <p>TheTonChat</p>
+                    </a>
                 </div>
                 <img src="/img/planets/pink.svg" alt="" class="plBlPink">
             </div>
@@ -238,7 +248,7 @@
                         <p class="smttBackt">EQB8OK7t8M...70GEULQ6zM</p>
                     </div>
                 </div>
-                <img src="/img/st.svg" alt="">
+                <img src="/img/st.svg" alt="" id="st">
             </div>
             <div class="SmartTokenBLAdds">
                 <div class="SmartTokenBLAddsRow">

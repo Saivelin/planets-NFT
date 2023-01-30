@@ -83,25 +83,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
         }, 3000)
     })
     document.querySelector('#themeToggle').addEventListener("click", themeToggle)
-    document.querySelector(".plBlCenter").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlCenter'))
-        console.log(document.querySelector('#planetCenterItem').style.cssText)
-        coors.top -= 140
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#planetCenterItem').classList.toggle("oprev")
-        document.querySelector('#planetCenterItem').style.cssText = css
-        if (document.querySelector('#planetCenterItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#planetCenterItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#planetCenterItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#planetCenterItem').classList.toggle("op")
+    // document.querySelector(".plBlCenter").addEventListener("click", (ev) => {
+    //     console.log("CL")
+    //     coors = getOffsetSum(document.querySelector('.plBlCenter'))
+    //     console.log(document.querySelector('#planetCenterItem').style.cssText)
+    //     coors.top -= 140
+    //     css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    //     document.querySelector('#planetCenterItem').classList.toggle("oprev")
+    //     document.querySelector('#planetCenterItem').style.cssText = css
+    //     if (document.querySelector('#planetCenterItem').classList.contains('op')) {
+    //         setTimeout((t) => {
+    //             document.querySelector('#planetCenterItem').classList.toggle("displayNone")
+    //         }, 100)
+    //     }
+    //     else {
+    //         document.querySelector('#planetCenterItem').classList.toggle("displayNone")
+    //     }
+    //     document.querySelector('#planetCenterItem').classList.toggle("op")
 
-    })
+    // })
     document.querySelector(".plBlBlue").addEventListener("click", (ev) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlBlue'))
@@ -284,20 +284,67 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('.navigationMobile').classList.toggle('toright')
     })
 })
-
+let l = document.createElement("link")
 function themeToggle() {
-    console.log("theme")
-    document.querySelector("body").style.cssText = "background-color: #E0E1DD;"
-    document.querySelector(".header").style.cssText = "background-color: #E0E1DD;"
-    document.querySelector(".headerItemF").querySelector('img').style.cssText = "filter: invert(1);"
-    document.querySelectorAll("p").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h1").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h2").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h3").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h4").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h5").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("h6").forEach((el) => { el.style.cssText += "color: black;" })
-    document.querySelectorAll("div").forEach((el) => { el.style.cssText += "color: black;" })
+    if (blackTheme != true) {
+        console.log("theme")
+        l.setAttribute("rel", "stylesheet")
+        l.setAttribute("href", "/css/whitetheme.css")
+        document.querySelector("head").append(l)
+        document.querySelector("#themeToggle").setAttribute("src", "/img/whiteTheme/moon.svg")
+        document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
+        document.querySelector("#langToggle").setAttribute("src", "/img/whiteTheme/globe.svg")
+        document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
+        document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+        document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
+            if (i == 0) {
+                el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/Complited.svg")
+            }
+            else if (i == 1) {
+                el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/SecondSlideRoad.svg")
+            }
+            else if (i == 2) {
+                el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/ThreeSlide.svg")
+            }
+            else if (i == 3) {
+                el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/FourSlide.svg")
+            }
+        })
+    }
+    else {
+        document.querySelector("#langToggle").setAttribute("src", "/img/globe.svg")
+        document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/logo.svg")
+        document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/logo.svg")
+        document.querySelector("#st").setAttribute("src", "/img/st.svg")
+        document.querySelector("#themeToggle").setAttribute("src", "/img/sunny.svg")
+        document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
+            console.log(el)
+            if (i == 0) {
+                el.setAttribute("src", "/img/RoadMapSlider/Complited.svg")
+            }
+            else if (i == 1) {
+                el.setAttribute("src", "/img/RoadMapSlider/SecondSlideRoad.svg")
+            }
+            else if (i == 2) {
+                el.setAttribute("src", "/img/RoadMapSlider/ThreeSlide.svg")
+            }
+            else if (i == 3) {
+                el.setAttribute("src", "/img/RoadMapSlider/FourSlide.svg")
+            }
+        })
+        l.remove()
+    }
+    // document.querySelector("body").style.cssText = "background-color: #E0E1DD;"
+    // document.querySelector(".header").style.cssText = "background-color: #E0E1DD;"
+    // document.querySelector(".headerItemF").querySelector('img').style.cssText = "filter: invert(1);"
+    // document.querySelectorAll("p").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h1").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h2").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h3").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h4").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h5").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("h6").forEach((el) => { el.style.cssText += "color: black;" })
+    // document.querySelectorAll("div").forEach((el) => { el.style.cssText += "color: black;" })
     blackTheme = !blackTheme
 }
 console.log(getOffsetSum(document.querySelector(".planetsItems")))

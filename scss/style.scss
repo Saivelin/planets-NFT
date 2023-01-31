@@ -717,6 +717,9 @@ body{
     // top: 170px;
     // left: 581px;
 }
+.swiperPlMob{
+    display: none !important;
+}
 .planetsItems {
     border-radius: 5px;
     max-width: 18%;
@@ -742,6 +745,9 @@ body{
     column-gap: 1vw;
     display: grid;
     grid-template-columns: 1fr 10fr;
+}
+.swiperPlMob {
+    margin-bottom: 5%;
 }
 
 .languageToggle {

@@ -216,6 +216,105 @@
                 <img src="/img/planets/pink.svg" alt="" class="plBlPink">
             </div>
         </div>
+        <div class="swiper swiperPlMob ">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                        <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                            для начального взаимодействия между заказчиками
+                            и исполнителями, между инвесторами и стартапами.
+                            <br><br>
+                            Скоро.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
+                        <p class="planetsItemsTxt">Универсальный токен для использования
+                            во всех сервисах команды Smart Team
+                            на блокчейне The Open Network (TON)</p>
+                        <a class="planetCenterItemTgBl" href="#">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>thesmarttoken</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">RESALEMARKET </h4>
+                        <p class="planetsItemsTxt">Cервис для крипто-энтузиастов
+                            и IT предпринимателей,
+                            которые занимаются продвижением
+                            своих проектов, а также
+                            перепродажей своих активов.</p>
+                        <a class="planetCenterItemTgBl" href="#">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>ResaleMarketBot</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
+                        <p class="planetsItemsTxt">NFT-коллекция из 4999+ уникальных тигров,
+                            которые олицетворяют своё комьюнити,
+                            помогающее всё больше и больше
+                            прогрессировать проекту с каждым днём.</p>
+                        <a class="planetCenterItemTgBl">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>SmartTigers</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">RESALENFT</h4>
+                        <p class="planetsItemsTxt">Проект помогает пользователям
+                            безопасно совершать P2P сделки
+                            по покупке/продаже НФТ на блокчейне TON.</p>
+                        <a class="planetCenterItemTgBl">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>resalenftbot</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">SMARTTON</h4>
+                        <p class="planetsItemsTxt">Закрытый чат<br>
+                            Комьюнити Smart TON.</p>
+                        <a class="planetCenterItemTgBl">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>SmartTigersHoldBot</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                        <p class="planetsItemsTxt">Инфоканал. Ежедневный Крипто Дайджест,
+                            главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
+                        <a class="planetCenterItemTgBl">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>CenterTONa</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideSmartTiger">
+                    <div class="swiperSlideSmartTigerWrapper">
+                        <h4 class="planetsItemsHeader">THETONCHAT</h4>
+                        <p class="planetsItemsTxt">Общий чат Комьюнити TON.</p>
+                        <a class="planetCenterItemTgBl">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>TheTonChat</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="smartTokenBlBackPlanet">
             <img src="/img/backplanetsmarttoken.svg" alt="">
         </div>
@@ -227,13 +326,17 @@
             </div>
             <div class="mainSmartTokenBL">
                 <div class="mainSmartTokenBLWrapper">
-                    <p class="mainSmartTokenBLTxt">Универсальный токен для использования во всех сервисах команды Smart
+                    <p class="mainSmartTokenBLTxt">Универсальный токен для использования во всех сервисах
+                        команды Smart
                         Team
                         на блокчейне TON.
                         <br><br>
-                        Это внутренняя валюта во всех существующих проектах входящих в экосистему Smart Team. Например,
-                        токеном можно будет приобрести NFT Smart Tigers, оплатить комиссию в Resale Market, но основной
-                        задачей данного токена будет является оплата продвижения и дополнительных услуг в Smart Working.
+                        Это внутренняя валюта во всех существующих проектах входящих в экосистему Smart Team.
+                        Например,
+                        токеном можно будет приобрести NFT Smart Tigers, оплатить комиссию в Resale Market, но
+                        основной
+                        задачей данного токена будет является оплата продвижения и дополнительных услуг в Smart
+                        Working.
                         <br><br>
                         Со временем токен будет внедряться во все наши
                         и партнерские проекты как способ оплаты.
@@ -242,7 +345,8 @@
                         <div class="smttBackTitleWrapper">
                             <h6 class="smttBackH">SMART on TON Chain</h6>
                             <div id="SMARTonTONChain"><img style="cursor: pointer;" src="/img/copy.svg"
-                                    alt=""></img><input type="text" class="dsn" value="EQB8OK7t8M...70GEULQ6zM"></div>
+                                    alt=""></img><input type="text" class="dsn" value="EQB8OK7t8M...70GEULQ6zM">
+                            </div>
 
                         </div>
                         <p class="smttBackt">EQB8OK7t8M...70GEULQ6zM</p>
@@ -274,8 +378,10 @@
                 <div class="SmartTokenBLAddsRow">
                     <div class="SmartTokenBLAddsRowItem SmartTokenBLAddsRowItemOnesed">
                         <h6 class="SmartTokenBLAddsRowItemHeader">Как купить SMART</h6>
-                        <p class="SmartTokenBLAddsRowItemText">1.ICO токена при первичной покупки NFT только с помощью -
-                            https://t.me/SmartTigersBot с расчетом 1 NFT=1000 SMART.*Количество ограниченно и это
+                        <p class="SmartTokenBLAddsRowItemText">1.ICO токена при первичной покупки NFT только с
+                            помощью -
+                            https://t.me/SmartTigersBot с расчетом 1 NFT=1000 SMART.*Количество ограниченно и
+                            это
                             временное предложение действующее с 01.02.2023.<br>
                             2.Скоро</p>
                     </div>
@@ -334,7 +440,8 @@
                             <div class="swiper-slide swiperSlideSmartTiger">
                                 <div class="swiperSlideSmartTigerWrapper">
                                     <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность продвигать
+                                    <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность
+                                        продвигать
                                         свои услуги, находить коллег, инвесторов и многое другое.
                                         SmartWorking поможет найти первые заказы
                                         для развивающихся фрилансеров, а для специалистов
@@ -347,7 +454,8 @@
                                 <div class="swiperSlideSmartTigerWrapper">
 
                                     <h6 class="swiperSlideSmartTigerHeader">Web App</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого Холдеры
+                                    <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого
+                                        Холдеры
                                         получат роялти в Toncoin со стекинга NFT из: <br><br>
 
                                         ✅ процента монетизации от канала CENTER TONA <br>
@@ -364,7 +472,8 @@
                                         Первоисточник
                                         новостей наших проектов, прямое общение с командой. Обсуждаем The Open
                                         Network,
-                                        делимся полезной информацией. Попасть в чат могут только холдеры NFT Smart
+                                        делимся полезной информацией. Попасть в чат могут только холдеры NFT
+                                        Smart
                                         Tigers.
                                     </p>
                                 </div>

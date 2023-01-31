@@ -2070,6 +2070,10 @@ body {
   display: none;
 }
 
+.swiperPlMob {
+  display: none !important;
+}
+
 .planetsItems {
   border-radius: 5px;
   max-width: 18%;
@@ -2105,6 +2109,10 @@ body {
   display: grid;
   -ms-grid-columns: 1fr 1vw 10fr;
   grid-template-columns: 1fr 10fr;
+}
+
+.swiperPlMob {
+  margin-bottom: 5%;
 }
 
 .languageToggle {

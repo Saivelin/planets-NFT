@@ -44,6 +44,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
     document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
     console.log(window.innerWidth)
 
+    plMobSwiper = new Swiper(".swiperPlMob", {
+        speed: 400,
+        spaceBetween: 0,
+        slidesPerView: "auto",
+        slidesPerView: 1,
+    })
+
 
     let corsLang = getOffsetSum(document.querySelector("#langToggle"))
     corsLang.top -= 120
@@ -257,6 +264,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('.navigationMobile').style.cssText = ''
     })
     if (window.innerWidth <= 480) {
+        document.querySelector(".swiperPlMob").classList.remove("displayNone")
         console.log('res')
         document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
     }

@@ -849,6 +849,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 10fr;
 }
+.planetCenterItemTgBl>a{
+    display: block;
+}
 .swiperPlMob {
     margin-bottom: 5%;
 }

@@ -9,7 +9,7 @@ body {
   position: fixed;
   top: 0;
   background-color: #1D2639;
-  height: 120vh;
+  height: 100vh;
   display: -ms-grid;
   display: grid;
   font-size: 3em;
@@ -306,6 +306,8 @@ body {
   }
   .header > .mobileBurgerWrapper > * {
     margin-left: 30vw;
+    width: 20%;
+    padding: 12%;
   }
   .header {
     -webkit-box-align: center;

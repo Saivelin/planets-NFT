@@ -292,6 +292,21 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector(".swiperPlMob").classList.remove("displayNone")
         console.log('res')
         document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
+        document.addEventListener("scroll", (ev) => {
+            console.log(window)
+            if (window.scrollY <= 100) {
+                setTimeout((t) => {
+                    document.querySelector(".headerItemF").classList.remove("displayNone")
+                    document.querySelector(".mobileBurgerWrapper").style.cssText = ""
+                }, 400)
+            }
+            else {
+                if (!document.querySelector(".headerItemF").classList.contains("displayNone")) {
+                    document.querySelector(".headerItemF").classList.add("displayNone")
+                }
+                document.querySelector(".mobileBurgerWrapper").style.cssText = "grid-column-start: 2;grid-column-end: 3;"
+            }
+        })
     }
     else {
         document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"

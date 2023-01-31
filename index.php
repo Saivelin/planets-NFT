@@ -151,7 +151,7 @@
                     <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Универсальный токен для использования
                         во всех сервисах команды Smart Team
                         на блокчейне The Open Network (TON)</p>
-                    <a class="planetCenterItemTgBl" href="#">
+                    <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>thesmarttoken</p>
                     </a>
@@ -165,7 +165,7 @@
                         которые занимаются продвижением
                         своих проектов, а также
                         перепродажей своих активов.</p>
-                    <a class="planetCenterItemTgBl" href="#">
+                    <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>ResaleMarketBot</p>
                     </a>
@@ -178,7 +178,7 @@
                         которые олицетворяют своё комьюнити,
                         помогающее всё больше и больше
                         прогрессировать проекту с каждым днём.</p>
-                    <a class="planetCenterItemTgBl">
+                    <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>SmartTigers</p>
                     </a>
@@ -190,7 +190,7 @@
                     <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Проект помогает пользователям
                         безопасно совершать P2P сделки
                         по покупке/продаже НФТ на блокчейне TON.</p>
-                    <a class="planetCenterItemTgBl">
+                    <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>resalenftbot</p>
                     </a>
@@ -201,7 +201,7 @@
                     <h4 class="planetsItemsHeader">SMARTTON</h4>
                     <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Закрытый чат<br>
                         Комьюнити Smart TON.</p>
-                    <a class="planetCenterItemTgBl">
+                    <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>SmartTigersHoldBot</p>
                     </a>
@@ -222,7 +222,7 @@
                 <div id="plBlPinkItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">THETONCHAT</h4>
                     <p class="planetsItemsTxt planetsItemsTxt9 langtrans">Общий чат Комьюнити TON.</p>
-                    <a class="planetCenterItemTgBl">
+                    <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>TheTonChat</p>
                     </a>
@@ -250,7 +250,7 @@
                         <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Универсальный токен для использования
                             во всех сервисах команды Smart Team
                             на блокчейне The Open Network (TON)</p>
-                        <a class="planetCenterItemTgBl" href="#">
+                        <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>thesmarttoken</p>
                         </a>
@@ -264,7 +264,7 @@
                             которые занимаются продвижением
                             своих проектов, а также
                             перепродажей своих активов.</p>
-                        <a class="planetCenterItemTgBl" href="#">
+                        <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>ResaleMarketBot</p>
                         </a>
@@ -277,7 +277,7 @@
                             которые олицетворяют своё комьюнити,
                             помогающее всё больше и больше
                             прогрессировать проекту с каждым днём.</p>
-                        <a class="planetCenterItemTgBl">
+                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>SmartTigers</p>
                         </a>
@@ -289,7 +289,7 @@
                         <p class="planetsItemsTxt planetsItemsTxt5 langtrans">Проект помогает пользователям
                             безопасно совершать P2P сделки
                             по покупке/продаже НФТ на блокчейне TON.</p>
-                        <a class="planetCenterItemTgBl">
+                        <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>resalenftbot</p>
                         </a>
@@ -300,7 +300,7 @@
                         <h4 class="planetsItemsHeader">SMARTTON</h4>
                         <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Закрытый чат<br>
                             Комьюнити Smart TON.</p>
-                        <a class="planetCenterItemTgBl">
+                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>SmartTigersHoldBot</p>
                         </a>
@@ -321,7 +321,7 @@
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">THETONCHAT</h4>
                         <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Общий чат Комьюнити TON.</p>
-                        <a class="planetCenterItemTgBl">
+                        <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>TheTonChat</p>
                         </a>
@@ -557,30 +557,30 @@
                     </div> -->
                     <div class="smarttigersOsnUtilsTgsWrapper">
                         <div class="smarttigersOsnUtilsTgs">
-                            <div class="smarttigersOsnUtilsTgsItem">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersBot">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt1 langtrans">
                                     Первичный минт с ограниченным
                                     саплаем
                                     в 1500 NFT по 10 Toncoin</p>
-                            </div>
-                            <div class="smarttigersOsnUtilsTgsItem">
+                            </a>
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersAppBot">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt">Web App</p>
-                            </div>
+                            </a>
                         </div>
                         <div class="smarttigersOsnUtilsTgs">
-                            <div class="smarttigersOsnUtilsTgsItem">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersHoldBot">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt3 langtrans">
                                     Верификация в
                                     чат Холдеров</p>
-                            </div>
-                            <div class="smarttigersOsnUtilsTgsItem">
+                            </a>
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigers">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt4 langtrans">
                                     Основной канал</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -720,33 +720,34 @@
             </div>
             <div class="FooterLogoWrapperTags">
                 <div class="FooterLogoWrapperTagsItemsWrapper">
-                    <div class="FooterLogoWrapperTagsItems">SmartTigers <input type="text" class="dsn"
-                            value="SmartTigers"></div>
-                    <div class="FooterLogoWrapperTagsItems">TheSmartToken <input type="text" class="dsn"
-                            value="TheSmartToken"></div>
-                    <div class="FooterLogoWrapperTagsItems">SmartTigersHoldBot <input type="text" class="dsn"
-                            value="SmartTigersHoldBot"></div>
+                    <a href="https://t.me/SmartTigers" class="FooterLogoWrapperTagsItems">SmartTigers <input type="text"
+                            class="dsn" value="SmartTigers"></a>
+                    <a href="https://t.me/thesmarttoken" class="FooterLogoWrapperTagsItems">TheSmartToken <input
+                            type="text" class="dsn" value="TheSmartToken"></a>
+                    <a href="https://t.me/SmartTigersHoldBot" class="FooterLogoWrapperTagsItems">SmartTigersHoldBot
+                        <input type="text" class="dsn" value="SmartTigersHoldBot"></a>
                 </div>
                 <div class="FooterLogoWrapperTagsItemsWrapper">
-                    <div class="FooterLogoWrapperTagsItems">ResaleMarketBot <input type="text" class="dsn"
-                            value="ResaleMarketBot"></div>
-                    <div class="FooterLogoWrapperTagsItems">ResaleNFTBot <input type="text" class="dsn"
-                            value="ResaleNFTBot"></div>
-                    <div class="FooterLogoWrapperTagsItems">CenterTONa <input type="text" class="dsn"
-                            value="CenterTONa"></div>
-                    <div class="FooterLogoWrapperTagsItems">TheTONChat <input type="text" class="dsn"
-                            value="TheTONChat"></div>
+                    <a href="https://t.me/ResaleMarketBot" class="FooterLogoWrapperTagsItems">ResaleMarketBot <input
+                            type="text" class="dsn" value="ResaleMarketBot"></a>
+                    <a href="https://t.me/resalenftbot" class="FooterLogoWrapperTagsItems">ResaleNFTBot <input
+                            type="text" class="dsn" value="ResaleNFTBot"></a>
+                    <a href="https://t.me/CenterTONa" class="FooterLogoWrapperTagsItems">CenterTONa <input type="text"
+                            class="dsn" value="CenterTONa"></a>
+                    <a href="https://t.me/TheTonChat" class="FooterLogoWrapperTagsItems">TheTONChat <input type="text"
+                            class="dsn" value="TheTONChat"></a>
                 </div>
             </div>
         </div>
         <div class="footerSocity">
-            <img src="/img/tgelegram.svg" alt="">
-            <img src="/img/vk.svg" alt="">
-            <img src="/img/twitter.svg" alt="">
+            <a href="https://t.me/SmartTigers"><img src="/img/tgelegram.svg" alt=""></a>
+            <a href="https://t.me/thesmarttoken"><img src="/img/tgelegram.svg" alt=""></a>
+            <a href="https://vk.com/smarttigers"><img src="/img/vk.svg" alt=""></a>
+            <a href="https://twitter.com/tonnftteam"><img src="/img/twitter.svg" alt=""></a>
         </div>
         <div class="footerAdedWrapper">
             <div class="footerAded">
-                <p class="footerAdedTxt">Listing/Contact: info@smartteam.pro<br>
+                <p class="footerAdedTxt">Listing/Contact: <a href="info@smartteam.pro">info@smartteam.pro</a><br>
                     Telegram: @ceoprod</p>
                 <p class="footerAdedTxt langtrans">© SMARTTEAM 2023. Все права защищены.</p>
                 <p class="footerAdedTxt footerAdedTxtR">Based on TON.</p>

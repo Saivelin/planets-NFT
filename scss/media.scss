@@ -10,7 +10,7 @@ body{
     position: fixed;
     top: 0;
     background-color: $background;
-    height: 120vh;
+    height: 100vh;
     display: grid;
     font-size: 3em;
     grid-template-rows: .1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -253,6 +253,8 @@ body{
     }
     .header>.mobileBurgerWrapper>*{
         margin-left: 30vw;
+        width: 20%;
+        padding: 12%;
     }
     .header{
         align-items: center;

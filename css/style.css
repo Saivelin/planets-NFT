@@ -86,7 +86,7 @@ a:hover {
   color: #E0E1DD;
   margin: 0;
   font-weight: 400;
-  font-family: "SFText";
+  font-family: "SFTextR";
 }
 
 body {
@@ -203,6 +203,7 @@ body {
 .mainSmartTokenBLTxt {
   font-size: 1.31em;
   margin-bottom: 8%;
+  line-height: 140%;
 }
 
 .smttBack {
@@ -701,6 +702,18 @@ body {
   cursor: pointer;
 }
 
+.plBlPurple {
+  -webkit-filter: blur(0.5) !important;
+          filter: blur(0.5) !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.plBlPurple:hover {
+  -webkit-filter: blur(0) !important;
+          filter: blur(0) !important;
+}
+
 .footerSocity {
   width: 25%;
   display: -ms-grid;
@@ -769,7 +782,7 @@ body {
 
 .smartTigerBigPlanetBack > img {
   z-index: -1;
-  height: 87vh;
+  width: 27%;
   position: absolute;
   top: 259vh;
   left: 73%;
@@ -783,6 +796,23 @@ body {
   width: 20%;
   top: 393vh;
   left: 33.6vw;
+}
+
+.smarttigersVideo > img {
+  position: absolute;
+  left: 70%;
+  height: 20%;
+  width: auto;
+}
+
+#d2 {
+  top: 250%;
+  left: 54%;
+}
+
+#d3 {
+  top: 310%;
+  left: 85%;
 }
 
 .teamBlBack > img {

@@ -734,6 +734,28 @@ body{
 .planetsItems >*{
     color: $background;
 }
+.langtogwrap {
+    z-index: 30;
+    border-radius: 7.5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #edeee3 !important;
+    color: $color !important;
+    max-width: 10%;
+    left: 80%;
+    position: fixed;
+    padding: 0.3% 1%;
+}
+.langtogwrap :hover{
+    background-color: #dadbd1 !important;
+
+}
+.SmartTokenBLAddsRowItemText >a{
+    color: $background;
+}
 .planetsItems >*>*{
     color: $background;
 }

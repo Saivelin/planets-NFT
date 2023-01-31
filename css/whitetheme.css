@@ -2092,6 +2092,30 @@ body {
   color: #E0E1DD;
 }
 
+.langtogwrap {
+  z-index: 30;
+  border-radius: 7.5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edeee3 !important;
+  color: #1D2639 !important;
+  max-width: 10%;
+  left: 80%;
+  position: fixed;
+  padding: 0.3% 1%;
+}
+
+.langtogwrap :hover {
+  background-color: #dadbd1 !important;
+}
+
+.SmartTokenBLAddsRowItemText > a {
+  color: #E0E1DD;
+}
+
 .planetsItems > * > * {
   color: #E0E1DD;
 }

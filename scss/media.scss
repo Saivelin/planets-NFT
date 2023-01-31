@@ -10,7 +10,7 @@ body{
     position: fixed;
     top: 0;
     background-color: $background;
-    height: 130vh;
+    height: 120vh;
     display: grid;
     font-size: 3em;
     grid-template-rows: .1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -64,6 +64,8 @@ body{
         width: 100%;
     }
     .smartTigerBigPlanetBack > img{
+        width: unset;
+        max-width: 37vw;
         left: 65%;
     }
     .mainSmartTokenBLTxt{
@@ -117,7 +119,15 @@ body{
     .swiperRoadMapSlideHeader{
         font-size: 1em;
     }
+    #d3{
+        display: none;
+    }
+    #d2{
+        display: none;
+    }
     .smartTigerBigPlanetBack > img {
+        display: none;
+        width: unset;
         left: 52%;
     }
     .header{
@@ -170,6 +180,7 @@ body{
         width: 98%;
     }
     .smartTigerBigPlanetBack > img {
+        width: unset;
         left: 22%;
     }
     .headerItemL > img {
@@ -293,6 +304,7 @@ body{
         left: -7.4vw;
     }
     .smartTigerBigPlanetBack > img{
+        width: unset;
         left: 17%;
     }
     .smarttigersOsnUtilsTgs{
@@ -313,7 +325,19 @@ body{
         width: 93%;
     }
     .smartTigerBigPlanetBack > img {
-        left: 7%;
+        display: none;
+    }
+    #d2{
+        display: none;
+        left: 0;
+        top: 280%;
+        width: 29%;
+    }
+    #d3{
+        display: none;
+        left: 80%;
+        top: 325%;
+        width: 29%;
     }
     .main{
         width: 100%;

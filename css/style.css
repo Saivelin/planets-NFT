@@ -13,6 +13,12 @@
 @font-face {
   font-family: "SFText";
   font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf);
+}
+@font-face {
+  font-family: "SFText";
+  font-style: normal;
   font-weight: 100;
   src: url(../fonts/sfprotext/SF-Pro-Display-Ultralight.otf);
 }
@@ -79,7 +85,7 @@ a:hover {
 * {
   color: #E0E1DD;
   margin: 0;
-  font-weight: 100;
+  font-weight: 400;
   font-family: "SFText";
 }
 
@@ -169,6 +175,7 @@ body {
 .headerSTBl {
   font-size: 4em;
   font-family: "SFTextR";
+  font-weight: 500;
 }
 
 .headerSTBlMini {
@@ -179,7 +186,7 @@ body {
           align-items: center;
   text-align: right;
   font-size: 1.7em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .mainSmartTokenBL {
@@ -320,23 +327,35 @@ body {
 
 .smarttigersHeader {
   font-size: 4em;
-  font-weight: 100;
+  font-weight: 500;
   font-family: "SFTextR";
   margin-bottom: 5%;
+}
+
+.smarttigersTextSt {
+  font-size: 1.3em;
+  line-height: 170%;
+}
+
+.smarttigersTextSt1 {
+  font-size: 1.3em;
+  line-height: 170%;
 }
 
 .smarttigersText {
   font-size: 0.9em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 30% 1.7fr;
-  grid-template-rows: 1fr 1.7fr;
-  row-gap: 30%;
+  -ms-grid-rows: 1fr 16% 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 16%;
   line-height: 24px;
   margin-bottom: 15%;
 }
 
 .smarttigersOrangeTxt {
+  font-size: 1.3em;
+  line-height: 170%;
   color: #FF6F04;
   font-weight: 600;
 }
@@ -344,7 +363,7 @@ body {
 .smarttigersBtn {
   font-size: 1em;
   width: 27%;
-  padding: 0% 4%;
+  padding: 1% 4%;
   background-color: #FF6F04;
   border-radius: 7.5px;
   cursor: pointer;
@@ -374,7 +393,7 @@ body {
 
 .smarttigersOsnUtilsHeader {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .smarttigersOsnUtilsHeaderSwipe {
@@ -485,6 +504,7 @@ body {
 .teamWrapperHeader {
   font-size: 4em;
   font-family: "SFTextR";
+  font-weight: 500;
 }
 
 .teamWrapperMain {
@@ -512,11 +532,20 @@ body {
   background-color: rgba(70, 89, 116, 0.8156862745);
 }
 
+.smttBackH {
+  font-weight: 500;
+}
+
+.SmartTokenBLAddsRowItemHeader {
+  font-weight: 500;
+}
+
 .teamWrapperMainItemHeader {
   font-size: 1.6em;
   font-family: "SFTextR";
   margin-bottom: 2%;
   margin-top: 4%;
+  font-weight: 500;
 }
 
 .teamWrapperMainItemAbout {
@@ -531,8 +560,9 @@ body {
 .teamWrapperMainItemAboutText {
   color: #E0E1DD;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 400;
   padding: 4% 12%;
+  text-align: left;
   line-height: 36px;
 }
 
@@ -560,11 +590,13 @@ body {
   font-size: 4em;
   font-family: "SFTextR";
   margin-bottom: 8%;
+  font-weight: 500;
 }
 
 .whiteBookTxtTxt {
   line-height: 24px;
   margin-bottom: 18%;
+  font-weight: 300;
 }
 
 .whiteBookImg {
@@ -656,12 +688,13 @@ body {
 .FooterLogoWrapperTagsItems {
   display: -ms-grid;
   display: grid;
+  font-weight: 500;
+  font-size: 1.2em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 1% 4%;
   border-radius: 7.5px;
-  font-size: 1em;
   background-color: rgba(16, 27, 41, 0.5215686275);
   -webkit-transition: 0.1s;
   transition: 0.1s;
@@ -2084,6 +2117,9 @@ body {
 
 .swiperRoadMapSlideHeader {
   margin-bottom: 6%;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: "SFTextR";
 }
 
 .swiperSmartTiger {
@@ -2108,11 +2144,13 @@ body {
 .swiperSlideSmartTigerHeader {
   font-size: 1.4em;
   margin-bottom: 1vh;
+  font-weight: 500;
 }
 
 .swiperSlideSmartTigerTxt {
   font-size: 0.9em;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .displayNone {

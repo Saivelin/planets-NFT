@@ -439,7 +439,8 @@
                         </p>
                         <div>
                             <p class="smarttigersOrangeTxt langtrans">Цель SmartTigers</p>
-                            <p class="smarttigersTextSt1 langtrans">сделать свой продукт инструментом, который сможет
+                            <p class="smarttigersTextSt1  smarttigersTextSt1 langtrans">сделать свой продукт
+                                инструментом, который сможет
                                 помочь людям
                                 в сфере их деятельности, а также привлечь аудиторию более
                                 1 миллиона пользователей в проекты Smart Team.</p>

@@ -139,4 +139,12 @@ let langArr = {
         "Возможно",
         "Possible"
     ],
+    "SmartTokenBLAddsRowItemHeader1": [
+        "Общее предложение",
+        "General offer"
+    ],
+    "mainSmartTokenBLTxt": [
+        "Универсальный токен для использования во всех сервисах команды Smart Team на блокчейне TON. <br><br> Это внутренняя валюта во всех существующих проектах входящих в экосистему Smart Team. Например, токеном можно будет приобрести NFT Smart Tigers, оплатить комиссию в Resale Market, но основной задачей данного токена будет является оплата продвижения и дополнительных услуг в Smart Working. <br><br> Со временем токен будет внедряться во все наши и партнерские проекты как способ оплаты.",
+        "Universal token for use in all services Smart commands Team on the TON blockchain. <br><br> This is the internal currency in all existing projects included in the Smart Team ecosystem. For example, the token will be available to purchase NFC Smart Tigers, pay a commission in the Resale Market, but the main the task of this token will be to pay for promotion and additional services in Smart Working. <br><br> Over time, the token will be implemented in all our and partner projects as a payment method."
+    ],
 }

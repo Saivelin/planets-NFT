@@ -340,7 +340,7 @@
             </div>
             <div class="mainSmartTokenBL">
                 <div class="mainSmartTokenBLWrapper">
-                    <p class="mainSmartTokenBLTxt">Универсальный токен для использования во всех сервисах
+                    <p class="mainSmartTokenBLTxt langtrans">Универсальный токен для использования во всех сервисах
                         команды Smart
                         Team
                         на блокчейне TON.
@@ -371,7 +371,8 @@
             <div class="SmartTokenBLAdds">
                 <div class="SmartTokenBLAddsRow">
                     <div class="SmartTokenBLAddsRowItem">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Общее предложение</h6>
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader1 langtrans">Общее
+                            предложение</h6>
                         <p class="SmartTokenBLAddsRowItemText">20 000 000 SMART</p>
                     </div>
                     <div class="SmartTokenBLAddsRowItem">

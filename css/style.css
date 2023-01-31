@@ -2,7 +2,7 @@
   font-family: "SFText";
   font-style: normal;
   font-weight: normal;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf);
+  src: url(../fonts/sfprotext/SF-Pro-Display-Regular.otf);
 }
 @font-face {
   font-family: "SFText";
@@ -11,10 +11,58 @@
   src: url(../fonts/sfprotext/SF-Pro-Display-Heavy.otf);
 }
 @font-face {
+  font-family: "SFText";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/sfprotext/SF-Pro-Display-Ultralight.otf);
+}
+@font-face {
+  font-family: "SFText";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/sfprotext/SF-Pro-Display-Light.otf);
+}
+@font-face {
+  font-family: "SFText";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/sfprotext/SF-Pro-Display-Thin.otf);
+}
+@font-face {
   font-family: "SFTextR";
   font-style: normal;
-  font-weight: 700;
-  src: url(../fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+  font-weight: 100;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Ultralight.ttf);
+}
+@font-face {
+  font-family: "SFTextR";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Thin.ttf);
+}
+@font-face {
+  font-family: "SFTextR";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Light.ttf);
+}
+@font-face {
+  font-family: "SFTextR";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+}
+@font-face {
+  font-family: "SFTextR";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Medium.ttf);
+}
+@font-face {
+  font-family: "SFTextR";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf);
 }
 html {
   scroll-behavior: smooth;
@@ -31,6 +79,7 @@ a:hover {
 * {
   color: #E0E1DD;
   margin: 0;
+  font-weight: 100;
   font-family: "SFText";
 }
 
@@ -2125,6 +2174,7 @@ body {
   max-width: 8%;
   display: -ms-grid;
   display: grid;
+  z-index: 400;
 }
 
 .languageToggleItem:hover {

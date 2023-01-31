@@ -122,7 +122,7 @@
             <div class="plBlKrug">
                 <div id="planetCenterItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                    <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                    <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис в Telegram выступающий ресурсом
                         для начального взаимодействия между заказчиками
                         и исполнителями, между инвесторами и стартапами.
                         <br><br>
@@ -137,7 +137,7 @@
 
                 <div id="plBlBlueItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                    <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                    <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Сервис в Telegram выступающий ресурсом
                         для начального взаимодействия между заказчиками
                         и исполнителями, между инвесторами и стартапами.
                         <br><br>
@@ -148,7 +148,7 @@
 
                 <div id="plBlMoonItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
-                    <p class="planetsItemsTxt">Универсальный токен для использования
+                    <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Универсальный токен для использования
                         во всех сервисах команды Smart Team
                         на блокчейне The Open Network (TON)</p>
                     <a class="planetCenterItemTgBl" href="#">
@@ -160,7 +160,7 @@
 
                 <div id="plBlPurpleItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">RESALEMARKET </h4>
-                    <p class="planetsItemsTxt">Cервис для крипто-энтузиастов
+                    <p class="planetsItemsTxt planetsItemsTxt4 langtrans">Cервис для крипто-энтузиастов
                         и IT предпринимателей,
                         которые занимаются продвижением
                         своих проектов, а также
@@ -174,7 +174,7 @@
 
                 <div id="plBlOrangeItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
-                    <p class="planetsItemsTxt">NFT-коллекция из 4999+ уникальных тигров,
+                    <p class="planetsItemsTxt planetsItemsTxt5 langtrans">NFT-коллекция из 4999+ уникальных тигров,
                         которые олицетворяют своё комьюнити,
                         помогающее всё больше и больше
                         прогрессировать проекту с каждым днём.</p>
@@ -187,7 +187,7 @@
 
                 <div id="plBlYelpurpItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">RESALENFT</h4>
-                    <p class="planetsItemsTxt">Проект помогает пользователям
+                    <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Проект помогает пользователям
                         безопасно совершать P2P сделки
                         по покупке/продаже НФТ на блокчейне TON.</p>
                     <a class="planetCenterItemTgBl">
@@ -199,7 +199,7 @@
 
                 <div id="plBlRedItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">SMARTTON</h4>
-                    <p class="planetsItemsTxt">Закрытый чат<br>
+                    <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Закрытый чат<br>
                         Комьюнити Smart TON.</p>
                     <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
@@ -210,7 +210,7 @@
 
                 <div id="plBlYellowItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                    <p class="planetsItemsTxt">Инфоканал. Ежедневный Крипто Дайджест,
+                    <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
                         главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
                     <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
@@ -221,7 +221,7 @@
 
                 <div id="plBlPinkItem" class="planetsItems displayNone oprev">
                     <h4 class="planetsItemsHeader">THETONCHAT</h4>
-                    <p class="planetsItemsTxt">Общий чат Комьюнити TON.</p>
+                    <p class="planetsItemsTxt planetsItemsTxt9 langtrans">Общий чат Комьюнити TON.</p>
                     <a class="planetCenterItemTgBl">
                         <img src="/img/tgelegram.svg" alt="">
                         <p>TheTonChat</p>
@@ -236,7 +236,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                        <p class="planetsItemsTxt">Сервис в Telegram выступающий ресурсом
+                        <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис в Telegram выступающий ресурсом
                             для начального взаимодействия между заказчиками
                             и исполнителями, между инвесторами и стартапами.
                             <br><br>
@@ -247,7 +247,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
-                        <p class="planetsItemsTxt">Универсальный токен для использования
+                        <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Универсальный токен для использования
                             во всех сервисах команды Smart Team
                             на блокчейне The Open Network (TON)</p>
                         <a class="planetCenterItemTgBl" href="#">
@@ -259,7 +259,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">RESALEMARKET </h4>
-                        <p class="planetsItemsTxt">Cервис для крипто-энтузиастов
+                        <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Cервис для крипто-энтузиастов
                             и IT предпринимателей,
                             которые занимаются продвижением
                             своих проектов, а также
@@ -273,7 +273,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
-                        <p class="planetsItemsTxt">NFT-коллекция из 4999+ уникальных тигров,
+                        <p class="planetsItemsTxt planetsItemsTxt4 langtrans">NFT-коллекция из 4999+ уникальных тигров,
                             которые олицетворяют своё комьюнити,
                             помогающее всё больше и больше
                             прогрессировать проекту с каждым днём.</p>
@@ -286,7 +286,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">RESALENFT</h4>
-                        <p class="planetsItemsTxt">Проект помогает пользователям
+                        <p class="planetsItemsTxt planetsItemsTxt5 langtrans">Проект помогает пользователям
                             безопасно совершать P2P сделки
                             по покупке/продаже НФТ на блокчейне TON.</p>
                         <a class="planetCenterItemTgBl">
@@ -298,7 +298,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">SMARTTON</h4>
-                        <p class="planetsItemsTxt">Закрытый чат<br>
+                        <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Закрытый чат<br>
                             Комьюнити Smart TON.</p>
                         <a class="planetCenterItemTgBl">
                             <img src="/img/tgelegram.svg" alt="">
@@ -309,7 +309,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                        <p class="planetsItemsTxt">Инфоканал. Ежедневный Крипто Дайджест,
+                        <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
                             главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
                         <a class="planetCenterItemTgBl">
                             <img src="/img/tgelegram.svg" alt="">
@@ -320,7 +320,7 @@
                 <div class="swiper-slide swiperSlideSmartTiger">
                     <div class="swiperSlideSmartTigerWrapper">
                         <h4 class="planetsItemsHeader">THETONCHAT</h4>
-                        <p class="planetsItemsTxt">Общий чат Комьюнити TON.</p>
+                        <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Общий чат Комьюнити TON.</p>
                         <a class="planetCenterItemTgBl">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>TheTonChat</p>

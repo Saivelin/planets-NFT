@@ -147,4 +147,76 @@ let langArr = {
         "Универсальный токен для использования во всех сервисах команды Smart Team на блокчейне TON. <br><br> Это внутренняя валюта во всех существующих проектах входящих в экосистему Smart Team. Например, токеном можно будет приобрести NFT Smart Tigers, оплатить комиссию в Resale Market, но основной задачей данного токена будет является оплата продвижения и дополнительных услуг в Smart Working. <br><br> Со временем токен будет внедряться во все наши и партнерские проекты как способ оплаты.",
         "Universal token for use in all services Smart commands Team on the TON blockchain. <br><br> This is the internal currency in all existing projects included in the Smart Team ecosystem. For example, the token will be available to purchase NFC Smart Tigers, pay a commission in the Resale Market, but the main the task of this token will be to pay for promotion and additional services in Smart Working. <br><br> Over time, the token will be implemented in all our and partner projects as a payment method."
     ],
+    "planetsItemsTxt1": [
+        "Сервис в Telegram выступающий ресурсом для начального взаимодействия между заказчиками и исполнителями, между инвесторами и стартапами. <br><br> Скоро.",
+        "The Telegram service acts as a resource for initial interaction between customers and performers, between investors and startups. <br><br> Soon."
+    ],
+    "planetsItemsTxt2": [
+        "Сервис в Telegram выступающий ресурсом для начального взаимодействия между заказчиками и исполнителями, между инвесторами и стартапами. <br><br> Скоро.",
+        "The Telegram service acts as a resource for initial interaction between customers and performers, between investors and startups. <br><br> Soon."
+    ],
+    "planetsItemsTxt3": [
+        "Универсальный токен для использования во всех сервисах команды Smart Team на блокчейне The Open Network (TON)",
+        "Universal token for use in all Smart Team services on The Open Network (TON) blockchain"
+    ],
+    "planetsItemsTxt4": [
+        "Cервис для крипто-энтузиастов и IT предпринимателей, которые занимаются продвижением своих проектов, а также перепродажей своих активов.",
+        "A service for crypto enthusiasts and IT entrepreneurs who are engaged in the promotion of their projects, as well as the resale of their assets."
+    ],
+    "planetsItemsTxt5": [
+        "NFT-коллекция из 4999+ уникальных тигров, которые олицетворяют своё комьюнити, помогающее всё больше и больше прогрессировать проекту с каждым днём.",
+        "NFT is a collection of 4999+ unique tigers that embody their community, which helps the project progress more and more every day."
+    ],
+    "planetsItemsTxt6": [
+        "Проект помогает пользователям безопасно совершать P2P сделки по покупке/продаже НФТ на блокчейне TON.",
+        "The project helps users to safely make P2P transactions for the purchase/sale of NFT on the TON blockchain."
+    ],
+    "planetsItemsTxt7": [
+        "Закрытый чат<br> Комьюнити Smart TON.",
+        "Private chat<br> Community Smarton."
+    ],
+    "planetsItemsTxt8": [
+        "Инфоканал. Ежедневный Крипто Дайджест, главные новости о TON, NFT, CRYPTO, AIRDROPS.",
+        "Infocanal. Daily Crypto Digest, the main news about TON, NET, CRYPTO, AIRDROPS."
+    ],
+    "planetsItemsTxt9": [
+        "Общий чат Комьюнити TON.",
+        "General chat of the TON Community."
+    ],
+    "planetsItemsTxt1M": [
+        "Сервис в Telegram выступающий ресурсом для начального взаимодействия между заказчиками и исполнителями, между инвесторами и стартапами. <br><br> Скоро.",
+        "The Telegram service acts as a resource for initial interaction between customers and performers, between investors and startups. <br><br> Soon."
+    ],
+    "planetsItemsTxt2M": [
+        "Сервис в Telegram выступающий ресурсом для начального взаимодействия между заказчиками и исполнителями, между инвесторами и стартапами. <br><br> Скоро.",
+        "The Telegram service acts as a resource for initial interaction between customers and performers, between investors and startups. <br><br> Soon."
+    ],
+    "planetsItemsTxt3M": [
+        "Универсальный токен для использования во всех сервисах команды Smart Team на блокчейне The Open Network (TON)",
+        "Universal token for use in all Smart Team services on The Open Network (TON) blockchain"
+    ],
+    "planetsItemsTxt4M": [
+        "Cервис для крипто-энтузиастов и IT предпринимателей, которые занимаются продвижением своих проектов, а также перепродажей своих активов.",
+        "A service for crypto enthusiasts and IT entrepreneurs who are engaged in the promotion of their projects, as well as the resale of their assets."
+    ],
+    "planetsItemsTxt5M": [
+        "NFT-коллекция из 4999+ уникальных тигров, которые олицетворяют своё комьюнити, помогающее всё больше и больше прогрессировать проекту с каждым днём.",
+        "NFT is a collection of 4999+ unique tigers that embody their community, which helps the project progress more and more every day."
+    ],
+    "planetsItemsTxt6M": [
+        "Проект помогает пользователям безопасно совершать P2P сделки по покупке/продаже НФТ на блокчейне TON.",
+        "The project helps users to safely make P2P transactions for the purchase/sale of NFT on the TON blockchain."
+    ],
+    "planetsItemsTxt7M": [
+        "Закрытый чат<br> Комьюнити Smart TON.",
+        "Private chat<br> Community Smarton."
+    ],
+    "planetsItemsTxt8M": [
+        "Инфоканал. Ежедневный Крипто Дайджест, главные новости о TON, NFT, CRYPTO, AIRDROPS.",
+        "Infocanal. Daily Crypto Digest, the main news about TON, NET, CRYPTO, AIRDROPS."
+    ],
+    "planetsItemsTxt9M": [
+        "Общий чат Комьюнити TON.",
+        "General chat of the TON Community."
+    ],
 }

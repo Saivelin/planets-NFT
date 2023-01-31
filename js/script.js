@@ -319,6 +319,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 })
 let l = document.createElement("link")
 function themeToggle() {
+    console.log(document.querySelector("#langToggle").querySelector("img"))
     if (blackTheme != true) {
         console.log("theme")
         l.setAttribute("rel", "stylesheet")
@@ -326,7 +327,7 @@ function themeToggle() {
         document.querySelector("head").append(l)
         document.querySelector("#themeToggle").querySelector("img").setAttribute("src", "/img/whiteTheme/moon.svg")
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
-        document.querySelector("#langToggle").setAttribute("src", "/img/whiteTheme/globe.svg")
+        document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/whiteTheme/globe.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
         document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
         document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
@@ -345,7 +346,7 @@ function themeToggle() {
         })
     }
     else {
-        document.querySelector("#langToggle").setAttribute("src", "/img/globe.svg")
+        document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/globe.svg")
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/logo.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/logo.svg")
         document.querySelector("#st").setAttribute("src", "/img/st.svg")

@@ -83,14 +83,28 @@
             </div>
         </a>
         <div class="headerItem headerItemL">
-            <img src="/img/globe.svg" alt="" id="langToggle">
-            <img src="/img/sunny.svg" alt="" id="themeToggle">
+            <div id="langToggle">
+                <img src="/img/globe.svg" alt="" id="langToggle">
+            </div>
+            <div id="themeToggle">
+                <img src="/img/sunny.svg" alt="" id="">
+            </div>
         </div>
         <div class="mobileBurgerWrapper">
             <img src="/img/mobileburger.svg" alt="">
         </div>
     </header>
-    <div class="languageToggle displayNone">
+    <div class="langtogwrap displayNone">
+        <div class="languageToggleItem" id="ru">
+            <img src="/img/rus.webp" alt="" class="languageToggleItemImg" id="ru">
+            <p class="languageToggleItemTxt" id="ru">Русский</p>
+        </div>
+        <div class="languageToggleItem languageToggleItemLast" id="en">
+            <img src="/img/en.png" alt="" class="languageToggleItemImg" id="en">
+            <p class="languageToggleItemTxt" id="en">English</p>
+        </div>
+    </div>
+    <!-- <div class="languageToggle displayNone">
         <div class="languageToggleItem">
             <img src="" alt="" class="languageToggleItemImg">
             <p class="languageToggleItemTxt">🇷🇺 Русский</p>
@@ -99,7 +113,7 @@
             <img src="" alt="" class="languageToggleItemImg">
             <p class="languageToggleItemTxt">🇷🇺 Русский</p>
         </div>
-    </div>
+    </div> -->
     <div class="upperBackground">
         <img src="/img/backplanets.svg" alt="">
     </div>
@@ -361,35 +375,44 @@
                         <p class="SmartTokenBLAddsRowItemText">20 000 000 SMART</p>
                     </div>
                     <div class="SmartTokenBLAddsRowItem">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Сжигание</h6>
-                        <p class="SmartTokenBLAddsRowItemText">Возможно</p>
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader2 langtrans">Сжигание</h6>
+                        <p class="SmartTokenBLAddsRowItemText SmartTokenBLAddsRowItemText2 langtrans">Возможно</p>
                     </div>
                 </div>
                 <div class="SmartTokenBLAddsRow">
                     <div class="SmartTokenBLAddsRowItem">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Тикерный символ</h6>
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader3 langtrans">Тикерный
+                            символ</h6>
                         <p class="SmartTokenBLAddsRowItemText">SMART</p>
                     </div>
                     <div class="SmartTokenBLAddsRowItem">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Модель</h6>
-                        <p class="SmartTokenBLAddsRowItemText">Дефляционная</p>
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader4 langtrans">Модель</h6>
+                        <p class="SmartTokenBLAddsRowItemText SmartTokenBLAddsRowItemText4 langtrans">Дефляционная</p>
                     </div>
                 </div>
                 <div class="SmartTokenBLAddsRow">
                     <div class="SmartTokenBLAddsRowItem SmartTokenBLAddsRowItemOnesed">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Как купить SMART</h6>
-                        <p class="SmartTokenBLAddsRowItemText">1.ICO токена при первичной покупки NFT только с
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader5 langtrans">Как купить
+                            SMART</h6>
+                        <p class="SmartTokenBLAddsRowItemText SmartTokenBLAddsRowItemText5 langtrans">1.ICO токена при
+                            первичной
+                            покупки NFT только с
                             помощью -
-                            https://t.me/SmartTigersBot с расчетом 1 NFT=1000 SMART.*Количество ограниченно и
+                            <a href="https://t.me/SmartTigersBot">https://t.me/SmartTigersBot</a> с расчетом 1 NFT=1000
+                            SMART.*Количество
+                            ограниченно и
                             это
                             временное предложение действующее с 01.02.2023.<br>
-                            2.Скоро</p>
+                            2.Скоро
+                        </p>
                     </div>
                 </div>
                 <div class="SmartTokenBLAddsRow">
                     <div class="SmartTokenBLAddsRowItem">
-                        <h6 class="SmartTokenBLAddsRowItemHeader">Листинг</h6>
-                        <p class="SmartTokenBLAddsRowItemText">Информация бует обновляться</p>
+                        <h6 class="SmartTokenBLAddsRowItemHeader SmartTokenBLAddsRowItemHeader6 langtrans">Листинг</h6>
+                        <p class="SmartTokenBLAddsRowItemText SmartTokenBLAddsRowItemText6 langtrans">Информация бует
+                            обновляться
+                        </p>
                     </div>
                 </div>
             </div>
@@ -406,27 +429,29 @@
                 <div class="smarttigersTexts">
                     <h1 class="smarttigersHeader">SMARTTIGERS</h1>
                     <div class="smarttigersText">
-                        <p>NFT-коллекция из 4999+ уникальных тигров, которые олицетворяют
+                        <p class="smarttigersTextSt langtrans">NFT-коллекция из 4999+ уникальных тигров, которые
+                            олицетворяют
                             своё комьюнити, помогающее всё больше и больше прогрессировать
                             проекту с каждым днём. Коллекцию можно прокачивать из 2D до 3D,
                             а также добавлять свои надписи и лого. Этот проект нацелен
                             на развитие и разработку новых технологий и утилит на блокчейне TON.
                         </p>
                         <div>
-                            <p class="smarttigersOrangeTxt">Цель SmartTigers</p>
-                            <p>сделать свой продукт инструментом, который сможет помочь людям
+                            <p class="smarttigersOrangeTxt langtrans">Цель SmartTigers</p>
+                            <p class="smarttigersTextSt1 langtrans">сделать свой продукт инструментом, который сможет
+                                помочь людям
                                 в сфере их деятельности, а также привлечь аудиторию более
                                 1 миллиона пользователей в проекты Smart Team.</p>
                         </div>
                     </div>
-                    <button class="smarttigersBtn">Купить NFT</button>
+                    <button class="smarttigersBtn langtrans">Купить NFT</button>
                 </div>
                 <div class="smarttigersVideo">
                     <video src="/video/smarttiger.mp4" preload="auto" no-controls autoplay loop muted></video>
                 </div>
                 <div class="smarttigersOsnUtils">
                     <div class="smarttigersOsnUtilsHead">
-                        <h3 class="smarttigersOsnUtilsHeader">Основные утилиты</h3>
+                        <h3 class="smarttigersOsnUtilsHeader langtrans">Основные утилиты</h3>
                         <div class="smarttigersOsnUtilsHeaderSwipe">
                             <img src="/img/arrowleft.svg" alt="" id="smarttigerSliderPrev">
                             <p>swiper</p>
@@ -440,7 +465,8 @@
                             <div class="swiper-slide swiperSlideSmartTiger">
                                 <div class="swiperSlideSmartTigerWrapper">
                                     <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Платформа, которая даст возможность
+                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt1 langtrans">Платформа,
+                                        которая даст возможность
                                         продвигать
                                         свои услуги, находить коллег, инвесторов и многое другое.
                                         SmartWorking поможет найти первые заказы
@@ -453,8 +479,10 @@
                             <div class="swiper-slide swiperSlideSmartTiger">
                                 <div class="swiperSlideSmartTigerWrapper">
 
-                                    <h6 class="swiperSlideSmartTigerHeader">Web App</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Web App в Telegram с помощью которого
+                                    <h6 class="swiperSlideSmartTigerHeader ">Web
+                                        App</h6>
+                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt2 langtrans">Web App в
+                                        Telegram с помощью которого
                                         Холдеры
                                         получат роялти в Toncoin со стекинга NFT из: <br><br>
 
@@ -467,8 +495,10 @@
                             <div class="swiper-slide swiperSlideSmartTiger">
                                 <div class="swiperSlideSmartTigerWrapper">
 
-                                    <h6 class="swiperSlideSmartTigerHeader">Smart TON</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Закрытый чат Комьюнити SMARTTON.
+                                    <h6 class="swiperSlideSmartTigerHeader">Smart
+                                        TON</h6>
+                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt3 langtrans">Закрытый чат
+                                        Комьюнити SMARTTON.
                                         Первоисточник
                                         новостей наших проектов, прямое общение с командой. Обсуждаем The Open
                                         Network,
@@ -481,8 +511,12 @@
                             <div class="swiper-slide swiperSlideSmartTiger">
                                 <div class="swiperSlideSmartTigerWrapper">
 
-                                    <h6 class="swiperSlideSmartTigerHeader">Разработка проектов</h6>
-                                    <p class="swiperSlideSmartTigerTxt">Мы всегда в процессе поиска новых ниш
+                                    <h6 class="swiperSlideSmartTigerHeader swiperSlideSmartTigerHeader4 langtrans">
+                                        Разработка
+                                        проектов</h6>
+                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt4 langtrans">Мы всегда в
+                                        процессе
+                                        поиска новых ниш
                                         для
                                         продвижения нашей экосистемы и поэтому разрабатываем проекты которые
                                         могут
@@ -521,7 +555,8 @@
                         <div class="smarttigersOsnUtilsTgs">
                             <div class="smarttigersOsnUtilsTgsItem">
                                 <img src="/img/tg.svg" alt="">
-                                <p class="smarttigersOsnUtilsTgsItemTxt">Первичный минт с ограниченным
+                                <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt1 langtrans">
+                                    Первичный минт с ограниченным
                                     саплаем
                                     в 1500 NFT по 10 Toncoin</p>
                             </div>
@@ -533,11 +568,14 @@
                         <div class="smarttigersOsnUtilsTgs">
                             <div class="smarttigersOsnUtilsTgsItem">
                                 <img src="/img/tg.svg" alt="">
-                                <p class="smarttigersOsnUtilsTgsItemTxt">Верификация в чат Холдеров</p>
+                                <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt3 langtrans">
+                                    Верификация в
+                                    чат Холдеров</p>
                             </div>
                             <div class="smarttigersOsnUtilsTgsItem">
                                 <img src="/img/tg.svg" alt="">
-                                <p class="smarttigersOsnUtilsTgsItemTxt">Основной канал</p>
+                                <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt4 langtrans">
+                                    Основной канал</p>
                             </div>
                         </div>
                     </div>
@@ -548,7 +586,7 @@
         <div class="roadMap">
             <div class="roadMapWrapper">
                 <div class="smarttigersOsnUtilsHead">
-                    <h3 class="smarttigersOsnUtilsHeader roadMapWrapperHeader">ДОРОЖНАЯ КАРТА ПРОЕКТА</h3>
+                    <h3 class="smarttigersOsnUtilsHeader roadMapWrapperHeader langtrans">ДОРОЖНАЯ КАРТА ПРОЕКТА</h3>
                     <div class="smarttigersOsnUtilsHeaderSwipe">
                         <img src="/img/arrowleft.svg" alt="" id="roadMapSliderPrev">
                         <p>swiper</p>
@@ -561,19 +599,19 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader">Цель 1: 2022 Q3</h3>
+                                <h3 class="swiperRoadMapSlideHeader q1 langtrans">Цель 1: 2022 Q3</h3>
                                 <img src="/img/RoadMapSlider/Complited.svg" alt="" class="swiperRoadMapSlideImg">
                             </div>
                             <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader">Цель 2: 2022-2023</h3>
+                                <h3 class="swiperRoadMapSlideHeader q2 langtrans">Цель 2: 2022-2023</h3>
                                 <img src="/img/RoadMapSlider/SecondSlideRoad.svg" alt="" class="swiperRoadMapSlideImg">
                             </div>
                             <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader">Цель 3: 2023</h3>
+                                <h3 class="swiperRoadMapSlideHeader q3 langtrans">Цель 3: 2023</h3>
                                 <img src="/img/RoadMapSlider/ThreeSlide.svg" alt="" class="swiperRoadMapSlideImg">
                             </div>
                             <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader">Цель 4</h3>
+                                <h3 class="swiperRoadMapSlideHeader q4 langtrans">Цель 4</h3>
                                 <img src="/img/RoadMapSlider/FourSlide.svg" alt="" class="swiperRoadMapSlideImg">
                             </div>
                         </div>
@@ -587,7 +625,7 @@
                     </div>
                 </div>
                 <div class="roadMapFooter">
-                    <p class="roadMapFooterTxt">В процессе реализации Road Map планируем продолжать
+                    <p class="roadMapFooterTxt langtrans">В процессе реализации Road Map планируем продолжать
                         разрабатывать новые
                         проекты и активности,
                         не входящие в карту, но иметь отношение к команде, которые помогут нам достигать
@@ -602,10 +640,10 @@
         </div>
         <div class="teamBl">
             <div class="teamWrapper">
-                <h1 class="teamWrapperHeader">КОМАНДА</h1>
+                <h1 class="teamWrapperHeader langtrans">КОМАНДА</h1>
                 <div class="teamWrapperMain">
                     <div class="teamWrapperMainItem teamWrapperMainItemAb">
-                        <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText">Команда
+                        <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText langtrans">Команда
                             разработчиков,
                             которые могут не только
                             хорошо создавать Telegram
@@ -650,10 +688,10 @@
         <div class="whiteBook">
             <div class="whiteBookWrapper">
                 <div class="whiteBookTxt">
-                    <h1 class="whiteBookHeader">
+                    <h1 class="whiteBookHeader langtrans">
                         БЕЛАЯ КНИГА
                     </h1>
-                    <p class="whiteBookTxtTxt">
+                    <p class="whiteBookTxtTxt langtrans">
                         Документ, в котором содержится вся информация
                         о проекте и его стратегии. Здесь раскрывается идея
                         и назначение продукта, указываются этапы его
@@ -661,7 +699,7 @@
                         раскрывается экономика проекта, описываются
                         преимущества инвестирования в него.
                     </p>
-                    <button class="whiteBookBtn">Открыть Белую Книгу</button>
+                    <button class="whiteBookBtn langtrans">Открыть Белую Книгу</button>
                 </div>
                 <div class="whiteBookImg">
                     <img src="/img/whitebookimg.svg" alt="">
@@ -674,7 +712,7 @@
         <div class="footerHeader">
             <div class="FooterLogoWrapper">
                 <img src="/img/logo.svg" alt="">
-                <h2 class="footerHeaderHeader">Продукты Smart Team</h2>
+                <h2 class="footerHeaderHeader langtrans">Продукты Smart Team</h2>
             </div>
             <div class="FooterLogoWrapperTags">
                 <div class="FooterLogoWrapperTagsItemsWrapper">
@@ -706,7 +744,7 @@
             <div class="footerAded">
                 <p class="footerAdedTxt">Listing/Contact: info@smartteam.pro<br>
                     Telegram: @ceoprod</p>
-                <p class="footerAdedTxt">© SMARTTEAM 2023. Все права защищены.</p>
+                <p class="footerAdedTxt langtrans">© SMARTTEAM 2023. Все права защищены.</p>
                 <p class="footerAdedTxt footerAdedTxtR">Based on TON.</p>
             </div>
         </div>
@@ -715,6 +753,7 @@
         <p>Text copied</p>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
+    <script src="/js/langs.js"></script>
     <script src="/js/script.js"></script>
 </body>
 

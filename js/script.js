@@ -54,9 +54,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
     let corsLang = getOffsetSum(document.querySelector("#langToggle"))
     corsLang.top -= 120
-    document.querySelector(".languageToggle").style.cssText = `top:${corsLang.top}px;left:${corsLang.left}px`
+    // document.querySelector(".languageToggle").style.cssText = `top:${corsLang.top}px;left:${corsLang.left}px`
     document.querySelector("#langToggle").addEventListener("click", (ev) => {
-        document.querySelector(".languageToggle").classList.toggle(".displayNone")
+        document.querySelector(".langtogwrap").classList.toggle("displayNone")
     })
     document.querySelectorAll(".FooterLogoWrapperTagsItems").forEach((el) => {
         el.addEventListener("click", (ev) => {
@@ -109,6 +109,31 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //     document.querySelector('#planetCenterItem').classList.toggle("op")
 
     // })
+    //LANG
+    document.querySelectorAll(".languageToggleItem").forEach((el) => {
+        el.addEventListener("click", (ev) => {
+            let lang = ev.target.id;
+            console.log(lang)
+            if (lang == "en") { lang = 1 }
+            else if (lang == 'ru') { lang = 0 }
+            document.querySelectorAll(".langtrans").forEach((elementToggling) => {
+                console.log(langArr)
+                Object.keys(langArr).forEach((langArrItem) => {
+                    // for (let langArrItem in langArr) {
+                    // langArr.map((langArrItem) => {
+                    if (elementToggling.classList.contains(langArrItem)) {
+                        console.log(langArr[langArrItem][0])
+                        elementToggling.innerHTML = langArr[langArrItem][lang];
+                    }
+                })
+                // }
+                // })
+            })
+        }
+        )
+    })
+
+
     document.querySelector(".plBlBlue").addEventListener("click", (ev) => {
         console.log("CL")
         coors = getOffsetSum(document.querySelector('.plBlBlue'))
@@ -299,7 +324,7 @@ function themeToggle() {
         l.setAttribute("rel", "stylesheet")
         l.setAttribute("href", "/css/whitetheme.css")
         document.querySelector("head").append(l)
-        document.querySelector("#themeToggle").setAttribute("src", "/img/whiteTheme/moon.svg")
+        document.querySelector("#themeToggle").querySelector("img").setAttribute("src", "/img/whiteTheme/moon.svg")
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
         document.querySelector("#langToggle").setAttribute("src", "/img/whiteTheme/globe.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
@@ -324,7 +349,7 @@ function themeToggle() {
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/logo.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/logo.svg")
         document.querySelector("#st").setAttribute("src", "/img/st.svg")
-        document.querySelector("#themeToggle").setAttribute("src", "/img/sunny.svg")
+        document.querySelector("#themeToggle").querySelector("img").setAttribute("src", "/img/sunny.svg")
         document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
             console.log(el)
             if (i == 0) {

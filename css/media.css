@@ -95,6 +95,12 @@ body {
     overflow-x: hidden;
     width: 100%;
   }
+  #d3 {
+    width: 15%;
+  }
+  #d2 {
+    width: 15%;
+  }
   .smartTigerBigPlanetBack > img {
     width: unset;
     max-width: 37vw;
@@ -159,12 +165,6 @@ body {
   .swiperRoadMapSlideHeader {
     font-size: 1em;
   }
-  #d3 {
-    display: none;
-  }
-  #d2 {
-    display: none;
-  }
   .smartTigerBigPlanetBack > img {
     display: none;
     width: unset;
@@ -222,6 +222,12 @@ body {
   body {
     overflow-x: hidden;
     width: 98%;
+  }
+  #d3 {
+    width: 20%;
+  }
+  #d2 {
+    width: 20%;
   }
   .smartTigerBigPlanetBack > img {
     width: unset;
@@ -296,7 +302,15 @@ body {
     margin-bottom: 20%;
   }
 }
+@media only screen and (max-width: 480px) and (min-width: 415px) {
+  .headerItemF {
+    width: 10%;
+  }
+}
 @media only screen and (max-width: 480px) {
+  .whiteBookBack {
+    display: none;
+  }
   .swiperPlMob {
     display: -ms-grid !important;
     display: grid !important;
@@ -397,13 +411,11 @@ body {
     display: none;
   }
   #d2 {
-    display: none;
     left: 0;
     top: 280%;
     width: 29%;
   }
   #d3 {
-    display: none;
     left: 80%;
     top: 325%;
     width: 29%;

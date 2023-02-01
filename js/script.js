@@ -288,6 +288,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('.navigationMobile').classList.toggle('toright')
         document.querySelector('.navigationMobile').style.cssText = ''
     })
+    let coorsVid = getOffsetSum(document.querySelector(".smarttigersVideo"))
+    document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 90}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
+    document.querySelector("#d2").style.cssText = `top: ${coorsVid.top - (((document.querySelector("#smtvid").offsetHeight) / 100) * 10)}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 10)}px;`
     if (window.innerWidth <= 480) {
         document.querySelector(".swiperPlMob").classList.remove("displayNone")
         console.log('res')
@@ -311,9 +314,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
     else {
         document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"
     }
-    document.addEventListener("resize", (ev) => {
+
+    window.addEventListener("resize", (ev) => {
         console.log("FDF")
+        coorsVid = getOffsetSum(document.querySelector(".smarttigersVideo"))
+        document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 90}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
+        document.querySelector("#d2").style.cssText = `top: ${coorsVid.top - (((document.querySelector("#smtvid").offsetHeight) / 100) * 10)}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 10)}px;`
         if (window.innerWidth <= 480) {
+
             console.log('res')
             document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
         }
@@ -321,6 +329,20 @@ document.addEventListener("DOMContentLoaded", (e) => {
             document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"
         }
     })
+    window.addEventListener("orientationchange", function () {
+        console.log("FDF")
+        coorsVid = getOffsetSum(document.querySelector(".smarttigersVideo"))
+        document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 90}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
+        document.querySelector("#d2").style.cssText = `top: ${coorsVid.top - (((document.querySelector("#smtvid").offsetHeight) / 100) * 10)}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 10)}px;`
+        if (window.innerWidth <= 480) {
+
+            console.log('res')
+            document.querySelector(".headerItemF").innerHTML = "<img src='/img/logo.svg' alt='f'/>"
+        }
+        else {
+            document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"
+        }
+    }, false);
     document.querySelectorAll(".headerItemM").forEach((el) => {
         el.addEventListener("click", (ev) => {
             document.querySelector('.navigationMobile').classList.toggle("toleft")

@@ -450,7 +450,8 @@
                 </div>
                 <div class="smarttigersVideo">
                     <img src="/img/2d.svg" alt="" id="d2">
-                    <video src="/video/smarttiger.mp4" preload="auto" no-controls autoplay loop muted></video>
+                    <video id="smtvid" src="/video/smarttiger.mp4" preload="auto" no-controls autoplay loop
+                        muted></video>
                     <img src="/img/3d.svg" alt="" id="d3">
                 </div>
                 <div class="smarttigersOsnUtils">

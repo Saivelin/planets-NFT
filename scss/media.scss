@@ -63,6 +63,13 @@ body{
         overflow-x: hidden;
         width: 100%;
     }
+    #d3{
+
+        width: 15%;
+    }
+    #d2{
+        width: 15%;
+    }
     .smartTigerBigPlanetBack > img{
         width: unset;
         max-width: 37vw;
@@ -120,10 +127,10 @@ body{
         font-size: 1em;
     }
     #d3{
-        display: none;
+        // display: none;
     }
     #d2{
-        display: none;
+        // display: none;
     }
     .smartTigerBigPlanetBack > img {
         display: none;
@@ -178,6 +185,13 @@ body{
     body {
         overflow-x: hidden;
         width: 98%;
+    }
+    #d3{
+
+        width: 20%;
+    }
+    #d2{
+        width: 20%;
     }
     .smartTigerBigPlanetBack > img {
         width: unset;
@@ -243,8 +257,15 @@ body{
         margin-bottom: 20%;
     }
 }
-
+@media only screen and (max-width: 480px) and (min-width: 415px){
+    .headerItemF{
+        width: 10%;
+    }
+}
 @media only screen and (max-width: 480px){
+    .whiteBookBack{
+        display: none;
+    }
     .swiperPlMob{
         display: grid !important;
     }
@@ -330,13 +351,13 @@ body{
         display: none;
     }
     #d2{
-        display: none;
+        // display: none;
         left: 0;
         top: 280%;
         width: 29%;
     }
     #d3{
-        display: none;
+        // display: none;
         left: 80%;
         top: 325%;
         width: 29%;

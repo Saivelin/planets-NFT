@@ -8,7 +8,7 @@ $transSt: .4s;
 	font-family: 'SFText'; 
     font-style: normal;
 	font-weight: normal;
-	src: url(../fonts/sfprotext/SF-Pro-Display-Regular.otf); 
+	src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf); 
 }
 @font-face {
 	font-family: 'SFText'; 
@@ -17,64 +17,10 @@ $transSt: .4s;
 	src: url(../fonts/sfprotext/SF-Pro-Display-Heavy.otf); 
 }
 @font-face {
-	font-family: 'SFText'; 
-    font-style: normal;
-	font-weight: 500;
-	src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf); 
-}
-@font-face {
-	font-family: 'SFText'; 
-    font-style: normal;
-	font-weight: 100;
-	src: url(../fonts/sfprotext/SF-Pro-Display-Ultralight.otf); 
-}
-@font-face {
-	font-family: 'SFText'; 
-    font-style: normal;
-	font-weight: 200;
-	src: url(../fonts/sfprotext/SF-Pro-Display-Light.otf); 
-}
-@font-face {
-	font-family: 'SFText'; 
-    font-style: normal;
-	font-weight: 300;
-	src: url(../fonts/sfprotext/SF-Pro-Display-Thin.otf); 
-}
-@font-face {
 	font-family: 'SFTextR'; 
     font-style: normal;
-	font-weight: 100;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Ultralight.ttf); 
-}
-@font-face {
-	font-family: 'SFTextR'; 
-    font-style: normal;
-	font-weight: 200;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Thin.ttf); 
-}
-@font-face {
-	font-family: 'SFTextR'; 
-    font-style: normal;
-	font-weight: 300;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Light.ttf); 
-}
-@font-face {
-	font-family: 'SFTextR'; 
-    font-style: normal;
-	font-weight: 400;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Regular.ttf); 
-}
-@font-face {
-	font-family: 'SFTextR'; 
-    font-style: normal;
-	font-weight: 500;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Medium.ttf); 
-}
-@font-face {
-	font-family: 'SFTextR'; 
-    font-style: normal;
-	font-weight: 600;
-	src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf); 
+	font-weight: 700;
+	src: url(../fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf); 
 }
 html {
     scroll-behavior: smooth;
@@ -88,9 +34,8 @@ a:hover{
 *{
     color: $color;
     margin: 0;
-    font-weight: 400;
     // background-color: $background;
-    font-family: 'SFTextR';
+    font-family: 'SFText';
 }
 body{
     width: 100%;
@@ -162,14 +107,13 @@ body{
 .headerSTBl {
     font-size: $headerFontSize;
     font-family: 'SFTextR';
-    font-weight: 500;
 }
 .headerSTBlMini {
     display: grid;
     align-items: center;
     text-align: right;
     font-size: 1.7em;
-    font-weight: 500;
+    font-weight: 400;
 }
 .mainSmartTokenBL {
     display: grid;
@@ -181,7 +125,6 @@ body{
 .mainSmartTokenBLTxt {
     font-size: 1.31em;
     margin-bottom: 8%;
-    line-height: 140%;
 }
 
 .smttBack {
@@ -274,47 +217,30 @@ body{
 }
 .smarttigersHeader {
     font-size: $headerFontSize;
-    font-weight: 500;
+    font-weight: 100;
     font-family: "SFTextR";
     margin-bottom: 5%;
-}
-.smarttigersTextSt {
-    font-size: 1.3em;
-    line-height: 170%;
-}
-.smarttigersTextSt1 {
-    font-size: 1.3em;
-    line-height: 170%;
 }
 .smarttigersText {
     font-size: 0.9em;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 16%;
+    grid-template-rows: 1fr 1.7fr;
+    row-gap: 30%;
     line-height: 24px;
     margin-bottom: 15%;
 }
 .smarttigersOrangeTxt {
-    font-size: 1.3em;
-    line-height: 170%;
     color: #FF6F04;
     font-weight: 600;
 }
 .smarttigersBtn {
     font-size: 1em;
     width: 27%;
-    padding: 1% 4%;
+    padding: 0% 4%;
     background-color: #FF6F04;
     border-radius: 7.5px;
     cursor: pointer;
     border: none;
-    color: $background;
-}
-.langtogwrap{background-color: #cecfcb !important;}
-.languageToggleItem :hover{
-    background-color: #b3b4b0 !important;
-}
-.SmartTokenBLAddsRowItemText>a{
     color: $background;
 }
 .smarttigersVideo >video{
@@ -333,7 +259,7 @@ body{
 }
 .smarttigersOsnUtilsHeader {
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 600;
 }
 .smarttigersOsnUtilsHeaderSwipe {
     display: grid;
@@ -421,7 +347,6 @@ body{
 .teamWrapperHeader {
     font-size: $headerFontSize;
     font-family: "SFTextR";
-    font-weight: 500;
 }
 .teamWrapperMain {
     display: grid;
@@ -438,20 +363,13 @@ body{
     transition: $transSt;
 }
 .teamWrapperMainItem:hover{
-    background-color: #465974d0;
-}
-.smttBackH{
-    font-weight: 500;
-}
-.SmartTokenBLAddsRowItemHeader {
-    font-weight: 500;
+    opacity: 1;
 }
 .teamWrapperMainItemHeader {
     font-size: 1.6em;
     font-family: "SFTextR";
     margin-bottom: 2%;
     margin-top: 4%;
-    font-weight: 500;
 }
 .teamWrapperMainItemAbout {
     color: #101B29;
@@ -465,9 +383,9 @@ body{
 .teamWrapperMainItemAboutText{
     color:$color;
     font-size: 1em;
-    font-weight: 400;
+   
+    font-weight: 100;
     padding: 4% 12%;
-    text-align: left;
     line-height: 36px;
 }
 .teamWrapperMainItemAb{
@@ -490,12 +408,10 @@ body{
     font-size: $headerFontSize;
     font-family: "SFTextR";
     margin-bottom: 8%;
-    font-weight: 500;
 }
 .whiteBookTxtTxt {
     line-height: 24px;
     margin-bottom: 18%;
-    font-weight: 300;
 }
 .whiteBookImg {
     justify-content: center;
@@ -513,10 +429,6 @@ body{
     background-color: #FF6F04;
     border: none;
     border-radius: 7.5px;
-    color: $background;
-}
-.smarttigersOsnUtilsHeaderSwipe>img{
-    filter: invert(1);
 }
 .dsn{
     position: absolute;
@@ -560,23 +472,18 @@ body{
 }
 .FooterLogoWrapperTagsItems {
     display: grid;
-    font-weight: 500;
-    font-size: 1.2em;
     align-items: center;
     padding: 1% 4%;
     border-radius: 7.5px;
+    font-size: 1em;
     background-color: #101b2985;
     transition: .1s;
     cursor: pointer;
+    color: $background;
 }
-.plBlPurple{
-    filter: blur(0.5) !important;
-    transition: .4s;
-}
-.plBlPurple:hover{
-    filter: blur(0) !important;
-}
+
 .footerSocity{
+    filter: invert(1);
     width: 25%;
     display: grid;
     grid-auto-flow: column;
@@ -584,14 +491,11 @@ body{
     margin-bottom: 4%;
     padding: 0 9%;
     justify-content: center;
-    filter: invert(1);
 }
 
 .footerSocity>img{
     width: 90%;
-    
 }
-
 
 .footerAded {
     width: 100%;
@@ -599,6 +503,9 @@ body{
     grid-template-columns: 1fr 1fr 0.5fr;
     column-gap: 10vw;
     text-align: left;
+}
+.smarttigersOsnUtilsHeaderSwipe>img{
+    filter: invert(1);
 }
 .footerAdedWrapper{
     width: 100%;
@@ -628,7 +535,7 @@ body{
 }
 .smartTigerBigPlanetBack>img{
     z-index: -1;
-    width: 27%;
+    height: 87vh;
     position: absolute;
     top: 259vh;
     left: 73%;
@@ -640,20 +547,6 @@ body{
     width: 20%;
     top: 393vh;
     left: 33.6vw;
-}
-.smarttigersVideo>img{
-    position: absolute;
-    left: 70%;
-    height: 20%;
-    width: auto;
-}
-#d2{
-    top: 250%;
-    left: 54%;
-}
-#d3{
-    top: 310%;
-    left: 85%;
 }
 .teamBlBack>img{
     z-index: -1;
@@ -768,16 +661,16 @@ body{
 }
 
 .FooterLogoWrapperTagsItems:hover{
-    background-color: #101b29ce;
+    background-color: #c9c9c9;
 }
 
 .headerItem:hover{
-    background-color: #d0d1cb;
+    background-color: #c9c9c9;
 }
 
 .textCopied{
     z-index: 10;
-    background-color: #cdcec9;
+    background-color: #27334de6;
     position: fixed;
     top: 93%;
     left: 46%;
@@ -798,9 +691,6 @@ body{
 
 .swiperRoadMapSlideHeader{
     margin-bottom: 6%;
-    font-size: 2em;
-    font-weight: 500;
-    font-family: "SFTextR";
 }
 .swiperSmartTiger{
     width: 84vw;
@@ -821,29 +711,53 @@ body{
 .swiperSlideSmartTigerHeader {
     font-size: 1.4em;
     margin-bottom: 1vh;
-    font-weight: 500;
 }
 .swiperSlideSmartTigerTxt {
     font-size: .9em;
     line-height: 24px;
-    font-weight: 400;
 }
 .displayNone{
-    display: none !important;
+    display: none;
 }
 #planetCenterItem{
     // top: 170px;
     // left: 581px;
 }
-.swiperPlMob{
-    display: none !important;
-}
 .planetsItems {
+    color: $background;
     border-radius: 5px;
     max-width: 18%;
     position: absolute;
     padding: 1% 2%;
     background-color: #101B29;
+}
+.planetsItems >*{
+    color: $background;
+}
+.langtogwrap {
+    z-index: 30;
+    border-radius: 7.5px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #edeee3 !important;
+    color: $color !important;
+    max-width: 10%;
+    left: 80%;
+    position: fixed;
+    padding: 0.3% 1%;
+}
+.langtogwrap :hover{
+    background-color: #dadbd1 !important;
+
+}
+.SmartTokenBLAddsRowItemText >a{
+    color: $background;
+}
+.planetsItems >*>*{
+    color: $background;
 }
 .planetsItemsHeader {
     margin-bottom: 1vh;
@@ -859,64 +773,26 @@ body{
 }
 .planetCenterItemTgBl {
     padding: 2% 2%;
-    align-items: center;
     column-gap: 1vw;
     display: grid;
     grid-template-columns: 1fr 10fr;
 }
-.planetCenterItemTgBl>a{
-    display: block;
-}
-.swiperPlMob {
-    margin-bottom: 5%;
-}
-#langToggle{
-    cursor: pointer;
-}
+
 .languageToggle {
     display: none;
     position:fixed;
     max-width: 8%;
     display: grid;
-    z-index: 400;
-}
-.languageToggleItem:hover{
-    background-color: #babec2;
 }
 .languageToggleItem {
     border-bottom: #E0E1DD 1px solid;
     padding-bottom: .5vh;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 4%;
-    align-items: center;
-    transition-duration: .4s;
-    justify-content: center;
-    cursor:pointer;
-}
-.languageToggleItem>img{
-    width: 85%;
-    padding: 15%;
-    max-width: 60px;
-}
-#themeToggle{
-    cursor: pointer;
 }
 .languageToggleItemImg {
 }
 .languageToggleItemTxt {
 }
-.langtogwrap{
-    z-index: 30;
-    border-radius: 7.5px;
-    display: grid;
-    align-items: center;
-    background-color: $barkcl;
-    max-width: 10%;
-    left: 80%;
-    position: fixed;
-    padding:  0.3% 1%;
-}
+
 .languageToggleItemLast{
     border: none;
 }

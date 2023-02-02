@@ -129,6 +129,38 @@ document.addEventListener("DOMContentLoaded", (e) => {
                 // }
                 // })
             })
+            if (blackTheme == false) {
+                if (lang == 0) {
+                    document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+                    document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/whiteTheme/RoadMapSlider/Complited.svg")
+                    document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/whiteTheme/RoadMapSlider/SecondSlideRoad.svg")
+                    document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/whiteTheme/RoadMapSlider/ThreeSlide.svg")
+                    document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/whiteTheme/RoadMapSlider/FourSlide.svg")
+                }
+                else {
+                    document.querySelector("#st").setAttribute("src", "/img/whiteTheme/sten.svg")
+                    document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/Complited.svg")
+                    document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/SecondSlideRoad.svg")
+                    document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/ThreeSlide.svg")
+                    document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/FourSlide.svg")
+                }
+            }
+            else {
+                if (lang == 0) {
+                    document.querySelector("#st").setAttribute("src", "/img/st.svg")
+                    document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/RoadMapSlider/Complited.svg")
+                    document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/RoadMapSlider/SecondSlideRoad.svg")
+                    document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/RoadMapSlider/ThreeSlide.svg")
+                    document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/RoadMapSlider/FourSlide.svg")
+                }
+                else {
+                    document.querySelector("#st").setAttribute("src", "/img/sten.svg")
+                    document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/RoadMapSlider/en/Complited.svg")
+                    document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/RoadMapSlider/en/SecondSlideRoad.svg")
+                    document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/RoadMapSlider/en/ThreeSlide.svg")
+                    document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/RoadMapSlider/en/FourSlide.svg")
+                }
+            }
             console.log(lang)
             console.log(blackTheme)
 
@@ -409,26 +441,20 @@ function themeToggle() {
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/logo.svg")
         if (lang == 0) {
             document.querySelector("#st").setAttribute("src", "/img/st.svg")
+            document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/RoadMapSlider/Complited.svg")
+            document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/RoadMapSlider/SecondSlideRoad.svg")
+            document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/RoadMapSlider/ThreeSlide.svg")
+            document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/RoadMapSlider/FourSlide.svg")
         }
         else {
             document.querySelector("#st").setAttribute("src", "/img/sten.svg")
+            document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/RoadMapSlider/en/Complited.svg")
+            document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/RoadMapSlider/en/SecondSlideRoad.svg")
+            document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/RoadMapSlider/en/ThreeSlide.svg")
+            document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/RoadMapSlider/en/FourSlide.svg")
         }
         document.querySelector("#themeToggle").querySelector("img").setAttribute("src", "/img/sunny.svg")
-        document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
-            console.log(el)
-            if (i == 0) {
-                el.setAttribute("src", "/img/RoadMapSlider/Complited.svg")
-            }
-            else if (i == 1) {
-                el.setAttribute("src", "/img/RoadMapSlider/SecondSlideRoad.svg")
-            }
-            else if (i == 2) {
-                el.setAttribute("src", "/img/RoadMapSlider/ThreeSlide.svg")
-            }
-            else if (i == 3) {
-                el.setAttribute("src", "/img/RoadMapSlider/FourSlide.svg")
-            }
-        })
+
         l.remove()
     }
     // document.querySelector("body").style.cssText = "background-color: #E0E1DD;"

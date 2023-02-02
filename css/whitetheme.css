@@ -370,6 +370,12 @@ body {
   cursor: pointer;
   border: none;
   color: #E0E1DD;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .langtogwrap {

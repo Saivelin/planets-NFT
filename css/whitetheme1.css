@@ -2,7 +2,7 @@
   font-family: "SFText";
   font-style: normal;
   font-weight: normal;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Regular.otf);
+  src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf);
 }
 @font-face {
   font-family: "SFText";
@@ -11,64 +11,10 @@
   src: url(../fonts/sfprotext/SF-Pro-Display-Heavy.otf);
 }
 @font-face {
-  font-family: "SFText";
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Medium.otf);
-}
-@font-face {
-  font-family: "SFText";
-  font-style: normal;
-  font-weight: 100;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Ultralight.otf);
-}
-@font-face {
-  font-family: "SFText";
-  font-style: normal;
-  font-weight: 200;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Light.otf);
-}
-@font-face {
-  font-family: "SFText";
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sfprotext/SF-Pro-Display-Thin.otf);
-}
-@font-face {
   font-family: "SFTextR";
   font-style: normal;
-  font-weight: 100;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Ultralight.ttf);
-}
-@font-face {
-  font-family: "SFTextR";
-  font-style: normal;
-  font-weight: 200;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Thin.ttf);
-}
-@font-face {
-  font-family: "SFTextR";
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Light.ttf);
-}
-@font-face {
-  font-family: "SFTextR";
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
-}
-@font-face {
-  font-family: "SFTextR";
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Medium.ttf);
-}
-@font-face {
-  font-family: "SFTextR";
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sfprorounded/FontsFree-Net-SF-Pro-Rounded-Heavy.ttf);
+  font-weight: 700;
+  src: url(../fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
 }
 html {
   scroll-behavior: smooth;
@@ -83,22 +29,21 @@ a:hover {
 }
 
 * {
-  color: #E0E1DD;
+  color: #1D2639;
   margin: 0;
-  font-weight: 400;
-  font-family: "SFTextR";
+  font-family: "SFText";
 }
 
 body {
   width: 100%;
   overflow-x: hidden;
   margin-bottom: 5%;
-  background-color: #1D2639;
+  background-color: #E0E1DD;
 }
 
 .header {
   z-index: 5;
-  background-color: #1D2639;
+  background-color: #E0E1DD;
   top: 0;
   z-index: 2s;
   position: sticky;
@@ -107,13 +52,13 @@ body {
   grid-auto-flow: column;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  border-bottom: 0.5px rgba(224, 225, 221, 0.5215686275) solid;
+  border-bottom: 0.5px #1D2639 solid;
   padding: 0% 10%;
 }
 
 .headerItem {
   border-left: 0px solid;
-  border-right: 0.5px rgba(224, 225, 221, 0.5215686275) solid;
+  border-right: 0.5px #1D2639 solid;
   display: -ms-grid !important;
   display: grid !important;
   -webkit-box-align: center;
@@ -132,7 +77,7 @@ body {
   padding-left: 50%;
   border: none;
   height: 73%;
-  border-right: 1px solid rgba(224, 225, 221, 0.5215686275);
+  border-right: 1px solid #1D2639;
 }
 
 .headerItemF > img {
@@ -144,7 +89,7 @@ body {
   padding-right: 10%;
   grid-auto-flow: column;
   border: none;
-  border-left: 1px solid rgba(224, 225, 221, 0.5215686275);
+  border-left: 1px solid #1D2639;
 }
 
 .headerItemL > img {
@@ -175,7 +120,6 @@ body {
 .headerSTBl {
   font-size: 4em;
   font-family: "SFTextR";
-  font-weight: 500;
 }
 
 .headerSTBlMini {
@@ -186,7 +130,7 @@ body {
           align-items: center;
   text-align: right;
   font-size: 1.7em;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .mainSmartTokenBL {
@@ -203,7 +147,6 @@ body {
 .mainSmartTokenBLTxt {
   font-size: 1.31em;
   margin-bottom: 8%;
-  line-height: 140%;
 }
 
 .smttBack {
@@ -328,35 +271,23 @@ body {
 
 .smarttigersHeader {
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 100;
   font-family: "SFTextR";
   margin-bottom: 5%;
-}
-
-.smarttigersTextSt {
-  font-size: 1.3em;
-  line-height: 170%;
-}
-
-.smarttigersTextSt1 {
-  font-size: 1.3em;
-  line-height: 170%;
 }
 
 .smarttigersText {
   font-size: 0.9em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 16% 1fr;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 16%;
+  -ms-grid-rows: 1fr 30% 1.7fr;
+  grid-template-rows: 1fr 1.7fr;
+  row-gap: 30%;
   line-height: 24px;
   margin-bottom: 15%;
 }
 
 .smarttigersOrangeTxt {
-  font-size: 1.3em;
-  line-height: 170%;
   color: #FF6F04;
   font-weight: 600;
 }
@@ -364,11 +295,12 @@ body {
 .smarttigersBtn {
   font-size: 1em;
   width: 27%;
-  padding: 1% 4%;
+  padding: 0% 4%;
   background-color: #FF6F04;
   border-radius: 7.5px;
   cursor: pointer;
   border: none;
+  color: #E0E1DD;
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
@@ -400,7 +332,7 @@ body {
 
 .smarttigersOsnUtilsHeader {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .smarttigersOsnUtilsHeaderSwipe {
@@ -511,7 +443,6 @@ body {
 .teamWrapperHeader {
   font-size: 4em;
   font-family: "SFTextR";
-  font-weight: 500;
 }
 
 .teamWrapperMain {
@@ -536,15 +467,7 @@ body {
 }
 
 .teamWrapperMainItem:hover {
-  background-color: rgba(70, 89, 116, 0.8156862745);
-}
-
-.smttBackH {
-  font-weight: 500;
-}
-
-.SmartTokenBLAddsRowItemHeader {
-  font-weight: 500;
+  opacity: 1;
 }
 
 .teamWrapperMainItemHeader {
@@ -552,7 +475,6 @@ body {
   font-family: "SFTextR";
   margin-bottom: 2%;
   margin-top: 4%;
-  font-weight: 500;
 }
 
 .teamWrapperMainItemAbout {
@@ -565,11 +487,10 @@ body {
 }
 
 .teamWrapperMainItemAboutText {
-  color: #E0E1DD;
+  color: #1D2639;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 100;
   padding: 4% 12%;
-  text-align: left;
   line-height: 36px;
 }
 
@@ -597,13 +518,11 @@ body {
   font-size: 4em;
   font-family: "SFTextR";
   margin-bottom: 8%;
-  font-weight: 500;
 }
 
 .whiteBookTxtTxt {
   line-height: 24px;
   margin-bottom: 18%;
-  font-weight: 300;
 }
 
 .whiteBookImg {
@@ -695,32 +614,22 @@ body {
 .FooterLogoWrapperTagsItems {
   display: -ms-grid;
   display: grid;
-  font-weight: 500;
-  font-size: 1.2em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 1% 4%;
   border-radius: 7.5px;
+  font-size: 1em;
   background-color: rgba(16, 27, 41, 0.5215686275);
   -webkit-transition: 0.1s;
   transition: 0.1s;
   cursor: pointer;
-}
-
-.plBlPurple {
-  -webkit-filter: blur(0.5) !important;
-          filter: blur(0.5) !important;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.plBlPurple:hover {
-  -webkit-filter: blur(0) !important;
-          filter: blur(0) !important;
+  color: #E0E1DD;
 }
 
 .footerSocity {
+  -webkit-filter: invert(1);
+          filter: invert(1);
   width: 25%;
   display: -ms-grid;
   display: grid;
@@ -749,6 +658,11 @@ body {
      -moz-column-gap: 10vw;
           column-gap: 10vw;
   text-align: left;
+}
+
+.smarttigersOsnUtilsHeaderSwipe > img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .footerAdedWrapper {
@@ -788,7 +702,7 @@ body {
 
 .smartTigerBigPlanetBack > img {
   z-index: -1;
-  width: 27%;
+  height: 87vh;
   position: absolute;
   top: 259vh;
   left: 73%;
@@ -802,23 +716,6 @@ body {
   width: 20%;
   top: 393vh;
   left: 33.6vw;
-}
-
-.smarttigersVideo > img {
-  position: absolute;
-  left: 70%;
-  height: 20%;
-  width: auto;
-}
-
-#d2 {
-  top: 250%;
-  left: 54%;
-}
-
-#d3 {
-  top: 310%;
-  left: 85%;
 }
 
 .teamBlBack > img {
@@ -2121,11 +2018,11 @@ body {
 }
 
 .FooterLogoWrapperTagsItems:hover {
-  background-color: rgba(16, 27, 41, 0.8078431373);
+  background-color: #c9c9c9;
 }
 
 .headerItem:hover {
-  background-color: #27334d;
+  background-color: #c9c9c9;
 }
 
 .textCopied {
@@ -2153,9 +2050,6 @@ body {
 
 .swiperRoadMapSlideHeader {
   margin-bottom: 6%;
-  font-size: 2em;
-  font-weight: 500;
-  font-family: "SFTextR";
 }
 
 .swiperSmartTiger {
@@ -2180,29 +2074,56 @@ body {
 .swiperSlideSmartTigerHeader {
   font-size: 1.4em;
   margin-bottom: 1vh;
-  font-weight: 500;
 }
 
 .swiperSlideSmartTigerTxt {
   font-size: 0.9em;
   line-height: 24px;
-  font-weight: 400;
 }
 
 .displayNone {
-  display: none !important;
-}
-
-.swiperPlMob {
-  display: none !important;
+  display: none;
 }
 
 .planetsItems {
+  color: #E0E1DD;
   border-radius: 5px;
   max-width: 18%;
   position: absolute;
   padding: 1% 2%;
   background-color: #101B29;
+}
+
+.planetsItems > * {
+  color: #E0E1DD;
+}
+
+.langtogwrap {
+  z-index: 30;
+  border-radius: 7.5px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #edeee3 !important;
+  color: #1D2639 !important;
+  max-width: 10%;
+  left: 80%;
+  position: fixed;
+  padding: 0.3% 1%;
+}
+
+.langtogwrap :hover {
+  background-color: #dadbd1 !important;
+}
+
+.SmartTokenBLAddsRowItemText > a {
+  color: #E0E1DD;
+}
+
+.planetsItems > * > * {
+  color: #E0E1DD;
 }
 
 .planetsItemsHeader {
@@ -2222,9 +2143,6 @@ body {
 
 .planetCenterItemTgBl {
   padding: 2% 2%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-column-gap: 1vw;
      -moz-column-gap: 1vw;
           column-gap: 1vw;
@@ -2234,75 +2152,17 @@ body {
   grid-template-columns: 1fr 10fr;
 }
 
-.planetCenterItemTgBl > a {
-  display: block;
-}
-
-.swiperPlMob {
-  margin-bottom: 5%;
-}
-
-#langToggle {
-  cursor: pointer;
-}
-
 .languageToggle {
   display: none;
   position: fixed;
   max-width: 8%;
   display: -ms-grid;
   display: grid;
-  z-index: 400;
-}
-
-.languageToggleItem:hover {
-  background-color: #1e324d;
 }
 
 .languageToggleItem {
   border-bottom: #E0E1DD 1px solid;
   padding-bottom: 0.5vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 4% 3fr;
-  grid-template-columns: 1fr 3fr;
-  -webkit-column-gap: 4%;
-     -moz-column-gap: 4%;
-          column-gap: 4%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-}
-
-.languageToggleItem > img {
-  width: 85%;
-  padding: 15%;
-  max-width: 60px;
-}
-
-#themeToggle {
-  cursor: pointer;
-}
-
-.langtogwrap {
-  z-index: 30;
-  border-radius: 7.5px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #101B29;
-  max-width: 10%;
-  left: 80%;
-  position: fixed;
-  padding: 0.3% 1%;
 }
 
 .languageToggleItemLast {

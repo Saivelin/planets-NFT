@@ -17,7 +17,7 @@ let langArr = {
     ],
     "whiteBookHeader": [
         "БЕЛАЯ КНИГА",
-        "WHITE BOOK PAPER"
+        "WHITE PAPER"
     ],
     "teamWrapperMainItemAboutText": [
         "Команда разработчиков, которые могут не только хорошо создавать Telegram ботов, сайты и привлекать трафик, но и строить качественный крипто- проект на TON, чем мы и занимаемся.",

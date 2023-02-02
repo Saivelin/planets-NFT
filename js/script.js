@@ -325,9 +325,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
         document.querySelector('.navigationMobile').style.cssText = ''
     })
     let coorsVid = getOffsetSum(document.querySelector(".smarttigersVideo"))
-    document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 90}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
+    document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 160}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
     document.querySelector("#d2").style.cssText = `top: ${coorsVid.top - (((document.querySelector("#smtvid").offsetHeight) / 100) * 10)}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 10)}px;`
     if (window.innerWidth <= 480) {
+        document.querySelector("#d3").style.cssText = `top: ${coorsVid.top + (document.querySelector("#smtvid").offsetHeight / 100) * 90}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 90)}px;`
+        document.querySelector("#d2").style.cssText = `top: ${coorsVid.top - (((document.querySelector("#smtvid").offsetHeight) / 100) * 10)}px; left: ${coorsVid.left + ((document.querySelector("#smtvid").offsetWidth / 100) * 10)}px;`
         document.querySelector(".swiperPlMob").classList.remove("displayNone")
         console.log('res')
         document.querySelector(".headerItemF").innerHTML = "<img src='/img/mobileLogoHeader.svg' alt='f'/>"

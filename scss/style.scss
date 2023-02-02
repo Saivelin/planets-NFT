@@ -308,6 +308,9 @@ body{
     border-radius: 7.5px;
     cursor: pointer;
     border: none;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
 .smarttigersVideo >video{
     width: 90%;

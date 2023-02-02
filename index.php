@@ -446,7 +446,7 @@
                                 1 миллиона пользователей в проекты Smart Team.</p>
                         </div>
                     </div>
-                    <button class="smarttigersBtn langtrans">Купить NFT</button>
+                    <a class="smarttigersBtn langtrans" href="https://t.me/SmartTigersBot">Купить NFT</a>
                 </div>
                 <div class="smarttigersVideo">
                     <img src="/img/2d.svg" alt="" id="d2">
@@ -708,7 +708,7 @@
                         раскрывается экономика проекта, описываются
                         преимущества инвестирования в него.
                     </p>
-                    <button class="whiteBookBtn langtrans">Открыть Белую Книгу</button>
+                    <a class="whiteBookBtn langtrans" href="smartteam.gitbook.io">Открыть Белую Книгу</a>
                 </div>
                 <div class="whiteBookImg">
                     <img src="/img/whitebookimg.svg" alt="">

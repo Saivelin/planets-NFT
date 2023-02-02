@@ -309,6 +309,9 @@ body{
     cursor: pointer;
     border: none;
     color: $background;
+    display: grid;
+    align-items: center;
+    text-align: center;
 }
 .langtogwrap{background-color: #cecfcb !important;}
 .languageToggleItem :hover{

@@ -2217,7 +2217,7 @@ body {
   max-width: 18%;
   position: absolute;
   padding: 1% 2%;
-  background-color: #101B29;
+  background-color: rgb(203, 204, 198) !important;
 }
 
 .planetsItemsHeader {

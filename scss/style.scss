@@ -143,6 +143,12 @@ body{
 .headerItemL>img{
     width: 38%;
 }
+// .headerItemL:hover{
+//     background-color: unset;
+// }
+// .headerItemL>div :hover{
+//     background-color: #27334d;
+// }
 
 .main {
     padding: 0% 15%;
@@ -179,7 +185,7 @@ body{
     width: 100%;
 }
 .mainSmartTokenBLTxt {
-    font-size: 1.31em;
+    font-size: 1.2em;
     margin-bottom: 8%;
     line-height: 140%;
 }
@@ -220,6 +226,8 @@ body{
     font-size: .9em;
 }
 .mainSmartTokenBLWrapper{
+    display: grid;
+    grid-template-rows: 1fr;
 }
 .SmartTokenBLAdds {
     display: grid;
@@ -234,6 +242,8 @@ body{
     padding: 1.2% 2%;
     background-color: $barkcl;
     border-radius: 10px;
+    row-gap: 12px;
+
     opacity: 0.7;
     display: grid;
     box-shadow: #161d2c 0px 8px 10px;
@@ -246,12 +256,12 @@ body{
     opacity: 1;
 }
 .SmartTokenBLAddsRowItemHeader {
-    font-size: 1em;
+    font-size: 1.03em;
     background-color: $barkcl;
 
 }
 .SmartTokenBLAddsRowItemText {
-    font-size: .8em;
+    font-size: .89em;
     background-color: $barkcl;
 }
 .SmartTokenBLAddsRowItemOnesed{
@@ -276,7 +286,7 @@ body{
     font-size: $headerFontSize;
     font-weight: 500;
     font-family: "SFTextR";
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 .smarttigersTextSt {
     font-size: 1.3em;
@@ -302,8 +312,8 @@ body{
 }
 .smarttigersBtn {
     font-size: 1em;
-    width: 27%;
-    padding: 1% 4%;
+    width: 18%;
+    padding: 2.5% 4%;
     background-color: #FF6F04;
     border-radius: 7.5px;
     cursor: pointer;
@@ -311,6 +321,9 @@ body{
     display: grid;
     align-items: center;
     text-align: center;
+}
+.small-blocks-wrapper{
+    display: none;
 }
 .smarttigersVideo >video{
     width: 90%;
@@ -458,12 +471,12 @@ body{
     // width: 80%;
 }
 .teamWrapperMainItemAboutText{
-    color:$color;
-    font-size: 1em;
-    font-weight: 400;
-    padding: 4% 12%;
+    color: $color;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 4% 6%;
     text-align: left;
-    line-height: 36px;
+    line-height: 30px;
 }
 .teamWrapperMainItemAb{
     display: grid;
@@ -488,9 +501,10 @@ body{
     font-weight: 500;
 }
 .whiteBookTxtTxt {
-    line-height: 24px;
+    line-height: 40px;
     margin-bottom: 18%;
     font-weight: 300;
+    font-size: 1.3em;
 }
 .whiteBookImg {
     justify-content: center;
@@ -532,6 +546,9 @@ body{
     display: grid;
     column-gap: 16%;
     grid-auto-flow: column;
+    column-gap: 15%;
+    grid-auto-flow: column;
+    grid-template-columns: .4fr 1fr;
 }
 .FooterLogoWrapper>img{
     width: 135%;
@@ -539,6 +556,7 @@ body{
 .footerHeaderHeader {
     display: grid;
     grid-auto-flow: column;
+    font-weight: 500;
     font-family: "SFTextR";
 }
 .FooterLogoWrapperTags {
@@ -677,6 +695,30 @@ body{
     grid-row-start: 1;
     grid-column-end: 8;
     grid-row-end: 4;
+}
+.plBlBlue:hover  #plBlBlueItem {
+    display:block !important;
+}
+.plBlMoon:hover  #plBlMoonItem {
+    display:block !important;
+}
+.plBlPurple:hover  #plBlPurpleItem {
+    display:block !important;
+}
+.plBlOrange:hover  #plBlOrangeItem {
+    display:block !important;
+}
+.plBlYelpurp:hover #plBlYelpurpItem{
+    display:block !important;
+}
+.plBlRed:hover #plBlRedItem{
+    display:block !important;
+}
+.plBlYellow:hover #plBlYellowItem{
+    display:block !important;
+}
+.plBlPink:hover #plBlPinkItem{
+    display:block !important;
 }
 .plBlMoon{
     grid-column-start: 10;
@@ -831,6 +873,7 @@ body{
     max-width: 18%;
     position: absolute;
     padding: 1% 2%;
+    transition-duration: .4s;
     background-color: #101B29;
 }
 .planetsItemsHeader {

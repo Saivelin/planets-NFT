@@ -1,0 +1,30 @@
+{
+  "name": "panetsnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saivelin/planets-NFT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saivelin/planets-NFT/issues"
+  },
+  "homepage": "https://github.com/Saivelin/planets-NFT#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "swiper": "^9.0.1"
+  }
+}

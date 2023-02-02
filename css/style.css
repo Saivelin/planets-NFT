@@ -201,7 +201,7 @@ body {
 }
 
 .mainSmartTokenBLTxt {
-  font-size: 1.31em;
+  font-size: 1.2em;
   margin-bottom: 8%;
   line-height: 140%;
 }
@@ -253,6 +253,13 @@ body {
   font-size: 0.9em;
 }
 
+.mainSmartTokenBLWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+}
+
 .SmartTokenBLAdds {
   display: -ms-grid;
   display: grid;
@@ -273,6 +280,7 @@ body {
   padding: 1.2% 2%;
   background-color: #101B29;
   border-radius: 10px;
+  row-gap: 12px;
   opacity: 0.7;
   display: -ms-grid;
   display: grid;
@@ -291,12 +299,12 @@ body {
 }
 
 .SmartTokenBLAddsRowItemHeader {
-  font-size: 1em;
+  font-size: 1.03em;
   background-color: #101B29;
 }
 
 .SmartTokenBLAddsRowItemText {
-  font-size: 0.8em;
+  font-size: 0.89em;
   background-color: #101B29;
 }
 
@@ -330,7 +338,7 @@ body {
   font-size: 4em;
   font-weight: 500;
   font-family: "SFTextR";
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .smarttigersTextSt {
@@ -363,8 +371,8 @@ body {
 
 .smarttigersBtn {
   font-size: 1em;
-  width: 27%;
-  padding: 1% 4%;
+  width: 18%;
+  padding: 2.5% 4%;
   background-color: #FF6F04;
   border-radius: 7.5px;
   cursor: pointer;
@@ -375,6 +383,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.small-blocks-wrapper {
+  display: none;
 }
 
 .smarttigersVideo > video {
@@ -566,11 +578,11 @@ body {
 
 .teamWrapperMainItemAboutText {
   color: #E0E1DD;
-  font-size: 1em;
-  font-weight: 400;
-  padding: 4% 12%;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding: 4% 6%;
   text-align: left;
-  line-height: 36px;
+  line-height: 30px;
 }
 
 .teamWrapperMainItemAb {
@@ -601,9 +613,10 @@ body {
 }
 
 .whiteBookTxtTxt {
-  line-height: 24px;
+  line-height: 40px;
   margin-bottom: 18%;
   font-weight: 300;
+  font-size: 1.3em;
 }
 
 .whiteBookImg {
@@ -664,6 +677,12 @@ body {
      -moz-column-gap: 16%;
           column-gap: 16%;
   grid-auto-flow: column;
+  -webkit-column-gap: 15%;
+     -moz-column-gap: 15%;
+          column-gap: 15%;
+  grid-auto-flow: column;
+  -ms-grid-columns: 0.4fr 15% 1fr;
+  grid-template-columns: 0.4fr 1fr;
 }
 
 .FooterLogoWrapper > img {
@@ -674,6 +693,7 @@ body {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
+  font-weight: 500;
   font-family: "SFTextR";
 }
 
@@ -868,6 +888,38 @@ body {
   grid-column-end: 8;
   -ms-grid-row-span: 3;
   grid-row-end: 4;
+}
+
+.plBlBlue:hover #plBlBlueItem {
+  display: block !important;
+}
+
+.plBlMoon:hover #plBlMoonItem {
+  display: block !important;
+}
+
+.plBlPurple:hover #plBlPurpleItem {
+  display: block !important;
+}
+
+.plBlOrange:hover #plBlOrangeItem {
+  display: block !important;
+}
+
+.plBlYelpurp:hover #plBlYelpurpItem {
+  display: block !important;
+}
+
+.plBlRed:hover #plBlRedItem {
+  display: block !important;
+}
+
+.plBlYellow:hover #plBlYellowItem {
+  display: block !important;
+}
+
+.plBlPink:hover #plBlPinkItem {
+  display: block !important;
 }
 
 .plBlMoon {
@@ -2202,6 +2254,8 @@ body {
   max-width: 18%;
   position: absolute;
   padding: 1% 2%;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
   background-color: #101B29;
 }
 

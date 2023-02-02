@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Token</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="/css/swiper.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
 </head>
@@ -134,107 +134,117 @@
                     </div>
                 </div>
                 <img src="/img/planets/center.svg" alt="" class="plBlCenter">
-
-                <div id="plBlBlueItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Сервис в Telegram выступающий ресурсом
-                        для начального взаимодействия между заказчиками
-                        и исполнителями, между инвесторами и стартапами.
-                        <br><br>
-                        Скоро.
-                    </p>
+                <div class="plBlBlue">
+                    <div id="plBlBlueItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Сервис в Telegram выступающий ресурсом
+                            для начального взаимодействия между заказчиками
+                            и исполнителями, между инвесторами и стартапами.
+                            <br><br>
+                            Скоро.
+                        </p>
+                    </div>
+                    <img src="/img/planets/blue.svg" alt="">
                 </div>
-                <img src="/img/planets/blue.svg" alt="" class="plBlBlue">
-
-                <div id="plBlMoonItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Универсальный токен для использования
-                        во всех сервисах команды Smart Team
-                        на блокчейне The Open Network (TON)</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>thesmarttoken</p>
-                    </a>
+                <div class="plBlMoon">
+                    <div id="plBlMoonItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Универсальный токен для использования
+                            во всех сервисах команды Smart Team
+                            на блокчейне The Open Network (TON)</p>
+                        <a class="planetCenterItemTgBl" target="TRUE" href="https://t.me/thesmarttoken">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>thesmarttoken</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/moon.svg" alt="">
                 </div>
-                <img src="/img/planets/moon.svg" alt="" class="plBlMoon">
-
-                <div id="plBlPurpleItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">RESALEMARKET </h4>
-                    <p class="planetsItemsTxt planetsItemsTxt4 langtrans">Cервис для крипто-энтузиастов
-                        и IT предпринимателей,
-                        которые занимаются продвижением
-                        своих проектов, а также
-                        перепродажей своих активов.</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>ResaleMarketBot</p>
-                    </a>
+                <div class="plBlPurple">
+                    <div id="plBlPurpleItem" class="planetsItems displayNone" style="min-width: 103%;max-width: unset;">
+                        <h4 class="planetsItemsHeader">RESALEMARKET </h4>
+                        <p class="planetsItemsTxt planetsItemsTxt4 langtrans">Cервис для крипто-энтузиастов
+                            и IT предпринимателей,
+                            которые занимаются продвижением
+                            своих проектов, а также
+                            перепродажей своих активов.</p>
+                        <a class="planetCenterItemTgBl" target="TRUE" href="https://t.me/ResaleMarketBot">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>ResaleMarketBot</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/purple.svg" alt="">
                 </div>
-                <img src="/img/planets/purple.svg" alt="" class="plBlPurple">
-
-                <div id="plBlOrangeItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt5 langtrans">NFT-коллекция из 4999+ уникальных тигров,
-                        которые олицетворяют своё комьюнити,
-                        помогающее всё больше и больше
-                        прогрессировать проекту с каждым днём.</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>SmartTigers</p>
-                    </a>
+                <div class="plBlOrange">
+                    <div id="plBlOrangeItem" class="planetsItems displayNone">
+                        <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt5 langtrans">NFT-коллекция из 4999+ уникальных тигров,
+                            которые олицетворяют своё комьюнити,
+                            помогающее всё больше и больше
+                            прогрессировать проекту с каждым днём.</p>
+                        <a class="planetCenterItemTgBl" target="TRUE" href="https://t.me/SmartTigers">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>SmartTigers</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/orange.svg" alt="">
                 </div>
-                <img src="/img/planets/orange.svg" alt="" class="plBlOrange">
-
-                <div id="plBlYelpurpItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">RESALENFT</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Проект помогает пользователям
-                        безопасно совершать P2P сделки
-                        по покупке/продаже НФТ на блокчейне TON.</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>resalenftbot</p>
-                    </a>
+                <div class="plBlYelpurp">
+                    <div id="plBlYelpurpItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">RESALENFT</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Проект помогает пользователям
+                            безопасно совершать P2P сделки
+                            по покупке/продаже НФТ на блокчейне TON.</p>
+                        <a class="planetCenterItemTgBl" target="TRUE" href="https://t.me/resalenftbot">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>resalenftbot</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/yelpurp.svg" alt="">
                 </div>
-                <img src="/img/planets/yelpurp.svg" alt="" class="plBlYelpurp">
-
-                <div id="plBlRedItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">SMARTTON</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Закрытый чат<br>
-                        Комьюнити Smart TON.</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>SmartTigersHoldBot</p>
-                    </a>
+                <div class="plBlRed">
+                    <div id="plBlRedItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">SMARTTON</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Закрытый чат<br>
+                            Комьюнити Smart TON.</p>
+                        <a class="planetCenterItemTgBl" target="TRUE" href="https://t.me/SmartTigersHoldBot">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>SmartTigersHoldBot</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/red.svg" alt="">
                 </div>
-                <img src="/img/planets/red.svg" alt="" class="plBlRed">
 
-                <div id="plBlYellowItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
-                        главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
-                    <a class="planetCenterItemTgBl">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>CenterTONa</p>
-                    </a>
+                <div class="plBlYellow">
+                    <div id="plBlYellowItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
+                            главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
+                        <a class="planetCenterItemTgBl" target="TRUE">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>CenterTONa</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/yellow.svg" alt="">
                 </div>
-                <img src="/img/planets/yellow.svg" alt="" class="plBlYellow">
-
-                <div id="plBlPinkItem" class="planetsItems displayNone oprev">
-                    <h4 class="planetsItemsHeader">THETONCHAT</h4>
-                    <p class="planetsItemsTxt planetsItemsTxt9 langtrans">Общий чат Комьюнити TON.</p>
-                    <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat">
-                        <img src="/img/tgelegram.svg" alt="">
-                        <p>TheTonChat</p>
-                    </a>
+                <div class="plBlPink">
+                    <div id="plBlPinkItem" class="planetsItems displayNone ">
+                        <h4 class="planetsItemsHeader">THETONCHAT</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt9 langtrans">Общий чат Комьюнити TON.</p>
+                        <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat" target="TRUE">
+                            <img src="/img/tgelegram.svg" alt="">
+                            <p>TheTonChat</p>
+                        </a>
+                    </div>
+                    <img src="/img/planets/pink.svg" alt="">
                 </div>
-                <img src="/img/planets/pink.svg" alt="" class="plBlPink">
             </div>
         </div>
         <div class="swiper swiperPlMob ">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobBluePl" style="background-repeat: no-repeat !important;
+    background-position: left !important;">
                         <h4 class="planetsItemsHeader">CENTERTONA</h4>
                         <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис в Telegram выступающий ресурсом
                             для начального взаимодействия между заказчиками
@@ -244,84 +254,91 @@
                         </p>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobMoonPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
                         <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Универсальный токен для использования
                             во всех сервисах команды Smart Team
                             на блокчейне The Open Network (TON)</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken">
+                        <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>thesmarttoken</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPurpPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">RESALEMARKET </h4>
                         <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Cервис для крипто-энтузиастов
                             и IT предпринимателей,
                             которые занимаются продвижением
                             своих проектов, а также
                             перепродажей своих активов.</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot">
+                        <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>ResaleMarketBot</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobOrangPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
                         <p class="planetsItemsTxt planetsItemsTxt4 langtrans">NFT-коллекция из 4999+ уникальных тигров,
                             которые олицетворяют своё комьюнити,
                             помогающее всё больше и больше
                             прогрессировать проекту с каждым днём.</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers">
+                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>SmartTigers</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPurpYellPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">RESALENFT</h4>
                         <p class="planetsItemsTxt planetsItemsTxt5 langtrans">Проект помогает пользователям
                             безопасно совершать P2P сделки
                             по покупке/продаже НФТ на блокчейне TON.</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot">
+                        <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>resalenftbot</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobRedPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">SMARTTON</h4>
                         <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Закрытый чат<br>
                             Комьюнити Smart TON.</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot">
+                        <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>SmartTigersHoldBot</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobYelPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">CENTERTONA</h4>
                         <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
                             главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
-                        <a class="planetCenterItemTgBl">
+                        <a class="planetCenterItemTgBl" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>CenterTONa</p>
                         </a>
                     </div>
                 </div>
-                <div class="swiper-slide swiperSlideSmartTiger">
-                    <div class="swiperSlideSmartTigerWrapper">
+                <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
+                    <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPinkPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
                         <h4 class="planetsItemsHeader">THETONCHAT</h4>
                         <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Общий чат Комьюнити TON.</p>
-                        <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat">
+                        <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat" target="TRUE">
                             <img src="/img/tgelegram.svg" alt="">
                             <p>TheTonChat</p>
                         </a>
@@ -359,7 +376,8 @@
                         <div class="smttBackTitleWrapper">
                             <h6 class="smttBackH">SMART on TON Chain</h6>
                             <div id="SMARTonTONChain"><img style="cursor: pointer;" src="/img/copy.svg"
-                                    alt=""></img><input type="text" class="dsn" value="EQB8OK7t8M...70GEULQ6zM">
+                                    alt=""></img><input type="text" class="dsn"
+                                    value="EQB8OK7t8MPVHIJfxBgQhpRS8tSbC2Up-HVCSs70GEULQ6zM">
                             </div>
 
                         </div>
@@ -399,7 +417,8 @@
                             первичной
                             покупки NFT только с
                             помощью -
-                            <a href="https://t.me/SmartTigersBot">https://t.me/SmartTigersBot</a> с расчетом 1 NFT=1000
+                            <a target="TRUE" href="https://t.me/SmartTigersBot">https://t.me/SmartTigersBot</a> с
+                            расчетом 1 NFT=1000
                             SMART.*Количество
                             ограниченно и
                             это
@@ -446,7 +465,7 @@
                                 1 миллиона пользователей в проекты Smart Team.</p>
                         </div>
                     </div>
-                    <a class="smarttigersBtn langtrans" href="https://t.me/SmartTigersBot">Купить NFT</a>
+                    <a class="smarttigersBtn langtrans" href="https://t.me/SmartTigersBot" target="TRUE">Купить NFT</a>
                 </div>
                 <div class="smarttigersVideo">
                     <img src="/img/2d.svg" alt="" id="d2">
@@ -558,26 +577,26 @@
                     </div> -->
                     <div class="smarttigersOsnUtilsTgsWrapper">
                         <div class="smarttigersOsnUtilsTgs">
-                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersBot">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersBot" target="TRUE">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt1 langtrans">
                                     Первичный минт с ограниченным
                                     саплаем
                                     в 1500 NFT по 10 Toncoin</p>
                             </a>
-                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersAppBot">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersAppBot" target="TRUE">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt">Web App</p>
                             </a>
                         </div>
                         <div class="smarttigersOsnUtilsTgs">
-                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersHoldBot">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigersHoldBot" target="TRUE">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt3 langtrans">
                                     Верификация в
                                     чат Холдеров</p>
                             </a>
-                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigers">
+                            <a class="smarttigersOsnUtilsTgsItem" href="https://t.me/SmartTigers" target="TRUE">
                                 <img src="/img/tg.svg" alt="">
                                 <p class="smarttigersOsnUtilsTgsItemTxt smarttigersOsnUtilsTgsItemTxt4 langtrans">
                                     Основной канал</p>
@@ -708,7 +727,7 @@
                         раскрывается экономика проекта, описываются
                         преимущества инвестирования в него.
                     </p>
-                    <a class="whiteBookBtn langtrans" href="smartteam.gitbook.io">Открыть Белую Книгу</a>
+                    <a class="whiteBookBtn langtrans" href="smartteam.gitbook.io" target="TRUE">Открыть Белую Книгу</a>
                 </div>
                 <div class="whiteBookImg">
                     <img src="/img/whitebookimg.svg" alt="">
@@ -725,34 +744,36 @@
             </div>
             <div class="FooterLogoWrapperTags">
                 <div class="FooterLogoWrapperTagsItemsWrapper">
-                    <a href="https://t.me/SmartTigers" class="FooterLogoWrapperTagsItems">SmartTigers <input type="text"
-                            class="dsn" value="SmartTigers"></a>
-                    <a href="https://t.me/thesmarttoken" class="FooterLogoWrapperTagsItems">TheSmartToken <input
-                            type="text" class="dsn" value="TheSmartToken"></a>
-                    <a href="https://t.me/SmartTigersHoldBot" class="FooterLogoWrapperTagsItems">SmartTigersHoldBot
+                    <a href="https://t.me/SmartTigers" class="FooterLogoWrapperTagsItems" target="TRUE">SmartTigers
+                        <input type="text" class="dsn" value="SmartTigers"></a>
+                    <a href="https://t.me/thesmarttoken" class="FooterLogoWrapperTagsItems" target="TRUE">TheSmartToken
+                        <input type="text" class="dsn" value="TheSmartToken"></a>
+                    <a href="https://t.me/SmartTigersHoldBot" class="FooterLogoWrapperTagsItems"
+                        target="TRUE">SmartTigersHoldBot
                         <input type="text" class="dsn" value="SmartTigersHoldBot"></a>
                 </div>
                 <div class="FooterLogoWrapperTagsItemsWrapper">
-                    <a href="https://t.me/ResaleMarketBot" class="FooterLogoWrapperTagsItems">ResaleMarketBot <input
-                            type="text" class="dsn" value="ResaleMarketBot"></a>
-                    <a href="https://t.me/resalenftbot" class="FooterLogoWrapperTagsItems">ResaleNFTBot <input
-                            type="text" class="dsn" value="ResaleNFTBot"></a>
-                    <a href="https://t.me/CenterTONa" class="FooterLogoWrapperTagsItems">CenterTONa <input type="text"
-                            class="dsn" value="CenterTONa"></a>
-                    <a href="https://t.me/TheTonChat" class="FooterLogoWrapperTagsItems">TheTONChat <input type="text"
-                            class="dsn" value="TheTONChat"></a>
+                    <a href="https://t.me/ResaleMarketBot" class="FooterLogoWrapperTagsItems"
+                        target="TRUE">ResaleMarketBot <input type="text" class="dsn" value="ResaleMarketBot"></a>
+                    <a href="https://t.me/resalenftbot" class="FooterLogoWrapperTagsItems" target="TRUE">ResaleNFTBot
+                        <input type="text" class="dsn" value="ResaleNFTBot"></a>
+                    <a href="https://t.me/CenterTONa" class="FooterLogoWrapperTagsItems" target="TRUE">CenterTONa <input
+                            type="text" class="dsn" value="CenterTONa"></a>
+                    <a href="https://t.me/TheTonChat" class="FooterLogoWrapperTagsItems" target="TRUE">TheTONChat <input
+                            type="text" class="dsn" value="TheTONChat"></a>
                 </div>
             </div>
         </div>
         <div class="footerSocity">
-            <a href="https://t.me/SmartTigers"><img src="/img/tgelegram.svg" alt=""></a>
-            <a href="https://t.me/thesmarttoken"><img src="/img/tgelegram.svg" alt=""></a>
-            <a href="https://vk.com/smarttigers"><img src="/img/vk.svg" alt=""></a>
-            <a href="https://twitter.com/tonnftteam"><img src="/img/twitter.svg" alt=""></a>
+            <a href="https://t.me/SmartTigers" target="TRUE"><img src="/img/tgelegram.svg" alt=""></a>
+            <a href="https://t.me/thesmarttoken" target="TRUE"><img src="/img/tgelegram.svg" alt=""></a>
+            <a href="https://vk.com/smarttigers" target="TRUE"><img src="/img/vk.svg" alt=""></a>
+            <a href="https://twitter.com/tonnftteam" target="TRUE"><img src="/img/twitter.svg" alt=""></a>
         </div>
         <div class="footerAdedWrapper">
             <div class="footerAded">
-                <p class="footerAdedTxt">Listing/Contact: <a href="info@smartteam.pro">info@smartteam.pro</a><br>
+                <p class="footerAdedTxt">Listing/Contact: <a target="TRUE"
+                        href="info@smartteam.pro">info@smartteam.pro</a><br>
                     Telegram: @ceoprod</p>
                 <p class="footerAdedTxt langtrans">© SMARTTEAM 2023. Все права защищены.</p>
                 <p class="footerAdedTxt footerAdedTxtR">Based on TON.</p>
@@ -762,8 +783,10 @@
     <div class="textCopied  " style="display: none; top: 106%;">
         <p>Text copied</p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.6/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
     <script src="/js/langs.js"></script>
+    <!-- <script src="/dist/bundle.js"></script> -->
     <script src="/js/script.js"></script>
 </body>
 

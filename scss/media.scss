@@ -117,6 +117,9 @@ body{
 }
 
 @media only screen and (max-width: 992px){
+    .whiteBookBack{
+        display: none;
+    }
     .smarttigersOsnUtilsTgs {
         column-gap: 5%;
     }
@@ -263,8 +266,113 @@ body{
     }
 }
 @media only screen and (max-width: 480px){
+    #mobBluePl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background: url("/img/planets/blue.svg");
+    }
+    #mobMoonPl{
+        background-repeat: no-repeat !important;
+        background-position: right !important;
+        background:  url("/img/planets/moon.svg") ;
+    }
+    #mobMoonPl>p{
+        width: 60%;
+    }
+    #mobPurpPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background: url("/img/planets/purple.svg");
+    }
+    #mobPurpPl>p{
+        width: 60%;
+    }
+    #mobOrangPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background: url("/img/planets/orange.svg");
+    }
+    #mobOrangPl>p{
+        width: 60%;
+    }
+    #mobPurpYellPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background: url("/img/planets/yelpurp.svg");
+    }
+    #mobPurpYellPl>p{
+        width: 60%;
+    }
+    #mobRedPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: 50%;
+        height: 69% !important;
+        background: url("/img/planets/red.svg") ;
+    }
+    #mobRedPl>p{
+        width: 60%;
+    }
+    #mobYelPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: 50%;
+        background: url("/img/planets/yellow.svg") ;
+    }
+    #mobYelPl>p{
+        width: 60%;
+    }
+    #mobPinkPl{
+        background-repeat: no-repeat !important;
+        background-position: left !important;
+        background-size: 50%;
+        background: url("/img/planets/pink.svg");
+    }
+    #mobPinkPl>p{
+        width: 60%;
+    }
+    .UpSlMobW{
+        background-color: unset;
+    }
+.UpSlMob{
+    background-color: rgba(22, 29, 44, 0.5490196078) !important;
+    height: auto !important;
+    border-radius: 12px;
+}
+    .navigationMobile{
+        width: 100%;
+        height: 100vh;
+    }
+    .headerItem{
+        font-size: .6em;
+    }
+    .footerSocity{
+        display: grid;
+        padding: 0;
+        width: 100%;
+    }
+    .FooterLogoWrapperTags{
+        row-gap: 11px;
+        align-items: center;
+        width: 100%;
+    }
     .whiteBookBack{
         display: none;
+    }
+    .FooterLogoWrapperTagsItemsWrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .FooterLogoWrapperTagsItems{
+        padding: 3% 15%;
+        max-width: unset;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
     }
     .swiperPlMob{
         display: grid !important;

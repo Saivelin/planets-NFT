@@ -1,3 +1,12 @@
+// import {
+//     Swiper,
+//     Navigation,
+//     Pagination,
+//     Scrollbar,
+//     EffectCoverflow
+// } from 'swiper/dist/js/swiper.esm.js';
+// import 'swiper/css/bundle';
+// Swiper.use([Navigation, Pagination, Scrollbar, EffectCoverflow]);
 let blackTheme = true;
 let swiperRoadMap;
 let swiperSmartTiger;
@@ -22,7 +31,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
             1192: {
                 slidesPerView: 3,
             }
-        }
+        },
+        grabCursor: true,
     });
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
     document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
@@ -39,8 +49,11 @@ document.addEventListener("DOMContentLoaded", (e) => {
             768: {
                 slidesPerView: 3,
             },
-        }
+        },
+        grabCursor: true,
+        allowTouchMove: true,
     });
+    swiperSmartTiger.allowTouchMove = true;
     document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
     document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
     console.log(window.innerWidth)
@@ -115,6 +128,25 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //LANG
     document.querySelectorAll(".languageToggleItem").forEach((el) => {
         el.addEventListener("click", (ev) => {
+            // el.style.cssText = "background-color: rgb(39, 58, 82);"
+            document.querySelectorAll(".languageToggleItem").forEach((ell) => {
+                console.log(ell)
+                console.log(el)
+                console.log(document.querySelectorAll(".languageToggleItem"))
+                if (el.id == ell.id) {
+                    el.style.cssText = "background-color: rgb(39, 58, 82); "
+                    el.querySelector("p").style.cssText = "color: white !important;"
+                }
+                else {
+                    el.querySelector("p").style.cssText = ""
+                    el.style.cssText = ""
+                }
+            })
+        })
+    })
+    document.querySelectorAll(".languageToggleItem").forEach((el) => {
+        el.addEventListener("click", (ev) => {
+
             lang = ev.target.id;
             if (lang == "en") { lang = 1 }
             else if (lang == 'ru') { lang = 0 }
@@ -170,156 +202,58 @@ document.addEventListener("DOMContentLoaded", (e) => {
     })
 
 
-    document.querySelector(".plBlBlue").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlBlue'))
-        console.log(document.querySelector('#plBlBlueItem').style.cssText)
-        coors.top += 160
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlBlueItem').classList.toggle("oprev")
-        document.querySelector('#plBlBlueItem').style.cssText = css
-        if (document.querySelector('#plBlBlueItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlBlueItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlBlueItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlBlueItem').classList.toggle("op")
+    console.log("CL")
+    coors = getOffsetSum(document.querySelector('.plBlBlue'))
+    console.log(document.querySelector('#plBlBlueItem').style.cssText)
+    coors.top += 80
+    coors.left += 80
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlBlueItem').style.cssText = css
 
-    })
-    document.querySelector(".plBlMoon").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlMoon'))
-        console.log(document.querySelector('#plBlMoonItem').style.cssText)
-        coors.top += 160
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlMoonItem').classList.toggle("oprev")
-        document.querySelector('#plBlMoonItem').style.cssText = css
-        if (document.querySelector('#plBlMoonItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlMoonItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlMoonItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlMoonItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlPurple").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlPurple'))
-        console.log(document.querySelector('#plBlPurpleItem').style.cssText)
-        coors.top -= 150
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlPurpleItem').classList.toggle("oprev")
-        document.querySelector('#plBlPurpleItem').style.cssText = css
-        if (document.querySelector('#plBlPurpleItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlPurpleItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlPurpleItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlPurpleItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlOrange").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlOrange'))
-        console.log(document.querySelector('#plBlOrangeItem').style.cssText)
-        coors.top -= 165
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlOrangeItem').classList.toggle("oprev")
-        document.querySelector('#plBlOrangeItem').style.cssText = css
-        if (document.querySelector('#plBlOrangeItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlOrangeItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlOrangeItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlOrangeItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlYelpurp").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlYelpurp'))
-        console.log(document.querySelector('#plBlYelpurpItem').style.cssText)
-        coors.top -= 165
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlYelpurpItem').classList.toggle("oprev")
-        document.querySelector('#plBlYelpurpItem').style.cssText = css
-        if (document.querySelector('#plBlYelpurpItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlYelpurpItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlYelpurpItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlYelpurpItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlRed").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlRed'))
-        console.log(document.querySelector('#plBlRedItem').style.cssText)
-        coors.top -= 165
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlRedItem').classList.toggle("oprev")
-        document.querySelector('#plBlRedItem').style.cssText = css
-        if (document.querySelector('#plBlRedItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlRedItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlRedItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlRedItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlYellow").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlYellow'))
-        console.log(document.querySelector('#plBlYellowItem').style.cssText)
-        coors.top -= 165
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlYellowItem').classList.toggle("oprev")
-        document.querySelector('#plBlYellowItem').style.cssText = css
-        if (document.querySelector('#plBlYellowItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlYellowItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlYellowItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlYellowItem').classList.toggle("op")
-    })
-    document.querySelector(".plBlPink").addEventListener("click", (ev) => {
-        console.log("CL")
-        coors = getOffsetSum(document.querySelector('.plBlPink'))
-        console.log(document.querySelector('#plBlPinkItem').style.cssText)
-        coors.top -= 165
-        css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
-        document.querySelector('#plBlPinkItem').classList.toggle("oprev")
-        document.querySelector('#plBlPinkItem').style.cssText = css
-        if (document.querySelector('#plBlPinkItem').classList.contains('op')) {
-            setTimeout((t) => {
-                document.querySelector('#plBlPinkItem').classList.toggle("displayNone")
-            }, 100)
-        }
-        else {
-            document.querySelector('#plBlPinkItem').classList.toggle("displayNone")
-        }
-        document.querySelector('#plBlPinkItem').classList.toggle("op")
-    })
+    coors = getOffsetSum(document.querySelector('.plBlMoon'))
+    console.log(document.querySelector('#plBlMoonItem').style.cssText)
+    coors.left += 80
+    coors.top += 80
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlMoonItem').style.cssText = css
+    coors = getOffsetSum(document.querySelector('.plBlPurple'))
+    console.log(document.querySelector('#plBlPurpleItem').style.cssText)
+    coors.left = 80
+    coors.top = 75
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlPurpleItem').style.cssText += css
+    coors = getOffsetSum(document.querySelector('.plBlOrange'))
+    console.log(document.querySelector('#plBlOrangeItem').style.cssText)
+    coors.left += 80
+    coors.top -= 122.5
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlOrangeItem').style.cssText = css
+    coors = getOffsetSum(document.querySelector('.plBlYelpurp'))
+    coors.left += 80
+    coors.top -= 102.5
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlYelpurpItem').style.cssText = css
+    coors = getOffsetSum(document.querySelector('.plBlRed'))
+    coors.left += 80
+    coors.top -= 85
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlRedItem').style.cssText = css
+    coors = getOffsetSum(document.querySelector('.plBlYellow'))
+    coors.left += 80
+    coors.top -= 85
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlYellowItem').style.cssText = css
+    coors = getOffsetSum(document.querySelector('.plBlPink'))
+    coors.left += 80
+    coors.top -= 85
+    css = 'top: ' + coors.top + 'px; left: ' + coors.left + 'px;'
+    document.querySelector('#plBlPinkItem').style.cssText = css
 
 
     //ADAPT
     document.querySelector('.mobileBurgerWrapper').querySelector("img").addEventListener("click", (e) => {
         console.log('cl')
+        document.body.style.overflow = "hidden"
         document.querySelector('.navigationMobile').classList.toggle("toleft")
         document.querySelector('.navigationMobile').classList.toggle('toright')
         document.querySelector('.navigationMobile').style.cssText = ''
@@ -383,11 +317,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
     }, false);
     document.querySelectorAll(".headerItemM").forEach((el) => {
         el.addEventListener("click", (ev) => {
+            document.body.style.overflow = ""
             document.querySelector('.navigationMobile').classList.toggle("toleft")
             document.querySelector('.navigationMobile').classList.toggle('toright')
         })
     })
     document.querySelector(".closeMN").addEventListener("click", (ev) => {
+        document.body.style.overflow = ""
         document.querySelector('.navigationMobile').classList.toggle("toleft")
         document.querySelector('.navigationMobile').classList.toggle('toright')
     })

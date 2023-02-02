@@ -373,12 +373,7 @@ function themeToggle() {
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
         document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/whiteTheme/globe.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
-        if (lang == 0) {
-            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
-        }
-        else {
-            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/sten.svg")
-        }
+
         document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
             if (i == 0) {
                 el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/Complited.svg")
@@ -393,6 +388,20 @@ function themeToggle() {
                 el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/FourSlide.svg")
             }
         })
+        if (lang == 0) {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+            document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/whiteTheme/RoadMapSlider/Complited.svg")
+            document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/whiteTheme/RoadMapSlider/SecondSlideRoad.svg")
+            document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/whiteTheme/RoadMapSlider/ThreeSlide.svg")
+            document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/whiteTheme/RoadMapSlider/FourSlide.svg")
+        }
+        else {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/sten.svg")
+            document.querySelector("#swiperRoadMapSlideImg1").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/Complited.svg")
+            document.querySelector("#swiperRoadMapSlideImg2").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/SecondSlideRoad.svg")
+            document.querySelector("#swiperRoadMapSlideImg3").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/ThreeSlide.svg")
+            document.querySelector("#swiperRoadMapSlideImg4").setAttribute("src", "/img/whiteTheme/RoadMapSlider/en/FourSlide.svg")
+        }
     }
     else {
         document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/globe.svg")

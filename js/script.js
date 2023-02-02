@@ -1,6 +1,7 @@
 let blackTheme = true;
 let swiperRoadMap;
 let swiperSmartTiger;
+let lang = 0
 document.addEventListener("DOMContentLoaded", (e) => {
     Planetsdiv = document.createElement("div")
     swiperRoadMap = new Swiper('.swiperRoadMap', {
@@ -89,7 +90,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             }, 1000)
         }, 3000)
     })
-    document.querySelector('#themeToggle').addEventListener("click", themeToggle)
+    document.querySelector('#themeToggle').addEventListener("click", (ev) => {
+        themeToggle();
+    })
     // document.querySelector(".plBlCenter").addEventListener("click", (ev) => {
     //     console.log("CL")
     //     coors = getOffsetSum(document.querySelector('.plBlCenter'))
@@ -112,23 +115,24 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //LANG
     document.querySelectorAll(".languageToggleItem").forEach((el) => {
         el.addEventListener("click", (ev) => {
-            let lang = ev.target.id;
-            console.log(lang)
+            lang = ev.target.id;
             if (lang == "en") { lang = 1 }
             else if (lang == 'ru') { lang = 0 }
             document.querySelectorAll(".langtrans").forEach((elementToggling) => {
-                console.log(langArr)
                 Object.keys(langArr).forEach((langArrItem) => {
                     // for (let langArrItem in langArr) {
                     // langArr.map((langArrItem) => {
                     if (elementToggling.classList.contains(langArrItem)) {
-                        console.log(langArr[langArrItem][0])
                         elementToggling.innerHTML = langArr[langArrItem][lang];
                     }
                 })
                 // }
                 // })
             })
+            console.log(lang)
+            console.log(blackTheme)
+
+            stRep()
         }
         )
     })
@@ -356,6 +360,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 })
 let l = document.createElement("link")
 function themeToggle() {
+    blackTheme = !blackTheme
+    console.log(lang)
+    console.log(blackTheme)
     console.log(document.querySelector("#langToggle").querySelector("img"))
     if (blackTheme != true) {
         console.log("theme")
@@ -366,7 +373,12 @@ function themeToggle() {
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
         document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/whiteTheme/globe.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/whiteTheme/logo.svg")
-        document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+        if (lang == 0) {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+        }
+        else {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/sten.svg")
+        }
         document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
             if (i == 0) {
                 el.setAttribute("src", "/img/whiteTheme/RoadMapSlider/Complited.svg")
@@ -386,7 +398,12 @@ function themeToggle() {
         document.querySelector("#langToggle").querySelector("img").setAttribute("src", "/img/globe.svg")
         document.querySelector(".headerItemF").querySelector("img").setAttribute("src", "/img/logo.svg")
         document.querySelector(".FooterLogoWrapper").querySelector("img").setAttribute("src", "/img/logo.svg")
-        document.querySelector("#st").setAttribute("src", "/img/st.svg")
+        if (lang == 0) {
+            document.querySelector("#st").setAttribute("src", "/img/st.svg")
+        }
+        else {
+            document.querySelector("#st").setAttribute("src", "/img/sten.svg")
+        }
         document.querySelector("#themeToggle").querySelector("img").setAttribute("src", "/img/sunny.svg")
         document.querySelectorAll(".swiperRoadMapSlideImg").forEach((el, i) => {
             console.log(el)
@@ -416,7 +433,7 @@ function themeToggle() {
     // document.querySelectorAll("h5").forEach((el) => { el.style.cssText += "color: black;" })
     // document.querySelectorAll("h6").forEach((el) => { el.style.cssText += "color: black;" })
     // document.querySelectorAll("div").forEach((el) => { el.style.cssText += "color: black;" })
-    blackTheme = !blackTheme
+    console.log(blackTheme)
 }
 console.log(getOffsetSum(document.querySelector(".planetsItems")))
 function getOffsetSum(elem) {
@@ -427,4 +444,23 @@ function getOffsetSum(elem) {
         elem = elem.offsetParent
     }
     return { top: Math.round(top), left: Math.round(left) }
+}
+
+function stRep() {
+    if (blackTheme != true) {
+        if (lang == 0) {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/st.svg")
+        }
+        else {
+            document.querySelector("#st").setAttribute("src", "/img/whiteTheme/sten.svg")
+        }
+    }
+    else {
+        if (lang == 0) {
+            document.querySelector("#st").setAttribute("src", "/img/st.svg")
+        }
+        else {
+            document.querySelector("#st").setAttribute("src", "/img/sten.svg")
+        }
+    }
 }

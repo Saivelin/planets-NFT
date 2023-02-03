@@ -11,59 +11,60 @@ let blackTheme = true;
 let swiperRoadMap;
 let swiperSmartTiger;
 let lang = 0
+var splide = new Splide('.splide');
 document.addEventListener("DOMContentLoaded", (e) => {
     Planetsdiv = document.createElement("div")
-    swiperRoadMap = new Swiper('.swiperRoadMap', {
-        speed: 400,
-        spaceBetween: 100,
-        slidesPerView: "auto",
-        slidesPerView: 2.9,
-        breakpoints: {// настройки для разных разрешений
-            0: {
-                slidesPerView: 1,
-            },
-            768: {
-                slidesPerView: 1,
-            },
-            991: {
-                slidesPerView: 1.7,
-            },
-            1192: {
-                slidesPerView: 3,
-            }
-        },
-        grabCursor: true,
-    });
+    // swiperRoadMap = new Swiper('.swiperRoadMap', {
+    //     speed: 400,
+    //     spaceBetween: 100,
+    //     slidesPerView: "auto",
+    //     slidesPerView: 2.9,
+    //     breakpoints: {// настройки для разных разрешений
+    //         0: {
+    //             slidesPerView: 1,
+    //         },
+    //         768: {
+    //             slidesPerView: 1,
+    //         },
+    //         991: {
+    //             slidesPerView: 1.7,
+    //         },
+    //         1192: {
+    //             slidesPerView: 3,
+    //         }
+    //     },
+    //     grabCursor: true,
+    // });
+    swiperRoadMap = 0
     document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
     document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
 
-    swiperSmartTiger = new Swiper('.swiperSmartTiger', {
-        speed: 400,
-        spaceBetween: 30,
-        slidesPerView: "auto",
-        slidesPerView: 3,
-        breakpoints: {// настройки для разных разрешений
-            0: {
-                slidesPerView: 1,
-            },
-            768: {
-                slidesPerView: 3,
-            },
-        },
-        grabCursor: true,
-        allowTouchMove: true,
-    });
-    swiperSmartTiger.allowTouchMove = true;
-    document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => swiperSmartTiger.slideNext())
-    document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => swiperSmartTiger.slidePrev())
+    // swiperSmartTiger = new Swiper('.swiperSmartTiger', {
+    //     speed: 400,
+    //     spaceBetween: 30,
+    //     slidesPerView: "auto",
+    //     slidesPerView: 3,
+    //     breakpoints: {// настройки для разных разрешений
+    //         0: {
+    //             slidesPerView: 1,
+    //         },
+    //         768: {
+    //             slidesPerView: 3,
+    //         },
+    //     },
+    //     grabCursor: true,
+    //     allowTouchMove: true,
+    // });
+    // swiperSmartTiger.allowTouchMove = true;
+
     console.log(window.innerWidth)
 
-    plMobSwiper = new Swiper(".swiperPlMob", {
-        speed: 400,
-        spaceBetween: 0,
-        slidesPerView: "auto",
-        slidesPerView: 1,
-    })
+    // plMobSwiper = new Swiper(".swiperPlMob", {
+    //     speed: 400,
+    //     spaceBetween: 0,
+    //     slidesPerView: "auto",
+    //     slidesPerView: 1,
+    // })
 
 
     let corsLang = getOffsetSum(document.querySelector("#langToggle"))

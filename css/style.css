@@ -415,6 +415,10 @@ body {
   font-weight: 500;
 }
 
+.splideTest {
+  padding: 2em 0;
+}
+
 .smarttigersOsnUtilsHeaderSwipe {
   display: -ms-grid;
   display: grid;

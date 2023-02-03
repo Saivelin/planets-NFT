@@ -6,10 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Token</title>
-    <link rel="stylesheet" href="/css/swiper.css" />
+    <link rel="stylesheet" href="/splide/splide.min.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/media.css">
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var splideTest = new Splide('.splideTest', {
+            perPage: 3,
+            rewindByDrag: true,
+            pagination: false,
+            drag: 'free',
+            arrows: false,
+            gap: "1em",
+            breakpoints: {
+                0: {
+                    perPage: 1,
+                },
+                768: {
+                    perPage: 3,
+                },
+
+            }
+        });
+        splideTest.mount();
+        document.querySelector("#smarttigerSliderNext").addEventListener("click", (ev) => splideTest.go(
+            '+${i}'))
+        document.querySelector("#smarttigerSliderPrev").addEventListener("click", (ev) => splideTest.go(
+            '-${i}'))
+
+        var splideRoad = new Splide('.splideRoad', {
+            perPage: 3,
+            rewindByDrag: true,
+            pagination: false,
+            drag: 'free',
+            arrows: false,
+            breakpoints: {
+                0: {
+                    perPage: 1,
+                },
+                768: {
+                    perPage: 1,
+                },
+                991: {
+                    perPage: 1.7,
+                },
+                1192: {
+                    perPage: 3,
+                }
+            }
+        });
+        splideRoad.mount();
+        document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => splideRoad.go(
+            '+${i}'))
+        document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => splideRoad.go(
+            '-${i}'))
+    });
+    </script>
 </head>
 
 <body>
@@ -477,92 +530,114 @@
                     <div class="smarttigersOsnUtilsHead">
                         <h3 class="smarttigersOsnUtilsHeader langtrans">Основные утилиты</h3>
                         <div class="smarttigersOsnUtilsHeaderSwipe">
-                            <img src="/img/arrowleft.svg" alt="" id="smarttigerSliderPrev">
+                            <img src="/img/arrowleft.svg" alt="" id="smarttigerSliderPrev" class="smarttigerSliderPrev">
                             <p>swiper</p>
-                            <img src="/img/arrowright.svg" alt="" id="smarttigerSliderNext">
+                            <img src="/img/arrowright.svg" alt="" id="smarttigerSliderNext"
+                                class="smarttigerSliderNext">
                         </div>
                     </div>
-                    <div class="swiper swiperSmartTiger">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide swiperSlideSmartTiger">
-                                <div class="swiperSlideSmartTigerWrapper">
-                                    <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
-                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt1 langtrans">Платформа,
-                                        которая даст возможность
-                                        продвигать
-                                        свои услуги, находить коллег, инвесторов и многое другое.
-                                        SmartWorking поможет найти первые заказы
-                                        для развивающихся фрилансеров, а для специалистов
-                                        увеличить свою клиентуру, и для стартаперов найти
-                                        своих подрядчиков. Доступ на платформу будет через
-                                        верификацию по NFT.</p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiperSlideSmartTiger">
-                                <div class="swiperSlideSmartTigerWrapper">
+                    <section class="splide splideTest">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide swiperSlideSmartTiger">
+                                    <div class="swiperSlideSmartTigerWrapper">
+                                        <h6 class="swiperSlideSmartTigerHeader">Smart Working</h6>
+                                        <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt1 langtrans">
+                                            Платформа,
+                                            которая даст возможность
+                                            продвигать
+                                            свои услуги, находить коллег, инвесторов и многое другое.
+                                            SmartWorking поможет найти первые заказы
+                                            для развивающихся фрилансеров, а для специалистов
+                                            увеличить свою клиентуру, и для стартаперов найти
+                                            своих подрядчиков. Доступ на платформу будет через
+                                            верификацию по NFT.</p>
+                                    </div>
+                                </li>
+                                <li class="splide__slide swiperSlideSmartTiger">
+                                    <div class="swiperSlideSmartTigerWrapper">
+                                        <h6 class="swiperSlideSmartTigerHeader ">Web
+                                            App</h6>
+                                        <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt2 langtrans">Web App
+                                            в
+                                            Telegram с помощью которого
+                                            Холдеры
+                                            получат роялти в Toncoin со стекинга NFT из: <br><br>
 
-                                    <h6 class="swiperSlideSmartTigerHeader ">Web
-                                        App</h6>
-                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt2 langtrans">Web App в
-                                        Telegram с помощью которого
-                                        Холдеры
-                                        получат роялти в Toncoin со стекинга NFT из: <br><br>
+                                            ✅ процента монетизации от канала CENTER TONA <br>
+                                            ✅ процента от продаж NFT на вторичном рынке<br>
+                                            ✅ подарки от команды
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="splide__slide swiperSlideSmartTiger">
+                                    <div class="swiperSlideSmartTigerWrapper">
 
-                                        ✅ процента монетизации от канала CENTER TONA <br>
-                                        ✅ процента от продаж NFT на вторичном рынке<br>
-                                        ✅ подарки от команды
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiperSlideSmartTiger">
-                                <div class="swiperSlideSmartTigerWrapper">
+                                        <h6 class="swiperSlideSmartTigerHeader">Smart
+                                            TON</h6>
+                                        <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt3 langtrans">Закрытый
+                                            чат
+                                            Комьюнити SMARTTON.
+                                            Первоисточник
+                                            новостей наших проектов, прямое общение с командой. Обсуждаем The Open
+                                            Network,
+                                            делимся полезной информацией. Попасть в чат могут только холдеры NFT
+                                            Smart
+                                            Tigers.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="splide__slide swiperSlideSmartTiger">
+                                    <div class="swiperSlideSmartTigerWrapper">
 
-                                    <h6 class="swiperSlideSmartTigerHeader">Smart
-                                        TON</h6>
-                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt3 langtrans">Закрытый чат
-                                        Комьюнити SMARTTON.
-                                        Первоисточник
-                                        новостей наших проектов, прямое общение с командой. Обсуждаем The Open
-                                        Network,
-                                        делимся полезной информацией. Попасть в чат могут только холдеры NFT
-                                        Smart
-                                        Tigers.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="swiper-slide swiperSlideSmartTiger">
-                                <div class="swiperSlideSmartTigerWrapper">
+                                        <h6 class="swiperSlideSmartTigerHeader swiperSlideSmartTigerHeader4 langtrans">
+                                            Разработка
+                                            проектов</h6>
+                                        <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt4 langtrans">Мы
+                                            всегда в
+                                            процессе
+                                            поиска новых ниш
+                                            для
+                                            продвижения нашей экосистемы и поэтому разрабатываем проекты которые
+                                            могут
+                                            заинтересовать большое количество людей, во всех таких проектах у
+                                            Холдеров будут
+                                            привилегии, например как в Resale Market где с помощью NFT публикация
+                                            объявлений без
+                                            оплаты комиссии. Количество утилит со временем будет увеличиватьсяс
+                                            помощью новых
+                                            проектов.
 
-                                    <h6 class="swiperSlideSmartTigerHeader swiperSlideSmartTigerHeader4 langtrans">
-                                        Разработка
-                                        проектов</h6>
-                                    <p class="swiperSlideSmartTigerTxt swiperSlideSmartTigerTxt4 langtrans">Мы всегда в
-                                        процессе
-                                        поиска новых ниш
-                                        для
-                                        продвижения нашей экосистемы и поэтому разрабатываем проекты которые
-                                        могут
-                                        заинтересовать большое количество людей, во всех таких проектах у
-                                        Холдеров будут
-                                        привилегии, например как в Resale Market где с помощью NFT публикация
-                                        объявлений без
-                                        оплаты комиссии. Количество утилит со временем будет увеличиватьсяс
-                                        помощью новых
-                                        проектов.
-
-                                    </p>
-                                </div>
-                            </div>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
+                    </section>
+                    <!-- <div class="swiper swiperSmartTiger"> -->
+                    <!-- Additional required wrapper -->
+                    <!-- <div class="swiper-wrapper"> -->
+                    <!-- Slides -->
+                    <!-- <div class="swiper-slide swiperSlideSmartTiger"> -->
 
-                        <!-- If we need navigation buttons -->
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperSlideSmartTiger"> -->
 
-                        <!-- If we need scrollbar -->
-                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperSlideSmartTiger"> -->
+
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperSlideSmartTiger"> -->
+
+                    <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- </div> -->
                     <!-- <div class="swiperTest">
                         <div class="swiperMyItem">
                             <h6 class="swiperMyItemHeader">Smart Working</h6>
@@ -618,6 +693,15 @@
                     </div>
                 </div>
                 <div class="roadMapMain">
+                    <section class="splide splideRoad" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">Slide 01</li>
+                                <li class="splide__slide">Slide 02</li>
+                                <li class="splide__slide">Slide 03</li>
+                            </ul>
+                        </div>
+                    </section>
                     <div class="swiper swiperRoadMap">
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
@@ -783,7 +867,7 @@
     <div class="textCopied  " style="display: none; top: 106%;">
         <p>Text copied</p>
     </div>
-    <script src="/js/swiper.js"></script>
+    <script src="/splide/splide.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
     <script src="/js/langs.js"></script>
     <!-- <script src="/dist/bundle.js"></script> -->

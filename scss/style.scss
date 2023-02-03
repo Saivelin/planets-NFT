@@ -149,9 +149,11 @@ body{
 // .headerItemL>div :hover{
 //     background-color: #27334d;
 // }
-
+.overvis{
+    overflow: visible;
+}
 .main {
-    padding: 0% 20%;
+    padding: 0% 15%;
 }
 .plBl {
 }
@@ -285,7 +287,7 @@ body{
 }
 .smarttigersHeader {
     font-size: $headerFontSize;
-    font-weight: 500;
+    font-weight: 800;
     font-family: "SFTextR";
     margin-bottom: 10%;
 }
@@ -504,7 +506,7 @@ body{
     font-size: $headerFontSize;
     font-family: "SFTextR";
     margin-bottom: 8%;
-    font-weight: 500;
+    font-weight: 600;
 }
 .whiteBookTxtTxt {
     line-height: 40px;

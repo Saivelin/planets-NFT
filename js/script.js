@@ -36,8 +36,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     //     grabCursor: true,
     // });
     swiperRoadMap = 0
-    document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
-    document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
+    // document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => swiperRoadMap.slidePrev())
+    // document.querySelector("#roadMapSliderNext").addEventListener("click", (ev) => swiperRoadMap.slideNext())
 
     // swiperSmartTiger = new Swiper('.swiperSmartTiger', {
     //     speed: 400,

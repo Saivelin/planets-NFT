@@ -151,8 +151,12 @@ body {
   width: 38%;
 }
 
+.overvis {
+  overflow: visible;
+}
+
 .main {
-  padding: 0% 20%;
+  padding: 0% 15%;
 }
 
 .SmartTokenBL {
@@ -340,7 +344,7 @@ body {
 
 .smarttigersHeader {
   font-size: 4em;
-  font-weight: 500;
+  font-weight: 800;
   font-family: "SFTextR";
   margin-bottom: 10%;
 }
@@ -618,7 +622,7 @@ body {
   font-size: 4em;
   font-family: "SFTextR";
   margin-bottom: 8%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .whiteBookTxtTxt {

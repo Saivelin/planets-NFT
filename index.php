@@ -39,9 +39,11 @@
 
         var splideRoad = new Splide('.splideRoad', {
             perPage: 3,
+            rewind: true,
             rewindByDrag: true,
             pagination: false,
             drag: 'free',
+            perMove: 4,
             arrows: false,
             breakpoints: {
                 0: {
@@ -51,10 +53,10 @@
                     perPage: 0.9,
                 },
                 991: {
-                    perPage: 1.7,
+                    perPage: 1,
                 },
-                1192: {
-                    perPage: 3,
+                1400: {
+                    perPage: 2,
                 }
             }
         });
@@ -822,9 +824,9 @@
                         <img src="/img/arrowright.svg" alt="" id="roadMapSliderNext">
                     </div>
                 </div>
-                <div class="roadMapMain">
-                    <section class="splide splideRoad swiperRoadMap" aria-label="Splide Basic HTML Example">
-                        <div class="splide__track">
+                <div class="roadMapMain overvis">
+                    <section class="splide splideRoad swiperRoadMap overvis" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track ">
                             <ul class="splide__list">
                                 <li class="splide__slide swiperRoadMapSlide">
                                     <h3 class="swiperRoadMapSlideHeader q1 langtrans">Цель 1: 2022 Q3</h3>

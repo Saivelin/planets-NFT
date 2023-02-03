@@ -24,9 +24,11 @@
                     perPage: 1,
                 },
                 768: {
-                    perPage: 3,
+                    perPage: 1,
                 },
-
+                1000: {
+                    perPage: 2,
+                },
             }
         });
         splideTest.mount();

@@ -45,10 +45,10 @@
             arrows: false,
             breakpoints: {
                 0: {
-                    perPage: 1,
+                    perPage: 0.9,
                 },
                 768: {
-                    perPage: 1,
+                    perPage: 0.9,
                 },
                 991: {
                     perPage: 1.7,
@@ -72,9 +72,20 @@
             gap: "2em",
         });
         plMobSwiper.mount();
+
+        var splideTeamMobile = new Splide('.splideTeamMobile', {
+            perPage: 1,
+            rewindByDrag: true,
+            pagination: false,
+            drag: 'free',
+            arrows: false,
+            gap: "2em",
+        });
+        splideTeamMobile.mount();
     });
     </script>
 </head>
+
 
 <body>
     <nav class="navigationMobile toleft" style="display: none;">
@@ -200,10 +211,9 @@
                 <img src="/img/planets/center.svg" alt="" class="plBlCenter">
                 <div class="plBlBlue">
                     <div id="plBlBlueItem" class="planetsItems displayNone ">
-                        <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                        <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Сервис в Telegram выступающий ресурсом
-                            для начального взаимодействия между заказчиками
-                            и исполнителями, между инвесторами и стартапами.
+                        <h4 class="planetsItemsHeader">SMARTWORKING</h4>
+                        <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Сервис выступающий ресурсом для начального
+                            взаимодействия между заказчиками и исполнителями, между инвесторами и стартапами
                             <br><br>
                             Скоро.
                         </p>
@@ -309,10 +319,10 @@
                     <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
                         <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobBluePl" style="background-repeat: no-repeat !important;
     background-position: left !important;">
-                            <h4 class="planetsItemsHeader">CENTERTONA</h4>
-                            <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис в Telegram выступающий ресурсом
-                                для начального взаимодействия между заказчиками
-                                и исполнителями, между инвесторами и стартапами.
+                            <h4 class="planetsItemsHeader">SMARTWORKING</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис выступающий ресурсом для
+                                начального взаимодействия между заказчиками и исполнителями, между инвесторами и
+                                стартапами.
                                 <br><br>
                                 Скоро.
                             </p>
@@ -882,6 +892,60 @@
         <div class="teamBl">
             <div class="teamWrapper">
                 <h1 class="teamWrapperHeader langtrans">КОМАНДА</h1>
+                <section class="splide splideTeamMobile" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob teamWrapperMainItemAbMob">
+                                    <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText langtrans">Команда
+                                        разработчиков,
+                                        которые могут не только
+                                        хорошо создавать Telegram
+                                        ботов, сайты и привлекать
+                                        трафик, но и строить
+                                        качественный крипто-
+                                        проект на TON,
+                                        чем мы и занимаемся.</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob ">
+                                    <h5 class="teamWrapperMainItemHeader">Ceoaleksandr</h5>
+                                    <p class="teamWrapperMainItemAbout">Founder / Artist / Dev</p>
+                                    <img class="teamWrapperMainItemImg" src="/img/ceoa.png" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob">
+                                    <h5 class="teamWrapperMainItemHeader">Grigory V.</h5>
+                                    <p class="teamWrapperMainItemAbout">Dev</p>
+                                    <img class="teamWrapperMainItemImg" src="/img/grig.png" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob">
+                                    <h5 class="teamWrapperMainItemHeader">Matthew P.</h5>
+                                    <p class="teamWrapperMainItemAbout">Dev</p>
+                                    <img class="teamWrapperMainItemImg" src="/img/mat.png" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob">
+                                    <h5 class="teamWrapperMainItemHeader">Timofey C.</h5>
+                                    <p class="teamWrapperMainItemAbout">Community manager</p>
+                                    <img class="teamWrapperMainItemImg" src="/img/tim.png" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="teamWrapperMainItemMob">
+                                    <h5 class="teamWrapperMainItemHeader">Konstantin D.</h5>
+                                    <p class="teamWrapperMainItemAbout">Designer</p>
+                                    <img class="teamWrapperMainItemImg" src="/img/cos.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
                 <div class="teamWrapperMain">
                     <div class="teamWrapperMainItem teamWrapperMainItemAb">
                         <p class="teamWrapperMainItemAbout teamWrapperMainItemAboutText langtrans">Команда

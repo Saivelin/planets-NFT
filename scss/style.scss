@@ -151,7 +151,7 @@ body{
 // }
 
 .main {
-    padding: 0% 15%;
+    padding: 0% 20%;
 }
 .plBl {
 }
@@ -237,6 +237,7 @@ body{
     display: flex;
     column-gap: 1.2%;
 }
+.splideTeamMobile{display: none;}
 .SmartTokenBLAddsRowItem {
     z-index: 4;
     padding: 1.2% 2%;
@@ -481,6 +482,7 @@ body{
     padding: 4% 6%;
     text-align: left;
     line-height: 30px;
+    padding: 4% 6% 10% 6%;
 }
 .teamWrapperMainItemAb{
     display: grid;

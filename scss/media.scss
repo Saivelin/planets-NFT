@@ -19,7 +19,7 @@ body{
     border-bottom: $brcolor 1px solid !important;
 }
 .closeMN{
-    height: 213%;
+    height: 127%;
     padding: 0%;
     margin-right: 0px;
     margin-left: 0px;
@@ -117,9 +117,9 @@ body{
 }
 
 @media only screen and (max-width: 992px){
-    .whiteBookBack{
-        display: none;
-    }
+    // .whiteBookBack{
+    //     display: none;
+    // }
     .smarttigersOsnUtilsTgs {
         column-gap: 5%;
     }
@@ -266,6 +266,12 @@ body{
     }
 }
 @media only screen and (max-width: 480px){
+    // .splideTeamMobile{
+    //     display: unset;
+    // }
+    // .teamWrapperMain{
+    //     display: none;
+    // }
     #mobBluePl{
         background-repeat: no-repeat !important;
         background-position: left !important;
@@ -356,8 +362,17 @@ body{
         align-items: center;
         width: 100%;
     }
-    .whiteBookBack{
-        display: none;
+    // .whiteBookBack{
+    //     display: none;
+    // }
+    .whiteBookBack > img{
+        z-index: -1;
+        position: absolute;
+        -webkit-filter: blur(1.3px);
+        filter: blur(1.3px);
+        width: 96%;
+        top: 970vh;
+        left: 21.5vw;
     }
     .FooterLogoWrapperTagsItemsWrapper{
         display: grid;
@@ -372,7 +387,7 @@ body{
         max-width: unset;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        // width: 40%;
     }
     .swiperPlMob{
         display: grid !important;
@@ -381,7 +396,7 @@ body{
         width: 99%;
     }
     .header>.mobileBurgerWrapper>*{
-        margin-left: 30vw;
+        margin-left: 15vw;
         width: 20%;
         padding: 12%;
     }
@@ -432,7 +447,7 @@ body{
         width: 97vw;
     }
     .smartTokenBlBackPlanet > img{
-        left: -7.4vw;
+        left: -19.4vw;
     }
     .smartTigerBigPlanetBack > img{
         width: unset;
@@ -475,6 +490,108 @@ body{
     }
     .roadMapWrapperHeader{
         font-size: 2em;
+    }
+    .smarttigersHeader{
+        font-size: 3.5em;
+    }
+        .swiperRoadMap {
+            margin: 0 0%;
+            width: 116%;
+        }
+        .SmartTokenBLAdds{
+            margin-bottom: 10%;
+        }
+        .smttBack{
+            width: 93%;
+        }
+    .SmartTokenBLAddsRow{
+        display: unset; 
+        display: unset;
+        row-gap: 1.2%;
+        -webkit-column-gap: 1.2%;
+        -moz-column-gap: 1.2%;
+        column-gap: 1.2%;
+    }
+    .SmartTokenBLAddsRow {
+        display: unset;
+        display: grid;
+        row-gap: 15.2%;
+        -webkit-column-gap: 1.2%;
+        -moz-column-gap: 1.2%;
+        column-gap: 1.2%;
+    }
+    .SmartTokenBLAddsRowItem{
+        text-align: center;
+        padding: 2.2% 4%;
+    }
+    .SmartTokenBLAddsRowItemOnesed{
+        max-width: unset;
+    }
+    .teamWrapper {
+         text-align: unset;
+        /* -webkit-box-pack: unset; */
+        -ms-flex-pack: unset;
+        justify-content: unset;
+        /* -webkit-box-align: center; */
+        -ms-flex-align: center;
+        align-items: unset;
+        grid-template-rows: 1fr 6fr;
+        column-gap: 9%;
+    row-gap: 2%;
+    }
+    .teamWrapperMainItem {
+        text-align: center;
+    }
+    .splideTeamMobile{
+        width: 100vw;
+    }
+    .whiteBookImg{
+        display: none;
+    }
+    .whiteBookHeader {
+        font-size: 2.7em;
+    }
+    .whiteBookTxt{
+        text-align: center;
+    }
+    .FooterLogoWrapper{
+        grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    justify-content: center;
+    }
+    .FooterLogoWrapper>img{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .headerItemF:hover{
+        background-color: transparent;
+    }
+    .whiteBookTxtTxt {
+        line-height: 32px;
+        margin-bottom: 18%;
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+    .teamWrapperMainItemMob{
+    background-color: #536e945d;
+    border-radius: 12px;
+    margin: 0;
+    padding: 2% 0% 0 0 ;
+    text-align: center;
+}
+    .teamWrapperMainItemMob >img{
+        width: auto;
+    }
+    .teamWrapperMainItem {
+        // max-width: 47%;
+        // width: 10;
+    }
+    .teamWrapperHeader {
+        font-size: 3em;
+    }
+    .teamWrapperMainItemImgMob{
+        left: unset;
     }
 }
 

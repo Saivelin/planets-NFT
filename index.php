@@ -61,6 +61,15 @@
             '+${i}'))
         document.querySelector("#roadMapSliderPrev").addEventListener("click", (ev) => splideRoad.go(
             '-${i}'))
+        var plMobSwiper = new Splide('.spliderPlMob', {
+            perPage: 1,
+            rewindByDrag: true,
+            pagination: false,
+            drag: 'free',
+            arrows: false,
+            gap: "2em",
+        });
+        plMobSwiper.mount();
     });
     </script>
 </head>
@@ -292,9 +301,118 @@
                 </div>
             </div>
         </div>
-        <div class="swiper swiperPlMob ">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+        <section class="splide spliderPlMob plMobSwiper swiperPlMob">
+            <div class=" splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobBluePl" style="background-repeat: no-repeat !important;
+    background-position: left !important;">
+                            <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt1 langtrans">Сервис в Telegram выступающий ресурсом
+                                для начального взаимодействия между заказчиками
+                                и исполнителями, между инвесторами и стартапами.
+                                <br><br>
+                                Скоро.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobMoonPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">SMARTTOKEN</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt2 langtrans">Универсальный токен для использования
+                                во всех сервисах команды Smart Team
+                                на блокчейне The Open Network (TON)</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/thesmarttoken" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>thesmarttoken</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPurpPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">RESALEMARKET </h4>
+                            <p class="planetsItemsTxt planetsItemsTxt3 langtrans">Cервис для крипто-энтузиастов
+                                и IT предпринимателей,
+                                которые занимаются продвижением
+                                своих проектов, а также
+                                перепродажей своих активов.</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/ResaleMarketBot" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>ResaleMarketBot</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobOrangPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">SMARTTIGERS</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt4 langtrans">NFT-коллекция из 4999+ уникальных
+                                тигров,
+                                которые олицетворяют своё комьюнити,
+                                помогающее всё больше и больше
+                                прогрессировать проекту с каждым днём.</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/SmartTigers" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>SmartTigers</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPurpYellPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">RESALENFT</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt5 langtrans">Проект помогает пользователям
+                                безопасно совершать P2P сделки
+                                по покупке/продаже НФТ на блокчейне TON.</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/resalenftbot" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>resalenftbot</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobRedPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">SMARTTON</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt6 langtrans">Закрытый чат<br>
+                                Комьюнити Smart TON.</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/SmartTigersHoldBot" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>SmartTigersHoldBot</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobYelPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">CENTERTONA</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt7 langtrans">Инфоканал. Ежедневный Крипто Дайджест,
+                                главные новости о TON, NFT, CRYPTO, AIRDROPS.</p>
+                            <a class="planetCenterItemTgBl" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>CenterTONa</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="splide__slide swiperSlideSmartTiger UpSlMobW">
+                        <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobPinkPl" style="background-repeat: no-repeat !important;
+    background-position: right !important;">
+                            <h4 class="planetsItemsHeader">THETONCHAT</h4>
+                            <p class="planetsItemsTxt planetsItemsTxt8 langtrans">Общий чат Комьюнити TON.</p>
+                            <a class="planetCenterItemTgBl" href="https://t.me/TheTonChat" target="TRUE">
+                                <img src="/img/tgelegram.svg" alt="">
+                                <p>TheTonChat</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- <div class="swiper swiperPlMob "> -->
+        <!-- Additional required wrapper -->
+        <!-- <div class="swiper-wrapper">
                 <div class="swiper-slide swiperSlideSmartTiger UpSlMobW">
                     <div class="swiperSlideSmartTigerWrapper UpSlMob" id="mobBluePl" style="background-repeat: no-repeat !important;
     background-position: left !important;">
@@ -398,7 +516,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="smartTokenBlBackPlanet">
             <img src="/img/backplanetsmarttoken.svg" alt="">
         </div>

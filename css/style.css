@@ -2194,10 +2194,6 @@ body {
   border-radius: 7.5px;
 }
 
-.swiperRoadMapSlide > img {
-  height: 100%;
-}
-
 .swiperRoadMapSlide {
   margin-bottom: 2vh;
 }

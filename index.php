@@ -693,48 +693,57 @@
                     </div>
                 </div>
                 <div class="roadMapMain">
-                    <section class="splide splideRoad" aria-label="Splide Basic HTML Example">
+                    <section class="splide splideRoad swiperRoadMap" aria-label="Splide Basic HTML Example">
                         <div class="splide__track">
                             <ul class="splide__list">
-                                <li class="splide__slide">Slide 01</li>
-                                <li class="splide__slide">Slide 02</li>
-                                <li class="splide__slide">Slide 03</li>
+                                <li class="splide__slide swiperRoadMapSlide">
+                                    <h3 class="swiperRoadMapSlideHeader q1 langtrans">Цель 1: 2022 Q3</h3>
+                                    <img src="/img/RoadMapSlider/Complited.svg" alt="" class="swiperRoadMapSlideImg"
+                                        id="swiperRoadMapSlideImg1">
+                                </li>
+                                <li class="splide__slide swiperRoadMapSlide">
+                                    <h3 class="swiperRoadMapSlideHeader q2 langtrans">Цель 2: 2022-2023</h3>
+                                    <img src="/img/RoadMapSlider/SecondSlideRoad.svg" alt=""
+                                        class="swiperRoadMapSlideImg" id="swiperRoadMapSlideImg2">
+                                </li>
+                                <li class="splide__slide swiperRoadMapSlide">
+                                    <h3 class="swiperRoadMapSlideHeader q3 langtrans">Цель 3: 2023</h3>
+                                    <img src="/img/RoadMapSlider/ThreeSlide.svg" alt="" class="swiperRoadMapSlideImg"
+                                        id="swiperRoadMapSlideImg3">
+                                </li>
+                                <li class="splide__slide swiperRoadMapSlide">
+                                    <h3 class="swiperRoadMapSlideHeader q4 langtrans">Цель 4</h3>
+                                    <img src="/img/RoadMapSlider/FourSlide.svg" alt="" class="swiperRoadMapSlideImg"
+                                        id="swiperRoadMapSlideImg4">
+                                </li>
                             </ul>
                         </div>
                     </section>
-                    <div class="swiper swiperRoadMap">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader q1 langtrans">Цель 1: 2022 Q3</h3>
-                                <img src="/img/RoadMapSlider/Complited.svg" alt="" class="swiperRoadMapSlideImg"
-                                    id="swiperRoadMapSlideImg1">
-                            </div>
-                            <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader q2 langtrans">Цель 2: 2022-2023</h3>
-                                <img src="/img/RoadMapSlider/SecondSlideRoad.svg" alt="" class="swiperRoadMapSlideImg"
-                                    id="swiperRoadMapSlideImg2">
-                            </div>
-                            <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader q3 langtrans">Цель 3: 2023</h3>
-                                <img src="/img/RoadMapSlider/ThreeSlide.svg" alt="" class="swiperRoadMapSlideImg"
-                                    id="swiperRoadMapSlideImg3">
-                            </div>
-                            <div class="swiper-slide swiperRoadMapSlide">
-                                <h3 class="swiperRoadMapSlideHeader q4 langtrans">Цель 4</h3>
-                                <img src="/img/RoadMapSlider/FourSlide.svg" alt="" class="swiperRoadMapSlideImg"
-                                    id="swiperRoadMapSlideImg4">
-                            </div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
+                    <!-- <div class="swiper swiperRoadMap"> -->
+                    <!-- Additional required wrapper -->
+                    <!-- <div class="swiper-wrapper"> -->
+                    <!-- Slides -->
+                    <!-- <div class="swiper-slide swiperRoadMapSlide"> -->
 
-                        <!-- If we need navigation buttons -->
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperRoadMapSlide"> -->
 
-                        <!-- If we need scrollbar -->
-                        <div class="swiper-scrollbar"></div>
-                    </div>
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperRoadMapSlide"> -->
+
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide swiperRoadMapSlide"> -->
+
+                    <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                    <!-- </div> -->
                 </div>
                 <div class="roadMapFooter">
                     <p class="roadMapFooterTxt langtrans">В процессе реализации Road Map планируем продолжать

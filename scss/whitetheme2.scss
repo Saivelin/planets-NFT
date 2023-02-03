@@ -100,7 +100,7 @@ body{
 }
 
 .header {
-    z-index:16 ;
+    z-index:5 ;
     background-color: $background;
     top: 0;
     z-index: 2s;
@@ -143,12 +143,6 @@ body{
 .headerItemL>img{
     width: 38%;
 }
-// .headerItemL:hover{
-//     background-color: unset;
-// }
-// .headerItemL>div :hover{
-//     background-color: #27334d;
-// }
 
 .main {
     padding: 0% 15%;
@@ -185,7 +179,7 @@ body{
     width: 100%;
 }
 .mainSmartTokenBLTxt {
-    font-size: 1.2em;
+    font-size: 1.31em;
     margin-bottom: 8%;
     line-height: 140%;
 }
@@ -226,8 +220,6 @@ body{
     font-size: .9em;
 }
 .mainSmartTokenBLWrapper{
-    display: grid;
-    grid-template-rows: 1fr;
 }
 .SmartTokenBLAdds {
     display: grid;
@@ -242,8 +234,6 @@ body{
     padding: 1.2% 2%;
     background-color: $barkcl;
     border-radius: 10px;
-    row-gap: 12px;
-
     opacity: 0.7;
     display: grid;
     box-shadow: #161d2c 0px 8px 10px;
@@ -256,12 +246,12 @@ body{
     opacity: 1;
 }
 .SmartTokenBLAddsRowItemHeader {
-    font-size: 1.03em;
+    font-size: 1em;
     background-color: $barkcl;
 
 }
 .SmartTokenBLAddsRowItemText {
-    font-size: .89em;
+    font-size: .8em;
     background-color: $barkcl;
 }
 .SmartTokenBLAddsRowItemOnesed{
@@ -286,7 +276,7 @@ body{
     font-size: $headerFontSize;
     font-weight: 500;
     font-family: "SFTextR";
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .smarttigersTextSt {
     font-size: 1.3em;
@@ -312,18 +302,23 @@ body{
 }
 .smarttigersBtn {
     font-size: 1em;
-    width: 18%;
-    padding: 2.5% 4%;
+    width: 27%;
+    padding: 1% 4%;
     background-color: #FF6F04;
     border-radius: 7.5px;
     cursor: pointer;
     border: none;
+    color: $background;
     display: grid;
     align-items: center;
     text-align: center;
 }
-.small-blocks-wrapper{
-    display: none;
+.langtogwrap{background-color: #cecfcb !important;}
+.languageToggleItem :hover{
+    background-color: #b3b4b0 !important;
+}
+.SmartTokenBLAddsRowItemText>a{
+    color: $background;
 }
 .smarttigersVideo >video{
     width: 90%;
@@ -342,10 +337,6 @@ body{
 .smarttigersOsnUtilsHeader {
     font-size: 2em;
     font-weight: 500;
-    // margin-bottom: 2em;
-}
-.splideTest {
-    padding:  2em 0;
 }
 .smarttigersOsnUtilsHeaderSwipe {
     display: grid;
@@ -475,12 +466,12 @@ body{
     // width: 80%;
 }
 .teamWrapperMainItemAboutText{
-    color: $color;
-    font-size: 1.3em;
-    font-weight: 300;
-    padding: 4% 6%;
+    color:$color;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 4% 12%;
     text-align: left;
-    line-height: 30px;
+    line-height: 36px;
 }
 .teamWrapperMainItemAb{
     display: grid;
@@ -505,10 +496,9 @@ body{
     font-weight: 500;
 }
 .whiteBookTxtTxt {
-    line-height: 40px;
+    line-height: 24px;
     margin-bottom: 18%;
     font-weight: 300;
-    font-size: 1.3em;
 }
 .whiteBookImg {
     justify-content: center;
@@ -526,6 +516,10 @@ body{
     background-color: #FF6F04;
     border: none;
     border-radius: 7.5px;
+    color: $background;
+}
+.smarttigersOsnUtilsHeaderSwipe>img{
+    filter: invert(1);
 }
 .dsn{
     position: absolute;
@@ -550,9 +544,6 @@ body{
     display: grid;
     column-gap: 16%;
     grid-auto-flow: column;
-    column-gap: 15%;
-    grid-auto-flow: column;
-    grid-template-columns: .4fr 1fr;
 }
 .FooterLogoWrapper>img{
     width: 135%;
@@ -560,7 +551,6 @@ body{
 .footerHeaderHeader {
     display: grid;
     grid-auto-flow: column;
-    font-weight: 500;
     font-family: "SFTextR";
 }
 .FooterLogoWrapperTags {
@@ -580,7 +570,6 @@ body{
     border-radius: 7.5px;
     background-color: #101b2985;
     transition: .1s;
-    color: $background;
     cursor: pointer;
 }
 .plBlPurple{
@@ -598,11 +587,14 @@ body{
     margin-bottom: 4%;
     padding: 0 9%;
     justify-content: center;
+    filter: invert(1);
 }
 
 .footerSocity>img{
     width: 90%;
+    
 }
+
 
 .footerAded {
     width: 100%;
@@ -701,30 +693,6 @@ body{
     grid-column-end: 8;
     grid-row-end: 4;
 }
-.plBlBlue:hover  #plBlBlueItem {
-    display:block !important;
-}
-.plBlMoon:hover  #plBlMoonItem {
-    display:block !important;
-}
-.plBlPurple:hover  #plBlPurpleItem {
-    display:block !important;
-}
-.plBlOrange:hover  #plBlOrangeItem {
-    display:block !important;
-}
-.plBlYelpurp:hover #plBlYelpurpItem{
-    display:block !important;
-}
-.plBlRed:hover #plBlRedItem{
-    display:block !important;
-}
-.plBlYellow:hover #plBlYellowItem{
-    display:block !important;
-}
-.plBlPink:hover #plBlPinkItem{
-    display:block !important;
-}
 .plBlMoon{
     grid-column-start: 10;
     grid-row-start: 1;
@@ -807,12 +775,12 @@ body{
 }
 
 .headerItem:hover{
-    background-color: #27334d;
+    background-color: #d0d1cb;
 }
 
 .textCopied{
     z-index: 10;
-    background-color: #27334de6;
+    background-color: #cdcec9;
     position: fixed;
     top: 93%;
     left: 46%;
@@ -821,7 +789,7 @@ body{
 }
 
 .swiperRoadMapSlide>img{
-    // height: 100%;
+    height: 100%;
 }
 .swiperRoadMapSlide{
     margin-bottom: 2vh;
@@ -878,11 +846,11 @@ body{
     max-width: 18%;
     position: absolute;
     padding: 1% 2%;
-    transition-duration: .4s;
-    background-color: #101B29;
+    background-color: rgb(203, 204, 198) !important;
 }
 .planetsItemsHeader {
     margin-bottom: 1vh;
+    
     font-size: 1.3em;
     font-weight: 400;
 }
@@ -917,7 +885,7 @@ body{
     z-index: 400;
 }
 .languageToggleItem:hover{
-    background-color: #1e324d;
+    background-color: #babec2;
 }
 .languageToggleItem {
     border-bottom: #E0E1DD 1px solid;
@@ -1006,39 +974,4 @@ body{
     100%{
         opacity: 1;
     }
-}
-.smarttigersOsnUtilsHeaderSwipe>img{
-    filter: invert(1);
-}
-.headerItem:hover{
-    background-color: #c9c9c9;
-}
-.SmartTokenBLAddsRowItemText >a{
-    color: $background;
-}
-.langtogwrap {
-    z-index: 30;
-    border-radius: 7.5px;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #edeee3 !important;
-    color: $color !important;
-    max-width: 10%;
-    left: 80%;
-    position: fixed;
-    padding: 0.3% 1%;
-}
-.langtogwrap :hover{
-    background-color: #dadbd1 !important;
-
-}
-.whiteBookBtn {
-    color: $background;
-}
-.smarttigersBtn {
-
-    color: $background;
 }
